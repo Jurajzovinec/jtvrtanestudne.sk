@@ -1,0 +1,130 @@
+/* Blue Theme Override for JT Vŕtanie studní */
+
+/* Main blue color from poster: #2E5F93 */
+/* Light blue for accents: #4A7BB7 */
+/* Dark blue for backgrounds: #1A4971 */
+
+/* Background colors */
+body {
+    background: #1A4971 !important;
+}
+
+/* Header and main content backgrounds */
+#wrapper {
+    background: linear-gradient(135deg, #1A4971 0%, #2E5F93 100%);
+}
+
+/* Article backgrounds */
+article {
+    background: rgba(46, 95, 147, 0.9) !important;
+    border: 1px solid #4A7BB7 !important;
+}
+
+/* Text colors - keep white for readability */
+body, h1, h2, h3, h4, h5, h6, p, li {
+    color: #ffffff !important;
+}
+
+/* Button and link colors */
+.button.primary {
+    background: #2E5F93 !important;
+    border-color: #2E5F93 !important;
+    color: #ffffff !important;
+}
+
+.button.primary:hover {
+    background: #4A7BB7 !important;
+    border-color: #4A7BB7 !important;
+}
+
+.button {
+    border-color: #4A7BB7 !important;
+    color: #4A7BB7 !important;
+}
+
+.button:hover {
+    background: #4A7BB7 !important;
+    color: #ffffff !important;
+}
+
+/* Navigation links */
+nav ul li a {
+    border-bottom: solid 1px #4A7BB7 !important;
+    color: #ffffff !important;
+}
+
+nav ul li a:hover {
+    background: rgba(74, 123, 183, 0.2) !important;
+    border-bottom-color: #ffffff !important;
+}
+
+/* Form elements */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    background: rgba(46, 95, 147, 0.3) !important;
+    border-color: #4A7BB7 !important;
+    color: #ffffff !important;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 1px #ffffff !important;
+}
+
+/* Blockquotes and special elements */
+blockquote {
+    border-left: solid 4px #4A7BB7 !important;
+}
+
+/* Major headings accent */
+h2.major:after {
+    background: #4A7BB7 !important;
+}
+
+/* Links */
+a {
+    color: #4A7BB7 !important;
+}
+
+a:hover {
+    color: #ffffff !important;
+}
+
+/* Icons and special styling */
+.icon {
+    color: #4A7BB7 !important;
+}
+
+/* Table styling */
+table thead {
+    background: #2E5F93 !important;
+}
+
+table tbody tr {
+    border-color: #4A7BB7 !important;
+}
+
+table tbody tr:nth-child(2n + 1) {
+    background: rgba(74, 123, 183, 0.1) !important;
+}
+
+/* Header content styling */
+#header .content {
+    background: rgba(46, 95, 147, 0.8) !important;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+/* Logo background enhancement */
+#header .logo {
+    background: rgba(46, 95, 147, 0.8) !important;
+    border-radius: 50%;
+    padding: 0.5em;
+}
