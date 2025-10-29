@@ -4,7 +4,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://jtvrtanestudne.sk/</loc>
+    <loc>https://jt-vrtanestudne.sk/</loc>
     <lastmod>2025-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -12,7 +12,7 @@
 
   <!-- Services Section -->
   <url>
-    <loc>https://jtvrtanestudne.sk/#sluzby</loc>
+    <loc>https://jt-vrtanestudne.sk/#sluzby</loc>
     <lastmod>2025-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -20,7 +20,7 @@
 
   <!-- Gallery Section -->
   <url>
-    <loc>https://jtvrtanestudne.sk/#galeria</loc>
+    <loc>https://jt-vrtanestudne.sk/#galeria</loc>
     <lastmod>2025-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
