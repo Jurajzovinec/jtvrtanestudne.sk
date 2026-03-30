@@ -5,25 +5,57 @@
   <!-- Homepage -->
   <url>
     <loc>https://jt-vrtanestudne.sk/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Services Section -->
+  <!-- Postup Section -->
   <url>
-    <loc>https://jt-vrtanestudne.sk/#sluzby</loc>
-    <lastmod>2025-10-29</lastmod>
+    <loc>https://jt-vrtanestudne.sk/#postup</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Gallery Section -->
+  <!-- Inštalácia Section -->
   <url>
-    <loc>https://jt-vrtanestudne.sk/#galeria</loc>
-    <lastmod>2025-10-29</lastmod>
+    <loc>https://jt-vrtanestudne.sk/#rez</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ceny Section -->
+  <url>
+    <loc>https://jt-vrtanestudne.sk/#ceny</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Legislatíva Section -->
+  <url>
+    <loc>https://jt-vrtanestudne.sk/#legislativa</loc>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <!-- Referencie Section -->
+  <url>
+    <loc>https://jt-vrtanestudne.sk/#referencie</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kontakt Section -->
+  <url>
+    <loc>https://jt-vrtanestudne.sk/#kontakt</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
