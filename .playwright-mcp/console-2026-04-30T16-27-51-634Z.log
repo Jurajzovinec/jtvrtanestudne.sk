@@ -1,0 +1,2 @@
+[     234ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/images/banner.jpg:0
+[   22129ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/images/banner.jpg:0

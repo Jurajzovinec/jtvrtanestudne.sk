@@ -1,0 +1,158 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - heading "JT Vŕtanie studní" [level=1]:
+        - link "JT Vŕtanie studní":
+          - /url: index.html
+      - navigation [ref=e4]:
+        - list [ref=e5]:
+          - listitem [ref=e6]:
+            - link "Menu" [ref=e7] [cursor=pointer]:
+              - /url: "#menu"
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "JT Vŕtanie studní" [level=2] [ref=e10]
+        - paragraph [ref=e11]:
+          - text: Robíme vŕtané studne pre rodinné domy,
+          - text: chaty aj pozemky bez pripojenia na vodovod.
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Kontaktujte nás" [ref=e14] [cursor=pointer]:
+              - /url: "#contact"
+      - link "Viac" [ref=e15] [cursor=pointer]:
+        - /url: "#how-it-works"
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "Ako funguje vŕtaná studňa" [level=2] [ref=e19]
+        - paragraph [ref=e20]: Vŕtaná studňa sa realizuje pomocou vrtného zariadenia, ktoré preniká do podzemných vrstiev až k vodonosným horizontom. Podľa geologických podmienok sa určuje hĺbka vrtu (bežne cca 8 – 45 m), identifikuje vodonosná vrstva a volí vhodný priemer a vystrojenie vrtu. Voda sa odoberá z hlbších vrstiev, čo zvyšuje stabilitu a kvalitu zdroja.
+      - list [ref=e21]:
+        - listitem [ref=e22]:
+          - generic [ref=e23]: 
+        - listitem [ref=e24]:
+          - generic [ref=e25]: 
+        - listitem [ref=e26]:
+          - generic [ref=e27]: 
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - img "Vŕtacia hlavica - používané technológie" [ref=e31]
+        - generic [ref=e32]:
+          - heading "Používané technológie" [level=2] [ref=e33]
+          - paragraph [ref=e34]: Podľa podmienok používame rotačné vŕtanie, výplachové vŕtanie a rôzne priemery vrtov (cca 120 – 200 mm). Všetky materiály sú určené pre kontakt s pitnou vodou. Vŕtame ponorným kladivom aj hydraolickou vrtnou súpravou na gumených pásoch.
+      - generic [ref=e35]:
+        - img "Studničné rúry - konštrukcia studne" [ref=e37]
+        - generic [ref=e38]:
+          - heading "Konštrukcia studne" [level=2] [ref=e39]
+          - paragraph [ref=e40]: Vŕtaná studňa sa skladá z pažnice (ochranné potrubie), filtračnej časti, štrkového obsypu a spodného zakončenia vrtu. Cieľom je zabezpečiť stabilný prítok vody a zabrániť prenikaniu nečistôt.
+      - generic [ref=e41]:
+        - img "Detail vŕtacej hlavice - výhody vŕtanej studne" [ref=e43]
+        - generic [ref=e44]:
+          - heading "Výhody vŕtanej studne" [level=2] [ref=e45]
+          - paragraph [ref=e46]: Stabilnejší zdroj vody ako kopaná studňa, prístup k hlbším vodonosným vrstvám, menšie riziko vysychania. Vhodné pre rodinné domy, chaty aj záhrady.
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "Postup realizácie" [level=2] [ref=e50]
+        - paragraph [ref=e51]: Každý projekt riešime individuálne.
+      - list [ref=e52]:
+        - listitem [ref=e53]:
+          - text: 
+          - heading "Obhliadka pozemku" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Zhodnotíme miesto a podmienky pre vrt.
+        - listitem [ref=e56]:
+          - text: 
+          - heading "Návrh riešenia" [level=3] [ref=e57]
+          - paragraph [ref=e58]: Určíme vhodnú hĺbku, technológiu a umiestnenie vrtu.
+        - listitem [ref=e59]:
+          - text: 
+          - heading "Vŕtanie" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Realizujeme vrt podľa geologických podmienok (rotačne alebo výplachovo).
+        - listitem [ref=e62]:
+          - text: 
+          - heading "Osadenie studne" [level=3] [ref=e63]
+          - paragraph [ref=e64]: Do vrtu sa osadí pažnica a filtračná časť určená pre kontakt s vodou.
+        - listitem [ref=e65]:
+          - text: 
+          - heading "Dokončenie" [level=3] [ref=e66]
+          - paragraph [ref=e67]: Studňa sa prečerpá, vyčistí a pripraví na používanie.
+        - listitem [ref=e68]:
+          - text: 
+          - heading "Množstvo vody" [level=3] [ref=e69]
+          - paragraph [ref=e70]: Výdatnosť závisí od geologického podložia, hĺbky vrtu a vodonosných vrstiev.
+    - generic [ref=e72]:
+      - heading "Galéria" [level=2] [ref=e74]
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - img "Vŕtacie zariadenie" [ref=e77]
+          - generic [ref=e78]: Vŕtacie zariadenie
+        - generic [ref=e79]:
+          - img "Vŕtacia hlavica" [ref=e80]
+          - generic [ref=e81]: Vŕtacia hlavica
+        - generic [ref=e82]:
+          - img "Vŕtacia hlavica detail" [ref=e83]
+          - generic [ref=e84]: Vŕtacia hlavica detail
+        - generic [ref=e85]:
+          - img "Studničné rúry" [ref=e86]
+          - generic [ref=e87]: Studničné rúry
+        - generic [ref=e88]:
+          - img "Hotová studňa" [ref=e89]
+          - generic [ref=e90]: Hotová studňa
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - heading "Cenník" [level=2] [ref=e94]
+        - paragraph [ref=e95]: Cena závisí od hĺbky vrtu, typu podložia a prístupnosti pozemku.
+        - paragraph [ref=e96]: "Orientačne: 60 – 80 € / meter"
+        - paragraph [ref=e97]: "V cene vŕtania je: vystrojenie vrtu modrou atestovanou PVC studničnou rúrou, obsyp dunajským štrkom 4/8, utesnenie vrtu bentonitom, zátka na ukončenie rúry vrtu."
+      - list [ref=e98]:
+        - listitem [ref=e99]:
+          - link "Kontaktujte nás" [ref=e100] [cursor=pointer]:
+            - /url: "#contact"
+        - listitem [ref=e101]:
+          - link "Viac o postupe" [ref=e102] [cursor=pointer]:
+            - /url: "#process"
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - heading "Kontakt" [level=2] [ref=e106]
+        - paragraph [ref=e107]: Ak máte záujem o studňu, kontaktujte nás. Prídeme sa pozrieť na pozemok a povieme vám, čo je reálne možné.
+      - list [ref=e108]:
+        - listitem [ref=e109]:
+          - link " +421 905 485 627" [ref=e110] [cursor=pointer]:
+            - /url: tel:+421905485627
+            - generic [ref=e111]: 
+            - text: +421 905 485 627
+        - listitem [ref=e112]:
+          - link " +421 910 191 409" [ref=e113] [cursor=pointer]:
+            - /url: tel:+421910191409
+            - generic [ref=e114]: 
+            - text: +421 910 191 409
+    - contentinfo [ref=e115]:
+      - list [ref=e116]:
+        - listitem [ref=e117]:
+          - link "" [ref=e118] [cursor=pointer]:
+            - /url: tel:+421905485627
+        - listitem [ref=e119]:
+          - link "" [ref=e120] [cursor=pointer]:
+            - /url: mailto:info@jt-vrtanestudne.sk
+      - list [ref=e121]:
+        - listitem [ref=e122]: © JT Vŕtanie studní
+        - listitem [ref=e123]:
+          - text: "Design:"
+          - link "HTML5 UP" [ref=e124] [cursor=pointer]:
+            - /url: http://html5up.net
+  - generic [ref=e125]:
+    - list [ref=e126]:
+      - listitem [ref=e127]:
+        - link "Služby" [ref=e128] [cursor=pointer]:
+          - /url: "#services"
+      - listitem [ref=e129]:
+        - link "Postup" [ref=e130] [cursor=pointer]:
+          - /url: "#process"
+      - listitem [ref=e131]:
+        - link "Galéria" [ref=e132] [cursor=pointer]:
+          - /url: "#gallery"
+      - listitem [ref=e133]:
+        - link "Cenník" [ref=e134] [cursor=pointer]:
+          - /url: "#pricing"
+      - listitem [ref=e135]:
+        - link "Kontakt" [ref=e136] [cursor=pointer]:
+          - /url: "#contact"
+    - link [ref=e137] [cursor=pointer]:
+      - /url: "#menu"

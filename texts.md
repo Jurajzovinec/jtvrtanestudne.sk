@@ -122,6 +122,35 @@ Presnú cenu stanovíme po obhliadke.
 
 ---
 
+## Povolenia a predpisy
+
+# Legislatíva na Slovensku
+
+Vŕtaná studňa je vodná stavba podliehajúca vodnému konaniu. My sa postaráme o celú administratívu.
+
+---
+
+### Povolenie na vŕtanie
+Vydáva Okresný úrad – odbor starostlivosti o životné prostredie.  
+Potrebné pred začatím vŕtania.
+
+---
+
+### Vodný zákon č. 364/2004 Z.z.
+Upravuje nakladanie s podzemnými vodami, povolenia na odber a požiadavky na technické parametre vrtov.
+
+---
+
+### Kolaudácia vodnej stavby
+Po dokončení je potrebná kolaudácia a zaevidovanie vrtu v Štátnom geologickom ústave Dionýza Štúra.
+
+---
+
+### Povolenie na odber vody
+Pre osobné potreby (do 15 m³/deň) sa vydáva zjednodušeným konaním.
+
+---
+
 ## 📞 Kontakt
 
 Ak máte záujem o studňu, kontaktujte nás.

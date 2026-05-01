@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "JT Vŕtanie studní" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Otvoriť menu" [ref=e9] [cursor=pointer]:
+              - /url: "#menu"
+              - text: Menu
+    - main [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - heading "Vŕtanie studní Žilina, Považská Bystrica, Prievidza, Martin" [level=1] [ref=e13]
+          - paragraph [ref=e14]:
+            - text: Žilina, Považská Bystrica, Prievidza, Martin a okolie.
+            - text: Robíme vŕtané studne pre rodinné domy, chaty aj pozemky.
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Kontaktujte nás" [ref=e17] [cursor=pointer]:
+                - /url: "#contact"
+        - link "Viac" [ref=e18] [cursor=pointer]:
+          - /url: "#how-it-works"
+      - generic [ref=e21]:
+        - heading "Ako funguje vŕtaná studňa" [level=2] [ref=e22]
+        - paragraph [ref=e23]: Vŕtaná studňa sa realizuje pomocou vrtného zariadenia, ktoré preniká do podzemných vrstiev až k vodonosným horizontom. Geologické podmienky sa líšia od lokality — či už v Žiline, Považskej Bystrici, Prievidzi alebo Martine, vždy posudzujeme podmienky individuálne. Určuje sa hĺbka vrtu (bežne cca 8 – 30 m), identifikuje vodonosná vrstva a volí vhodný priemer a vystrojenie vrtu.
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - img "Vŕtacia hlavica - rotačné a výplachové vŕtanie studní Žilina" [ref=e27]
+          - generic [ref=e28]:
+            - heading "Používané technológie" [level=2] [ref=e29]
+            - paragraph [ref=e30]: Podľa podmienok používame rotačné vŕtanie, výplachové vŕtanie a rôzne priemery vrtov (cca 120 – 200 mm). Všetky materiály sú určené pre kontakt s pitnou vodou. Vŕtame ponorným kladivom aj hydraolickou vrtnou súpravou na gumených pásoch.
+        - generic [ref=e31]:
+          - img "PVC studničná rúra - konštrukcia vŕtanej studne" [ref=e33]
+          - generic [ref=e34]:
+            - heading "Konštrukcia studne" [level=2] [ref=e35]
+            - paragraph [ref=e36]: Vŕtaná studňa sa skladá z pažnice (ochranné potrubie), filtračnej časti, štrkového obsypu a spodného zakončenia vrtu. Cieľom je zabezpečiť stabilný prítok vody a zabrániť prenikaniu nečistôt.
+        - generic [ref=e37]:
+          - img "Detail vŕtacej hlavice - výhody vŕtanej studne oproti kopanej" [ref=e39]
+          - generic [ref=e40]:
+            - heading "Výhody vŕtanej studne" [level=2] [ref=e41]
+            - paragraph [ref=e42]: Stabilnejší zdroj vody ako kopaná studňa, prístup k hlbším vodonosným vrstvám, menšie riziko vysychania. Vhodné pre rodinné domy, chaty aj záhrady.
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Postup realizácie" [level=2] [ref=e46]
+          - paragraph [ref=e47]: Každý projekt riešime individuálne.
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - text: 
+            - heading "Obhliadka pozemku" [level=3] [ref=e50]
+            - paragraph [ref=e51]: Zhodnotíme miesto a podmienky pre vrt.
+          - listitem [ref=e52]:
+            - text: 
+            - heading "Návrh riešenia" [level=3] [ref=e53]
+            - paragraph [ref=e54]: Určíme vhodnú hĺbku, technológiu a umiestnenie vrtu.
+          - listitem [ref=e55]:
+            - text: 
+            - heading "Vŕtanie" [level=3] [ref=e56]
+            - paragraph [ref=e57]: Realizujeme vrt podľa geologických podmienok (rotačne alebo výplachovo).
+          - listitem [ref=e58]:
+            - text: 
+            - heading "Osadenie studne" [level=3] [ref=e59]
+            - paragraph [ref=e60]: Do vrtu sa osadí pažnica a filtračná časť určená pre kontakt s vodou.
+          - listitem [ref=e61]:
+            - text: 
+            - heading "Dokončenie" [level=3] [ref=e62]
+            - paragraph [ref=e63]: Studňa sa prečerpá, vyčistí a pripraví na používanie.
+          - listitem [ref=e64]:
+            - text: 
+            - heading "Množstvo vody" [level=3] [ref=e65]
+            - paragraph [ref=e66]: Výdatnosť závisí od geologického podložia, hĺbky vrtu a vodonosných vrstiev.
+      - generic [ref=e68]:
+        - heading "Galéria" [level=2] [ref=e70]
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - img "Vŕtacie zariadenie na vŕtanie studní Žilina" [ref=e73]
+            - generic [ref=e74]: Vŕtacie zariadenie
+          - generic [ref=e75]:
+            - img "Vŕtacia hlavica pre vŕtanie studní" [ref=e76]
+            - generic [ref=e77]: Vŕtacia hlavica
+          - generic [ref=e78]:
+            - img "Detail vŕtacej hlavice pri vŕtaní studne" [ref=e79]
+            - generic [ref=e80]: Vŕtacia hlavica detail
+          - generic [ref=e81]:
+            - img "Modrá PVC studničná rúra na vystrojenie vrtu" [ref=e82]
+            - generic [ref=e83]: Studničné rúry
+          - generic [ref=e84]:
+            - img "Hotová vŕtaná studňa po dokončení" [ref=e85]
+            - generic [ref=e86]: Hotová studňa
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - heading "Cenník" [level=2] [ref=e90]
+          - paragraph [ref=e91]: Cena závisí od hĺbky vrtu, typu podložia a prístupnosti pozemku.
+          - paragraph [ref=e92]: "Orientačne: 70 € / meter"
+          - paragraph [ref=e93]: "V cene vŕtania je: vystrojenie vrtu modrou atestovanou PVC studničnou rúrou, obsyp dunajským štrkom 4/8, utesnenie vrtu bentonitom, zátka na ukončenie rúry vrtu."
+        - list [ref=e94]:
+          - listitem [ref=e95]:
+            - link "Kontaktujte nás" [ref=e96] [cursor=pointer]:
+              - /url: "#contact"
+          - listitem [ref=e97]:
+            - link "Viac o postupe" [ref=e98] [cursor=pointer]:
+              - /url: "#process"
+      - generic [ref=e100]:
+        - heading "Časté otázky" [level=2] [ref=e102]
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - heading "Koľko stojí vŕtanie studne?" [level=3] [ref=e105]
+            - paragraph [ref=e106]: Orientačná cena je od 70€ za meter. Cena závisí od hĺbky vrtu, typu podložia a prístupnosti pozemku. Presnú cenu stanovíme po obhliadke.
+          - generic [ref=e107]:
+            - heading "Aká hĺbka vrtu je potrebná pre studňu?" [level=3] [ref=e108]
+            - paragraph [ref=e109]: Hĺbka vrtu závisí od geologických podmienok, bežne je to 8 až 45 metrov. Voda sa nachádza v hĺbkach cca 10 – 40 metrov, podľa oblasti aj hlbšie.
+          - generic [ref=e110]:
+            - heading "Aké technológie používate na vŕtanie?" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Používame rotačné vŕtanie, výplachové vŕtanie ponorným kladivom aj hydraulickou vrtnou súpravou na gumených pásoch. Priemery vrtov sú 120 – 200 mm.
+          - generic [ref=e113]:
+            - heading "Kde všade pôsobíte?" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Pôsobíme v Žiline, Považskej Bystrici, Prievidzi, Martine a okolí v okruhu cca 80 km.
+          - generic [ref=e116]:
+            - heading "Ako dlho trvá vŕtanie studne?" [level=3] [ref=e117]
+            - paragraph [ref=e118]: Vŕtanie studne trvá zvyčajne 1 – 3 dni podľa hĺbky vrtu a geologických podmienok. Samotné vŕtanie môže trvať len niekoľko hodín.
+          - generic [ref=e119]:
+            - heading "Potrebujem povolenie na vŕtanie studne?" [level=3] [ref=e120]
+            - paragraph [ref=e121]: Na vŕtanie studne do hĺbky 30 m sa povolenie zvyčajne nevyžaduje, ale odporúčame sa informovať na príslušnom stavebnom úrade. Pri hlbších vrtoch môže byť potrebné súhlasné stanovisko.
+          - generic [ref=e122]:
+            - heading "Aká je životnosť vŕtanej studne?" [level=3] [ref=e123]
+            - paragraph [ref=e124]: Pri správnom vystrojení a údržbe môže vŕtaná studňa slúžiť desaťročia. Kvalitná PVC pažnica a filtračná časť zabezpečujú dlhú životnosť bez problémov.
+          - generic [ref=e125]:
+            - heading "Čo je súčasťou ceny vŕtania?" [level=3] [ref=e126]
+            - paragraph [ref=e127]: V cene je vystrojenie vrtu modrou atestovanou PVC studničnou rúrou, obsyp dunajským štrkom 4/8, utesnenie vrtu bentonitom a zátka na ukončenie rúry vrtu.
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - heading "Kontakt" [level=2] [ref=e131]
+          - paragraph [ref=e132]: Slúžime v Žiline, Považskej Bystrici, Prievidzi, Martine a okolí. Prídeme sa pozrieť na pozemok a povieme vám, čo je reálne možné.
+        - list [ref=e133]:
+          - listitem [ref=e134]:
+            - link " +421 905 485 627" [ref=e135] [cursor=pointer]:
+              - /url: tel:+421905485627
+              - generic [ref=e136]: 
+              - text: +421 905 485 627
+          - listitem [ref=e137]:
+            - link " +421 910 191 409" [ref=e138] [cursor=pointer]:
+              - /url: tel:+421910191409
+              - generic [ref=e139]: 
+              - text: +421 910 191 409
+    - contentinfo [ref=e140]:
+      - list [ref=e141]:
+        - listitem [ref=e142]:
+          - link "" [ref=e143] [cursor=pointer]:
+            - /url: tel:+421905485627
+      - paragraph [ref=e144]:
+        - text: JT Vŕtanie studní | Žilina, Žilinský kraj |
+        - link "+421 905 485 627" [ref=e145] [cursor=pointer]:
+          - /url: tel:+421905485627
+      - list [ref=e146]:
+        - listitem [ref=e147]: © JT Vŕtanie studní
+        - listitem [ref=e148]:
+          - text: "Design:"
+          - link "HTML5 UP" [ref=e149] [cursor=pointer]:
+            - /url: http://html5up.net
+  - generic [ref=e150]:
+    - list [ref=e151]:
+      - listitem [ref=e152]:
+        - link "Služby" [ref=e153] [cursor=pointer]:
+          - /url: "#services"
+      - listitem [ref=e154]:
+        - link "Postup" [ref=e155] [cursor=pointer]:
+          - /url: "#process"
+      - listitem [ref=e156]:
+        - link "Galéria" [ref=e157] [cursor=pointer]:
+          - /url: "#gallery"
+      - listitem [ref=e158]:
+        - link "Cenník" [ref=e159] [cursor=pointer]:
+          - /url: "#pricing"
+      - listitem [ref=e160]:
+        - link "Kontakt" [ref=e161] [cursor=pointer]:
+          - /url: "#contact"
+    - link [ref=e162] [cursor=pointer]:
+      - /url: "#menu"

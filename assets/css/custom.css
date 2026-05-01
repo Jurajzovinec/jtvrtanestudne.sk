@@ -1,0 +1,307 @@
+/*
+	Custom overrides for JT Vŕtanie studní
+	Overrides Spectral template defaults with water/blue theme
+*/
+
+/* ===== Banner Background ===== */
+#banner {
+	background: url("../../assets/galery/stroj.jpg") center center / cover no-repeat;
+	background-attachment: fixed;
+}
+
+#banner:after {
+	background: rgba(20, 60, 90, 0.65);
+}
+
+/* ===== Color overrides — water/blue theme ===== */
+
+/* Icon accent colors */
+.icon.style1 {
+	color: #4fc3f7;
+}
+
+.icon.style2 {
+	color: #29b6f6;
+}
+
+.icon.style3 {
+	color: #81d4fa;
+}
+
+/* Wrapper style1 — teal → blue */
+.wrapper.style1 {
+	background-color: #1565c0;
+	color: #bbdefb;
+}
+
+.wrapper.style1 header p {
+	color: #90caf9;
+}
+
+.wrapper.style1 header.major p {
+	color: #bbdefb;
+}
+
+.wrapper.style1 strong,
+.wrapper.style1 b {
+	color: #ffffff;
+}
+
+.wrapper.style1 h2,
+.wrapper.style1 h3,
+.wrapper.style1 h4,
+.wrapper.style1 h5,
+.wrapper.style1 h6 {
+	color: #ffffff;
+}
+
+/* Wrapper style3 — purple → dark blue */
+.wrapper.style3 {
+	background-color: #0d47a1;
+	color: #bbdefb;
+}
+
+.wrapper.style3 header p {
+	color: #90caf9;
+}
+
+.wrapper.style3 header.major p {
+	color: #bbdefb;
+}
+
+.wrapper.style3 strong,
+.wrapper.style3 b {
+	color: #ffffff;
+}
+
+.wrapper.style3 h2,
+.wrapper.style3 h3,
+.wrapper.style3 h4,
+.wrapper.style3 h5,
+.wrapper.style3 h6 {
+	color: #ffffff;
+}
+
+/* ===== Sidebar Menu ===== */
+#menu {
+	background: #1565c0;
+}
+
+/* ===== Header Logo (was h1) ===== */
+#header .logo {
+	font-size: 1em;
+}
+
+#header .logo a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 800;
+	letter-spacing: 0.225em;
+}
+
+/* ===== FAQ Section ===== */
+.faq-list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2em 3em;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+.faq-item h3 {
+	font-size: 1em;
+	margin-bottom: 0.5em;
+	color: #ffffff;
+}
+
+.faq-item p {
+	font-size: 0.9em;
+	line-height: 1.6;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (max-width: 736px) {
+	.faq-list {
+		grid-template-columns: 1fr;
+		gap: 1.5em;
+	}
+}
+
+/* ===== Footer NAP ===== */
+.footer-nap {
+	text-align: center;
+	font-size: 0.85em;
+	margin: 1em 0 0.5em 0;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-nap a {
+	color: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+}
+
+.footer-nap a:hover {
+	color: #ffffff;
+}
+
+/* Primary button accent */
+.button.primary {
+	background-color: #1976d2 !important;
+	box-shadow: none !important;
+}
+
+.button.primary:hover {
+	background-color: #1565c0 !important;
+}
+
+.button.primary:active {
+	background-color: #0d47a1 !important;
+}
+
+/* ===== Gallery Grid ===== */
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1em;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+.gallery-grid .gallery-item {
+	position: relative;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.gallery-grid .gallery-item img {
+	width: 100%;
+	height: 14em;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.3s ease;
+}
+
+.gallery-grid .gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+.gallery-grid .gallery-item span {
+	display: block;
+	text-align: center;
+	padding: 0.5em 0;
+	font-size: 0.85em;
+	color: rgba(255, 255, 255, 0.85);
+	letter-spacing: 0.05em;
+}
+
+/* Gallery: last two items centered in a 3-col grid */
+.gallery-grid .gallery-item:nth-child(4) {
+	grid-column: 1 / 2;
+}
+
+.gallery-grid .gallery-item:nth-child(5) {
+	grid-column: 2 / 3;
+}
+
+/* ===== Contact Section ===== */
+.contact-info {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.contact-info li {
+	display: inline-block;
+	margin: 0 1.5em;
+	padding: 0;
+}
+
+.contact-info a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.1em;
+	letter-spacing: 0.05em;
+	transition: color 0.2s;
+}
+
+.contact-info a:hover {
+	color: #4fc3f7;
+}
+
+.contact-info .icon {
+	margin-right: 0.4em;
+}
+
+/* ===== Pricing Section ===== */
+#pricing {
+	background-color: rgba(20, 60, 90, 0.85);
+}
+
+.price-highlight {
+	font-size: 1.5em;
+	font-weight: 800;
+	color: #4fc3f7 !important;
+	margin: 0.5em 0;
+}
+
+.price-details {
+	font-size: 0.9em;
+	opacity: 0.85;
+	color: #bbdefb;
+}
+
+/* ===== Responsive ===== */
+
+/* Tablet */
+@media screen and (max-width: 980px) {
+	.gallery-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.gallery-grid .gallery-item:nth-child(4),
+	.gallery-grid .gallery-item:nth-child(5) {
+		grid-column: auto;
+	}
+
+	.gallery-grid .gallery-item img {
+		height: 12em;
+	}
+}
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+	#banner {
+		background-attachment: scroll;
+		padding: 5em 1.5em 3em 1.5em;
+	}
+
+	.gallery-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0.6em;
+	}
+
+	.gallery-grid .gallery-item img {
+		height: 8em;
+	}
+
+	.gallery-grid .gallery-item span {
+		font-size: 0.75em;
+	}
+
+	.price-highlight {
+		font-size: 1.2em;
+	}
+
+	.contact-info li {
+		display: block;
+		margin: 0.8em 0;
+	}
+}
+
+/* Large desktop — max-width content */
+@media screen and (min-width: 2560px) {
+	#page-wrapper {
+		max-width: 1920px;
+		margin: 0 auto;
+	}
+}

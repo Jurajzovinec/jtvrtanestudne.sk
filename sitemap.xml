@@ -1,61 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Homepage -->
   <url>
     <loc>https://jt-vrtanestudne.sk/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-  </url>
-
-  <!-- Postup Section -->
-  <url>
-    <loc>https://jt-vrtanestudne.sk/#postup</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Inštalácia Section -->
-  <url>
-    <loc>https://jt-vrtanestudne.sk/#rez</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Ceny Section -->
-  <url>
-    <loc>https://jt-vrtanestudne.sk/#ceny</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Legislatíva Section -->
-  <url>
-    <loc>https://jt-vrtanestudne.sk/#legislativa</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Referencie Section -->
-  <url>
-    <loc>https://jt-vrtanestudne.sk/#referencie</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Kontakt Section -->
-  <url>
-    <loc>https://jt-vrtanestudne.sk/#kontakt</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://jt-vrtanestudne.sk/assets/galery/stroj.jpg</image:loc>
+      <image:caption>Vŕtacie zariadenie na vŕtanie studní Žilina</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jt-vrtanestudne.sk/assets/galery/vrtacia-hlavica-1.jpg</image:loc>
+      <image:caption>Vŕtacia hlavica pre vŕtanie studní</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jt-vrtanestudne.sk/assets/galery/vrtacia-hlavica-2.jpg</image:loc>
+      <image:caption>Detail vŕtacej hlavice pri vŕtaní studne</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jt-vrtanestudne.sk/assets/galery/rura.jpg</image:loc>
+      <image:caption>Modrá PVC studničná rúra na vystrojenie vrtu</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jt-vrtanestudne.sk/assets/galery/well.jpg</image:loc>
+      <image:caption>Hotová vŕtaná studňa po dokončení</image:caption>
+    </image:image>
   </url>
 
 </urlset>

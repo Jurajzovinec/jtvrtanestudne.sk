@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-	<html lang="sk">
-		<head>
-		<title>Vŕtanie studní Žilina | JT - Profesionálne vŕtanie studien Zilina</title>
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="sk">
+	<head>
+		<title>Vŕtanie studní Žilina, Považská Bystrica, Prievidza, Martin | JT</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Vŕtanie studní Žilina - profesionálne vrtanie studien v okolí Zilina. Cena od 70€/m. Geologický prieskum, moderná technika, kvalitné materiály. Kontakt: 0905 485 627, 0910 191 409">
-		<meta name="keywords" content="vŕtanie studní Žilina, vrtanie zilina, vrtanie studien zilina, studne Žilina, studne zilina, geologický prieskum, vŕtanie vrtov Žilina, vrtacky praca zilina, well drilling zilina">
+		<meta name="description" content="Vŕtanie studní Žilina, Považská Bystrica, Prievidza, Martin a okolie. Profesionálne vrtanie studien od 70€/m. Geologický prieskum, moderná technika. Kontakt: 0905 485 627, 0910 191 409">
+		<meta name="keywords" content="vŕtanie studní Žilina, vŕtanie studní Považská Bystrica, vŕtanie studní Prievidza, vŕtanie studní Martin, vrtanie studien zilina, studne Žilina, studne Považská Bystrica, studne Prievidza, studne Martin, geologický prieskum, vŕtanie vrtov, vrtacky praca">
 
 		<!-- Geo tags for local SEO -->
 		<meta name="geo.region" content="SK-ZI">
@@ -16,9 +21,28 @@
 		<!-- Open Graph / Social Media -->
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://jt-vrtanestudne.sk/">
-		<meta property="og:title" content="Vŕtanie studní Žilina | JT - Profesionálne vrtanie studien Zilina">
-		<meta property="og:description" content="Vŕtanie studní Žilina - vrtanie studien Zilina od 70€/m. Geologický prieskum, moderná technika. Tel: 0905 485 627">
+		<meta property="og:title" content="Vŕtanie studní Žilina, Považská Bystrica, Prievidza, Martin | JT">
+		<meta property="og:description" content="Vŕtanie studní Žilina, Považská Bystrica, Prievidza, Martin a okolie. Profesionálne vrtanie studien od 70€/m. Tel: 0905 485 627">
 		<meta property="og:locale" content="sk_SK">
+		<meta property="og:image" content="https://jt-vrtanestudne.sk/assets/galery/well.jpg">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+		<meta property="og:image:alt" content="Hotová vŕtaná studňa od JT Vŕtanie studní">
+		<meta property="og:site_name" content="JT Vŕtanie studní">
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Vŕtanie studní Žilina, Považská Bystrica, Prievidza, Martin | JT">
+		<meta name="twitter:description" content="Profesionálne vŕtanie studní od 70€/m. Žilina, Považská Bystrica, Prievidza, Martin. Tel: 0905 485 627">
+		<meta name="twitter:image" content="https://jt-vrtanestudne.sk/assets/galery/well.jpg">
+
+		<!-- Robots & Theme -->
+		<meta name="robots" content="index, follow">
+		<meta name="theme-color" content="#1565c0">
+		<meta name="author" content="JT Vŕtanie studní">
+
+		<!-- Preload LCP image -->
+		<link rel="preload" as="image" href="assets/galery/stroj.jpg">
 
 		<!-- Canonical URL -->
 		<link rel="canonical" href="https://jt-vrtanestudne.sk/">
@@ -34,10 +58,12 @@
 			"@context": "https://schema.org",
 			"@type": "LocalBusiness",
 			"name": "JT Vŕtanie studní Žilina",
-			"alternateName": ["JT Vrtanie studien Zilina", "Vrtanie studien Zilina", "Vŕtanie studní Žilina"],
-			"description": "Profesionálne vŕtanie studní, geologický prieskum a drenážne vrty v okolí Žiliny. Vrtanie studien Zilina od 70€/m.",
+			"alternateName": ["JT Vrtanie studien Zilina", "Vrtanie studien Zilina", "Vrtanie studien Povazska Bystrica", "Vrtanie studien Prievidza", "Vrtanie studien Martin"],
+			"description": "Profesionálne vŕtanie studní v Žiline, Považskej Bystrici, Prievidzi, Martine a okolí. Geologický prieskum a drenážne vrty. Vrtanie studien od 70€/m.",
 			"url": "https://jt-vrtanestudne.sk",
 			"telephone": ["+421905485627", "+421910191409"],
+			"image": "https://jt-vrtanestudne.sk/assets/galery/well.jpg",
+			"logo": "https://jt-vrtanestudne.sk/favicon-32x32.png",
 			"priceRange": "Od 70€/m",
 			"address": {
 				"@type": "PostalAddress",
@@ -45,16 +71,35 @@
 				"addressRegion": "Žilinský kraj",
 				"addressCountry": "SK"
 			},
-			"areaServed": {
-				"@type": "GeoCircle",
-				"geoMidpoint": {
-					"@type": "GeoCoordinates",
-					"latitude": "49.2231",
-					"longitude": "18.7397"
+			"areaServed": [
+				{
+					"@type": "City",
+					"name": "Žilina"
 				},
-				"name": "Okolie Žiliny"
-			},
-			"openingHours": "Mo-Su",
+				{
+					"@type": "City",
+					"name": "Považská Bystrica"
+				},
+				{
+					"@type": "City",
+					"name": "Prievidza"
+				},
+				{
+					"@type": "City",
+					"name": "Martin"
+				},
+				{
+					"@type": "GeoCircle",
+					"geoMidpoint": {
+						"@type": "GeoCoordinates",
+						"latitude": "49.2231",
+						"longitude": "18.7397"
+					},
+					"geoRadius": "80000",
+					"name": "Okolie Žiliny a stredné Považie"
+				}
+			],
+			"openingHours": "Mo-Su 07:00-20:00",
 			"hasOfferCatalog": {
 				"@type": "OfferCatalog",
 				"name": "Služby vŕtania studní",
@@ -87,1277 +132,355 @@
 			}
 		}
 		</script>
-
-		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-		<!-- <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> -->
-		<!-- <script>
-			window.addEventListener('load', function() {
-				emailjs.init('Ss1u9W3krhkRswqB6');
-			});
-		</script> -->
-
-
-</script>
-<style>
-  :root {
-    --blue-deep: #1a5a8a;
-    --blue-mid: #2a80c0;
-    --blue-acc: #3a9ad0;
-    --blue-light: #7dd4f8;
-    --water: #7dd4f8;
-    --gold: #c8a84b;
-    --cream: #e8f4ff;
-    --text: #0f2a40;
-    --muted: #4a7a9a;
-    --white: #ffffff;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-  body { font-family: 'DM Sans', sans-serif; background: #f0f8ff; color: var(--text); overflow-x: hidden; }
-  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 1rem 3rem; background: rgba(26,90,138,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(200,168,75,0.2); }
-  .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: var(--white); letter-spacing: 0.02em; }
-  .nav-logo span { color: var(--gold); }
-  nav ul { list-style: none; display: flex; gap: 2rem; }
-  nav ul a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.2s; }
-  nav ul a:hover { color: var(--gold); }
-  .nav-cta { background: var(--gold); color: var(--blue-deep) !important; padding: 0.5rem 1.2rem; border-radius: 2px; font-weight: 500 !important; transition: opacity 0.2s !important; }
-  .hero { min-height: 100vh; background: linear-gradient(160deg, var(--blue-deep) 0%, var(--blue-mid) 60%, #3a9ad0 100%); display: flex; align-items: center; padding: 6rem 3rem 4rem; position: relative; overflow: hidden; }
-  .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 50% at 70% 60%, rgba(78,184,224,0.12) 0%, transparent 70%); pointer-events: none; }
-  .hero-grid { max-width: 1200px; margin: 0 auto; width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
-  .hero-badge { display: inline-block; border: 1px solid var(--gold); color: var(--gold); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.35rem 0.9rem; border-radius: 2px; margin-bottom: 1.5rem; animation: fadeUp 0.6s ease both; }
-  .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.4rem, 4vw, 3.8rem); line-height: 1.1; color: var(--white); margin-bottom: 1.5rem; animation: fadeUp 0.7s 0.1s ease both; }
-  .hero h1 em { color: var(--water); font-style: normal; }
-  .hero p { color: rgba(255,255,255,0.68); font-size: 1.05rem; line-height: 1.75; max-width: 480px; margin-bottom: 2.5rem; animation: fadeUp 0.7s 0.2s ease both; }
-  .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; animation: fadeUp 0.7s 0.3s ease both; }
-  .btn-primary { background: var(--gold); color: var(--blue-deep); padding: 0.9rem 2rem; border-radius: 2px; font-weight: 500; font-size: 0.95rem; text-decoration: none; letter-spacing: 0.03em; transition: opacity 0.2s; }
-  .btn-outline { border: 1px solid rgba(255,255,255,0.35); color: rgba(255,255,255,0.85); padding: 0.9rem 2rem; border-radius: 2px; font-size: 0.95rem; text-decoration: none; transition: border-color 0.2s; }
-  .section-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; padding: 1.5rem; animation: fadeUp 0.8s 0.2s ease both; }
-  .section-card h3 { font-family: 'Playfair Display', serif; color: var(--gold); font-size: 1rem; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 1rem; text-align: center; }
-  .stats { background: var(--blue-deep); padding: 3rem; border-top: 1px solid rgba(200,168,75,0.3); border-bottom: 1px solid rgba(200,168,75,0.3); }
-  .stats-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; text-align: center; }
-  .stat-num { font-family: 'Playfair Display', serif; font-size: 2.8rem; color: var(--gold); font-weight: 700; line-height: 1; }
-  .stat-label { color: rgba(255,255,255,0.6); font-size: 0.85rem; margin-top: 0.4rem; letter-spacing: 0.04em; }
-  section { padding: 6rem 3rem; }
-  .section-inner { max-width: 1200px; margin: 0 auto; }
-  .section-tag { color: var(--gold); font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 500; margin-bottom: 0.75rem; }
-  .section-title { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.2; margin-bottom: 1.25rem; }
-  .section-desc { color: var(--muted); font-size: 1rem; line-height: 1.8; max-width: 560px; margin-bottom: 3rem; }
-  #postup { background: var(--white); }
-  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; }
-  .step { border-left: 3px solid var(--gold); padding: 1.5rem 1.5rem 1.5rem 1.8rem; background: var(--cream); border-radius: 0 4px 4px 0; transition: transform 0.2s, box-shadow 0.2s; }
-  .step:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(26,90,138,0.12); }
-  .step-num { font-family: 'Playfair Display', serif; font-size: 2.4rem; color: rgba(200,168,75,0.3); line-height: 1; margin-bottom: 0.5rem; }
-  .step h4 { font-size: 1rem; font-weight: 500; margin-bottom: 0.5rem; color: var(--blue-deep); }
-  .step p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; }
-  #rez { background: var(--cream); }
-  .diagram-wrap { background: var(--white); border-radius: 6px; padding: 2.5rem 2rem; max-width: 780px; margin: 0 auto; box-shadow: 0 12px 40px rgba(26,90,138,0.12); border: 1px solid rgba(58,154,208,0.25); }
-  .diagram-wrap h3 { font-family: 'Playfair Display', serif; color: var(--blue-deep); text-align: center; margin-bottom: 1.5rem; font-size: 1.15rem; letter-spacing: 0.05em; }
-  #ceny { background: var(--white); }
-  .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-  .price-card { border: 1px solid #b8d8f0; border-radius: 4px; padding: 2rem; background: var(--cream); transition: border-color 0.2s, box-shadow 0.2s; position: relative; }
-  .price-card.featured { border-color: var(--gold); background: var(--blue-deep); color: var(--white); }
-  .price-card.featured .price-label { color: rgba(255,255,255,0.65); }
-  .price-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--blue-deep); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.25rem 0.8rem; border-radius: 2px; }
-  .price-label { font-size: 0.82rem; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.5rem; }
-  .price-val { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; color: var(--blue-deep); margin-bottom: 0.25rem; }
-  .price-card.featured .price-val { color: var(--gold); }
-  .price-unit { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.25rem; }
-  .price-desc { font-size: 0.9rem; line-height: 1.7; color: var(--muted); }
-  .price-list { list-style: none; margin-top: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem; }
-  .price-list li { font-size: 0.88rem; color: var(--muted); display: flex; align-items: flex-start; gap: 0.5rem; }
-  .price-card.featured .price-list li { color: rgba(255,255,255,0.6); }
-  .price-list li::before { content: '✓'; color: var(--gold); font-size: 0.85rem; flex-shrink: 0; margin-top: 1px; }
-  #legislativa { background: var(--cream); }
-  .leg-list { display: flex; flex-direction: column; gap: 1.25rem; }
-  .leg-item { background: var(--white); border-radius: 4px; padding: 1.25rem 1.5rem; border-left: 3px solid var(--blue-acc); box-shadow: 0 2px 8px rgba(26,90,138,0.06); }
-  .leg-item h4 { font-size: 0.95rem; font-weight: 500; margin-bottom: 0.4rem; color: var(--blue-mid); }
-  .leg-item p { font-size: 0.88rem; color: var(--muted); line-height: 1.65; }
-  .leg-info-box { background: var(--blue-deep); color: var(--white); border-radius: 4px; padding: 2rem; }
-  .leg-info-box h4 { font-family: 'Playfair Display', serif; color: var(--gold); margin-bottom: 1rem; font-size: 1.1rem; }
-  .leg-info-box p { color: rgba(255,255,255,0.75); font-size: 0.9rem; line-height: 1.75; }
-  .leg-info-box strong { color: rgba(255,255,255,0.95); }
-  #kontakt { background: var(--blue-deep); }
-  #kontakt .section-title { color: var(--white); }
-  #kontakt .section-desc { color: rgba(255,255,255,0.55); }
-  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
-  .contact-form { display: flex; flex-direction: column; gap: 1rem; }
-  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-  .form-field { display: flex; flex-direction: column; gap: 0.4rem; }
-  .form-field label { font-size: 0.82rem; color: rgba(255,255,255,0.55); letter-spacing: 0.04em; }
-  .form-field input, .form-field select, .form-field textarea { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15); border-radius: 2px; color: var(--white); padding: 0.75rem 1rem; font-family: 'DM Sans', sans-serif; font-size: 0.92rem; transition: border-color 0.2s; outline: none; }
-  .form-field input:focus, .form-field select:focus, .form-field textarea:focus { border-color: var(--gold); }
-  .form-field select option { background: var(--blue-deep); }
-  .form-field textarea { resize: vertical; min-height: 110px; }
-  .btn-submit { background: var(--gold); color: var(--blue-deep); border: none; padding: 0.9rem 2rem; font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 500; border-radius: 2px; cursor: pointer; letter-spacing: 0.03em; transition: opacity 0.2s; align-self: flex-start; }
-  .contact-info { display: flex; flex-direction: column; gap: 1.5rem; }
-  .contact-item h4 { color: var(--gold); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.35rem; }
-  .contact-item p { color: rgba(255,255,255,0.65); font-size: 0.95rem; line-height: 1.6; }
-  footer { background: #0f3460; padding: 2rem 3rem; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(200,168,75,0.2); }
-  footer p { color: rgba(255,255,255,0.35); font-size: 0.82rem; }
-  .footer-logo { font-family: 'Playfair Display', serif; color: rgba(255,255,255,0.4); font-size: 1rem; }
-  .footer-logo span { color: var(--gold); opacity: 0.6; }
-  @keyframes fadeUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
-  @media (max-width: 768px) { nav ul { display: none; } .hero-grid, .leg-grid, .contact-grid { grid-template-columns: 1fr; } .stats-inner { grid-template-columns: 1fr 1fr; } nav { padding: 1rem 1.5rem; } section { padding: 4rem 1.5rem; } .hero { padding: 5rem 1.5rem 3rem; } footer { flex-direction: column; gap: 0.75rem; text-align: center; } .form-row { grid-template-columns: 1fr; } }
-</style>
-</head>
-<body>
-<nav>
-  <div class="nav-logo">JT <span>Vŕtanie studní</span></div>
-  <ul>
-    <li><a href="#postup">Postup</a></li>
-    <li><a href="#rez">Inštalácia</a></li>
-    <li><a href="#ceny">Ceny</a></li>
-    <li><a href="#legislativa">Legislatíva</a></li>
-    <li><a href="#referencie">Referencie</a></li>
-    <li><a href="#kontakt" class="nav-cta">Kontakt</a></li>
-  </ul>
-</nav>
-<div class="hero">
-  <div class="hero-grid">
-    <div>
-      <div class="hero-badge">Profesionálne vŕtanie</div>
-      <h1>Čistá <em>podzemná voda</em><br>na dosah ruky</h1>
-      <p>Špecializujeme sa na vŕtanie studní pre rodinné domy, farmy aj priemyselné objekty. S viac ako 5-ročnými skúsenosťami, modernou technikou a komplexným servisom — od hydrogeologického prieskumu, cez vybavenie povolení, až po odovzdanie funkčnej studne s rozborom vody.</p>
-      <div class="hero-btns">
-        <a href="#kontakt" class="btn-primary">Nezäväzná konzultácia</a>
-        <a href="#rez" class="btn-outline">Zobraziť schému inštalácie</a>
-      </div>
-    </div>
-    <div class="section-card">
-      <h3>Prúdenie vody od čerpadla do domu</h3>
-      <style>
-        @keyframes hf-up    { 0%{stroke-dashoffset:160} 100%{stroke-dashoffset:0} }
-        @keyframes hf-right { 0%{stroke-dashoffset:500} 100%{stroke-dashoffset:0} }
-        @keyframes hf-in    { 0%{stroke-dashoffset:120} 100%{stroke-dashoffset:0} }
-        @keyframes hf-pump  { 0%,100%{opacity:.8} 50%{opacity:1} }
-        @keyframes hf-bub   { 0%{opacity:.7;transform:translateY(0)} 100%{opacity:0;transform:translateY(-12px)} }
-        @keyframes hf-drip  { 0%,55%{opacity:0;transform:translateY(0) scaleY(.1)} 70%{opacity:.9} 100%{opacity:0;transform:translateY(12px)} }
-        @keyframes hf-wave  { 0%,100%{opacity:.4} 50%{opacity:.8} }
-        .hf-up    { stroke-dasharray:8 10;  animation:hf-up    2.6s linear infinite; }
-        .hf-right { stroke-dasharray:10 12; animation:hf-right 4.0s linear infinite; }
-        .hf-in    { stroke-dasharray:7 9;   animation:hf-in    3.2s linear infinite; }
-        .hf-pump  { animation:hf-pump 1.2s ease-in-out infinite; }
-        .hf-bub1  { animation:hf-bub 1.4s ease-out 0.0s infinite; }
-        .hf-bub2  { animation:hf-bub 1.4s ease-out 0.6s infinite; }
-        .hf-bub3  { animation:hf-bub 1.4s ease-out 1.1s infinite; }
-        .hf-drip1 { animation:hf-drip 2s ease-in-out 0.0s infinite; }
-        .hf-drip2 { animation:hf-drip 2s ease-in-out 0.8s infinite; }
-        .hf-wave  { animation:hf-wave 2.5s ease-in-out infinite; }
-      </style>
-      <svg width="100%" viewBox="0 0 300 460" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="hf-sky" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#3aa8e8"/>
-            <stop offset="100%" stop-color="#88d4f8"/>
-          </linearGradient>
-          <linearGradient id="hf-grass" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#7abe42"/>
-            <stop offset="100%" stop-color="#5a9820"/>
-          </linearGradient>
-          <linearGradient id="hf-soil" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#c8a870"/>
-            <stop offset="100%" stop-color="#a07840"/>
-          </linearGradient>
-          <linearGradient id="hf-rock" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#8090a0"/>
-            <stop offset="100%" stop-color="#506070"/>
-          </linearGradient>
-          <linearGradient id="hf-aq" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#2880c8" stop-opacity=".7"/>
-            <stop offset="100%" stop-color="#0858a8" stop-opacity=".92"/>
-          </linearGradient>
-          <linearGradient id="hf-wall" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%" stop-color="#d4c4a8"/>
-            <stop offset="100%" stop-color="#c4b498"/>
-          </linearGradient>
-          <filter id="hf-glow">
-            <feGaussianBlur stdDeviation="1.2" result="b"/>
-            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-          </filter>
-        </defs>
-
-        <!-- Obloha -->
-        <rect x="0" y="0" width="300" height="140" fill="url(#hf-sky)"/>
-        <!-- Malý oblak -->
-        <ellipse cx="220" cy="25" rx="28" ry="11" fill="white" opacity=".9"/>
-        <ellipse cx="206" cy="30" rx="18" ry="9"  fill="white" opacity=".9"/>
-        <ellipse cx="234" cy="30" rx="20" ry="8"  fill="white" opacity=".85"/>
-        <!-- Slnko -->
-        <circle cx="30" cy="28" r="14" fill="#ffe040" opacity=".9"/>
-        <g stroke="#ffd000" stroke-width="1.5" stroke-linecap="round" opacity=".7">
-          <line x1="30" y1="9"  x2="30" y2="4"/>
-          <line x1="30" y1="47" x2="30" y2="52"/>
-          <line x1="11" y1="28" x2="6"  y2="28"/>
-          <line x1="49" y1="28" x2="54" y2="28"/>
-          <line x1="17" y1="15" x2="13" y2="11"/>
-          <line x1="43" y1="41" x2="47" y2="45"/>
-          <line x1="43" y1="15" x2="47" y2="11"/>
-          <line x1="17" y1="41" x2="13" y2="45"/>
-        </g>
-
-        <!-- Geologické vrstvy -->
-        <rect x="0" y="140" width="300" height="50"  fill="url(#hf-soil)" opacity=".88"/>
-        <rect x="0" y="190" width="300" height="110" fill="url(#hf-rock)" opacity=".85"/>
-        <rect x="0" y="300" width="300" height="160" fill="url(#hf-aq)"/>
-        <!-- Vlnky v zvodenej vrstve -->
-        <g class="hf-wave" stroke="rgba(100,200,255,.5)" stroke-width="1" fill="none">
-          <path d="M5,325 Q40,317 75,325 Q110,333 145,325 Q180,317 215,325 Q250,333 290,325"/>
-          <path d="M5,360 Q45,350 85,360 Q125,370 165,360 Q205,350 250,360"/>
-        </g>
-        <!-- Tráva -->
-        <rect x="0" y="132" width="300" height="14" rx="4" fill="url(#hf-grass)"/>
-        <ellipse cx="55"  cy="132" rx="18" ry="5" fill="#7abe42" opacity=".65"/>
-        <ellipse cx="160" cy="132" rx="15" ry="4" fill="#92d050" opacity=".55"/>
-
-        <!-- Popisky vrstiev -->
-        <text x="4" y="170" font-family="sans-serif" font-size="8" fill="rgba(255,230,160,.85)" font-weight="600">Ornica/hlina</text>
-        <text x="4" y="248" font-family="sans-serif" font-size="8" fill="rgba(210,225,245,.8)"  font-weight="600">Skalné podložie</text>
-        <text x="4" y="318" font-family="sans-serif" font-size="8" fill="#7adcff" font-weight="700">Zvodnená vrstva</text>
-
-        <!-- Vrtná pažnica -->
-        <rect x="88" y="132" width="12" height="280" rx="1" fill="none" stroke="#bbb" stroke-width="1.8"/>
-        <!-- Filter -->
-        <rect x="88" y="300" width="12" height="90" rx="1" fill="none" stroke="#50c8f0" stroke-width="1.5" stroke-dasharray="4 3"/>
-
-        <!-- ANIMOVANÁ VODA – 1. od spodku čerpadla (y=385) nahor po T-kus v šachte (y=162) -->
-        <line x1="94" y1="385" x2="94" y2="162"
-          stroke="#40d0ff" stroke-width="6" stroke-linecap="round"
-          class="hf-up" filter="url(#hf-glow)" opacity=".9"/>
-
-        <!-- Ponorné čerpadlo -->
-        <g class="hf-pump">
-          <rect x="86" y="355" width="16" height="30" rx="3" fill="#1a5080" stroke="#3080b0" stroke-width="1"/>
-          <rect x="88" y="357" width="12" height="10" rx="1" fill="#0a3060" opacity=".8"/>
-          <g stroke="#0a2850" stroke-width=".7" fill="none">
-            <line x1="86" y1="370" x2="102" y2="370"/>
-            <line x1="86" y1="376" x2="102" y2="376"/>
-          </g>
-          <!-- Kábel -->
-          <path d="M94,355 Q92,320 93,250 Q94,190 94,145" fill="none" stroke="#f0a020" stroke-width="1.2" stroke-dasharray="4 3" opacity=".8"/>
-        </g>
-        <!-- Bubliny sania -->
-        <circle cx="88"  cy="390" r="2"   fill="rgba(80,200,255,.7)" class="hf-bub1"/>
-        <circle cx="100" cy="398" r="1.5" fill="rgba(80,200,255,.6)" class="hf-bub2"/>
-        <circle cx="92"  cy="402" r="2"   fill="rgba(80,200,255,.65)" class="hf-bub3"/>
-
-        <!-- ŠACHTA – celá pod zemou, len veko vyčnieva nad trávu -->
-        <!-- Telo šachty (betón) hlboko v zemi -->
-        <rect x="68" y="136" width="60" height="60" rx="6" fill="#b0a090" stroke="#8a7860" stroke-width="1.8"/>
-        <!-- Vnútro šachty -->
-        <rect x="75" y="142" width="46" height="50" rx="4" fill="#ede5d5"/>
-        <!-- Veko šachty – presne na úrovni trávy -->
-        <rect x="75" y="124" width="46" height="14" rx="4" fill="#6a6a6a" stroke="#4a4a4a" stroke-width="1.3"/>
-        <rect x="89" y="118" width="18" height="9" rx="3" fill="#5a5a5a" stroke="#333" stroke-width=".9"/>
-        <line x1="98" y1="118" x2="98" y2="112" stroke="#4a4a4a" stroke-width="1.8" stroke-linecap="round"/>
-        <circle cx="98" cy="110" r="3" fill="#4a4a4a"/>
-        <!-- T-kus v šachte -->
-        <rect x="86" y="158" width="10" height="8" rx="2" fill="#1a60a0" stroke="#0a4080" stroke-width=".9"/>
-        <!-- Vodorovné potrubie von zo šachty -->
-        <rect x="68" y="159" width="18" height="6" rx="1" fill="#1a60a0" opacity=".9"/>
-        <!-- Uzatvárací ventil (červený) -->
-        <rect x="72" y="155" width="7" height="14" rx="2" fill="#d04010" stroke="#a02808" stroke-width=".9"/>
-        <rect x="74" y="152" width="3" height="5" rx="1" fill="#b03010"/>
-        <!-- Popisok šachty -->
-        <text x="133" y="152" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,.7)" font-weight="600">šachta</text>
-        <line x1="128" y1="150" x2="123" y2="158" stroke="rgba(255,255,255,.35)" stroke-width=".8"/>
-
-        <!-- ANIMOVANÁ VODA – 2. vodorovne od šachty pod zemou ku domu -->
-        <path d="M86,162 L14,162 Q6,162 6,170 L6,178 Q6,186 14,186 L282,186 Q290,186 290,178 L290,138 L250,138 L250,141"
-          fill="none" stroke="rgba(0,80,160,.32)" stroke-width="10" stroke-linecap="round"/>
-        <path d="M86,162 L14,162 Q6,162 6,170 L6,178 Q6,186 14,186 L282,186 Q290,186 290,178 L290,138 L250,138 L250,141"
-          fill="none" stroke="#40d0ff" stroke-width="7" stroke-linecap="round"
-          class="hf-right" filter="url(#hf-glow)" opacity=".88"/>
-        <!-- Popisok potrubia -->
-        <text x="120" y="198" font-family="sans-serif" font-size="7.5" fill="rgba(255,255,255,.55)" text-anchor="middle">výtlačné potrubie</text>
-
-        <!-- DOM -->
-        <!-- Základ -->
-        <rect x="240" y="130" width="58" height="10" rx="1" fill="#8a7860"/>
-        <!-- Steny -->
-        <rect x="242" y="58" width="54" height="76" rx="2" fill="url(#hf-wall)" stroke="#b0a080" stroke-width="1"/>
-        <!-- Strecha -->
-        <polygon points="237,62 269,32 301,62" fill="#a05030" stroke="#804020" stroke-width="1"/>
-        <!-- Okno -->
-        <rect x="249" y="72" width="18" height="16" rx="1" fill="#b8d8f0" stroke="#8aacca" stroke-width=".8"/>
-        <line x1="258" y1="72" x2="258" y2="88" stroke="#8aacca" stroke-width=".6"/>
-        <line x1="249" y1="80" x2="267" y2="80" stroke="#8aacca" stroke-width=".6"/>
-        <!-- Dvere -->
-        <rect x="272" y="98" width="16" height="32" rx="1" fill="#8a6840" stroke="#6a4820" stroke-width=".8"/>
-        <circle cx="282" cy="115" r="1.5" fill="#c8a860"/>
-        <!-- Dom nápis -->
-        <text x="269" y="26" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,.75)" text-anchor="middle" font-weight="600">dom</text>
-
-        <!-- Vnútorný rozvod v dome (animovaný) -->
-        <path d="M250,141 L258,141 L258,108 L268,108"
-          fill="none" stroke="rgba(0,80,160,.3)" stroke-width="6" stroke-linecap="round"/>
-        <path d="M250,141 L258,141 L258,108 L268,108"
-          fill="none" stroke="#40d0ff" stroke-width="4" stroke-linecap="round"
-          class="hf-in" filter="url(#hf-glow)" opacity=".82"/>
-
-        <!-- Vodomer + kohútik -->
-        <rect x="264" y="104" width="12" height="8" rx="2" fill="#2a8a2a" stroke="#1a6a1a" stroke-width=".7"/>
-        <!-- Kohútik s kvapkami -->
-        <g transform="translate(278,92)">
-          <rect x="-3" y="0" width="8"  height="4"  rx="1" fill="#888" stroke="#666" stroke-width=".6"/>
-          <rect x="2"  y="1" width="4"  height="7"  rx="1" fill="#888" stroke="#666" stroke-width=".6"/>
-          <ellipse cx="4" cy="10" rx="1.8" ry="2.5" fill="#40b8ff" class="hf-drip1" opacity=".88"/>
-          <ellipse cx="4" cy="15" rx="1.4" ry="2"   fill="#40b8ff" class="hf-drip2" opacity=".7"/>
-        </g>
-
-        <!-- El. kábel (tenký) -->
-        <path d="M94,132 Q92,118 90,112 L230,86 Q238,84 242,90 L280,90"
-          fill="none" stroke="#f0a020" stroke-width="1.2" stroke-dasharray="4 3" opacity=".65"/>
-
-        <!-- Popisok potrubia -->
-        <text x="148" y="182" font-family="sans-serif" font-size="7.5" fill="rgba(255,255,255,.6)" text-anchor="middle">výtlačné potrubie</text>
-
-      </svg>
-    </div>
-  </div>
-</div>
-<div class="stats">
-</div>
-<div class="stats">
-  <div class="stats-inner">
-    <div><div class="stat-num">5</div><div class="stat-label">rokov skúseností</div></div>
-    <div><div class="stat-num">419</div><div class="stat-label">realizovaných vrtov</div></div>
-    <div><div class="stat-num">98%</div><div class="stat-label">úspešné vrty</div></div>
-    <div><div class="stat-num">24h</div><div class="stat-label">odozva na dopyt</div></div>
-</div>
-<section id="animacia" style="background:#1a5a8a;padding:4rem 1.5rem 3rem;">
-  <div class="section-inner" style="max-width:720px;margin:0 auto;">
-    <div class="section-tag" style="color:var(--gold)">Interaktívna ukážka</div>
-    <h2 class="section-title" style="color:var(--white)">Ako prebieha vŕtanie studne</h2>
-    <p class="section-desc" style="color:rgba(255,255,255,0.6)">Simulácia reálneho postupu vŕtania cez geologické vrstvy až po zvodnelú vrstvu.</p>
-
-<style>
-/* ── Animácia vŕtania – JT Vŕtanie studní ── */
-@keyframes jt-trackMove  { 0%{stroke-dashoffset:0} 100%{stroke-dashoffset:-28} }
-@keyframes jt-rigBob     { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-2px)} }
-@keyframes jt-exhPuff    { 0%{opacity:.5;transform:translateY(0) scale(.4)} 100%{opacity:0;transform:translateY(-22px) scale(1.4)} }
-@keyframes jt-dustPuff   { 0%{opacity:.9;transform:scale(.3)} 100%{opacity:0;transform:scale(2) translate(var(--dx),var(--dy))} }
-@keyframes jt-geyserShot { 0%{opacity:0;transform:translateY(0) scaleX(1)} 15%{opacity:.95;transform:translateY(-8px) scaleX(1.1)} 70%{opacity:.7;transform:translateY(var(--gy,-80px)) scaleX(.7)} 100%{opacity:0;transform:translateY(var(--gy,-80px)) scaleX(.5)} }
-@keyframes jt-dropArc    { 0%{opacity:.9;transform:translate(0,0)} 60%{opacity:.8;transform:translate(var(--dx),var(--dy))} 100%{opacity:0;transform:translate(var(--dx2),var(--dy2))} }
-@keyframes jt-rippleOut  { 0%{transform:scale(0);opacity:.8} 100%{transform:scale(3);opacity:0} }
-@keyframes jt-sunPulse   { 0%,100%{opacity:.85;transform:scale(1)} 50%{opacity:1;transform:scale(1.04)} }
-@keyframes jt-rayRotate  { 0%{transform:rotate(0deg)} 100%{transform:rotate(360deg)} }
-@keyframes jt-cloudDrift { 0%{transform:translateX(0)} 50%{transform:translateX(8px)} 100%{transform:translateX(0)} }
-@keyframes jt-skyGlow    { 0%,100%{opacity:.82} 50%{opacity:1} }
-
-.jt-sc{position:relative;width:100%;height:700px;border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.1)}
-.jt-hud{position:absolute;top:12px;left:14px;z-index:36;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.8);line-height:1.9;font-family:monospace;text-shadow:0 1px 3px rgba(0,0,0,.5)}
-.jt-hudr{position:absolute;top:12px;right:14px;z-index:36;font-size:10px;letter-spacing:.08em;color:rgba(255,255,255,.8);line-height:1.9;font-family:monospace;text-align:right;text-transform:uppercase;text-shadow:0 1px 3px rgba(0,0,0,.5)}
-.jt-dbar{position:absolute;left:14px;top:44px;bottom:44px;width:5px;background:rgba(255,255,255,.2);border-radius:3px;z-index:36}
-.jt-dfill{width:100%;border-radius:3px;background:linear-gradient(180deg,rgba(10,160,120,.9),rgba(0,100,200,.9));height:0%;transition:height .3s;position:absolute;top:0}
-.jt-stat{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);font-size:11px;font-weight:500;letter-spacing:.07em;color:rgba(20,80,60,.9);background:rgba(255,255,255,.85);border:0.5px solid rgba(10,150,100,.3);padding:5px 18px;border-radius:20px;white-space:nowrap;z-index:36;font-family:monospace}
-.jt-stat.jt-water{color:rgba(0,80,180,.95);border-color:rgba(0,120,220,.4);background:rgba(220,240,255,.92)}
-.jt-lp{position:absolute;right:16px;width:195px;background:rgba(255,255,255,.93);border:0.5px solid rgba(10,150,100,.3);border-radius:8px;padding:10px 13px;z-index:36;opacity:0;pointer-events:none;font-family:monospace;transition:opacity .7s,transform .5s;transform:translateX(10px);box-shadow:0 3px 12px rgba(0,0,0,.12)}
-.jt-lp.jt-vis{opacity:1;transform:translateX(0)}
-.jt-lpn{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px;color:#1a3a2a}
-.jt-lpd{font-size:12px;color:rgba(10,120,80,.6);letter-spacing:.05em;margin-bottom:5px;font-weight:500}
-.jt-lpt{font-size:11.5px;color:rgba(40,60,50,.7);line-height:1.55}
-.jt-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
-.jt-ctrl{display:flex;gap:10px;margin-top:12px;align-items:center;flex-wrap:wrap}
-.jt-btn{background:#2a7a5a;color:#fff;border:none;padding:9px 22px;border-radius:4px;font-size:13px;font-weight:500;cursor:pointer;transition:opacity .2s}
-.jt-btn:hover{opacity:.85}.jt-btn:disabled{opacity:.35;cursor:not-allowed}
-.jt-btn2{background:transparent;color:rgba(255,255,255,.7);border:0.5px solid rgba(255,255,255,.3);padding:9px 16px;border-radius:4px;font-size:13px;cursor:pointer}
-.jt-btn2:hover{background:rgba(255,255,255,.1)}
-.jt-sl{font-size:12px;color:rgba(255,255,255,.6);margin-left:auto}
-</style>
-
-<div class="jt-sc" id="jt-sc">
-  <div class="jt-hud">JT VŔTANIE<br>HĹBKA: <span id="jt-hd" style="color:rgba(120,255,180,.9)">0.0 m</span><br>VRSTVA: <span id="jt-hl" style="color:rgba(120,255,180,.9)">—</span></div>
-  <div class="jt-hudr">RPM: <span id="jt-hr" style="color:rgba(120,255,180,.9)">0</span><br>H₂O: <span id="jt-hw" style="color:rgba(120,200,255,.9)">—</span><br>TLAK: <span id="jt-hp" style="color:rgba(120,255,180,.9)">—</span></div>
-  <div class="jt-dbar"><div class="jt-dfill" id="jt-df"></div></div>
-
-  <div class="jt-lp" id="jt-lp0" style="top:182px"><div class="jt-lpn"><span class="jt-dot" style="background:#a07848"></span>Humusová vrstva</div><div class="jt-lpd">0 – 10 m</div><div class="jt-lpt">Ornica, koreňový systém. Vysoký obsah organiky.</div></div>
-  <div class="jt-lp" id="jt-lp1" style="top:295px"><div class="jt-lpn"><span class="jt-dot" style="background:#d09050"></span>Ílovitá vrstva</div><div class="jt-lpd">10 – 22 m</div><div class="jt-lpt">Sprašová hlina a íl. Nízka priepustnosť.</div></div>
-  <div class="jt-lp" id="jt-lp2" style="top:415px"><div class="jt-lpn"><span class="jt-dot" style="background:#7890a8"></span>Skalné podložie</div><div class="jt-lpd">22 – 35 m</div><div class="jt-lpt">Kompaktná hornina s prasklinami.</div></div>
-  <div class="jt-lp" id="jt-lp3" style="top:530px"><div class="jt-lpn"><span class="jt-dot" style="background:#4090e0"></span>Zvodnená vrstva</div><div class="jt-lpd">35 – 50 m</div><div class="jt-lpt" style="color:rgba(0,80,180,.65)">Štrkovo-piesčitý horizont. Zdroj pitnej vody.</div></div>
-
-  <canvas id="jt-canvas" style="position:absolute;inset:0;pointer-events:none;z-index:15"></canvas>
-
-  <svg id="jt-svg" width="100%" viewBox="0 0 620 700" style="position:absolute;inset:0;display:block">
-    <defs>
-      <linearGradient id="jt-skyGrad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%"   stop-color="#4ab8f5"/>
-        <stop offset="55%"  stop-color="#87d4f8"/>
-        <stop offset="100%" stop-color="#b8eafc"/>
-      </linearGradient>
-      <radialGradient id="jt-sunGlow" cx="50%" cy="50%" r="50%">
-        <stop offset="0%"   stop-color="rgba(255,240,100,.6)"/>
-        <stop offset="100%" stop-color="rgba(255,200,0,0)"/>
-      </radialGradient>
-      <filter id="jt-gf"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-      <filter id="jt-gf2"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-      <radialGradient id="jt-aqG" cx="50%" cy="60%" r="55%"><stop offset="0%" stop-color="rgba(80,160,255,.3)"/><stop offset="100%" stop-color="rgba(80,160,255,0)"/></radialGradient>
-      <!-- Gradienty vrstiev -->
-      <linearGradient id="jt-humusGrad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="rgba(100,60,15,.2)"/>
-        <stop offset="100%" stop-color="rgba(60,30,5,.5)"/>
-      </linearGradient>
-      <linearGradient id="jt-clayGrad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="rgba(120,60,10,.15)"/>
-        <stop offset="100%" stop-color="rgba(80,35,5,.45)"/>
-      </linearGradient>
-      <linearGradient id="jt-rockGrad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="rgba(30,60,80,.2)"/>
-        <stop offset="100%" stop-color="rgba(10,30,50,.5)"/>
-      </linearGradient>
-      <linearGradient id="jt-aquiferGrad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="rgba(0,80,160,.3)"/>
-        <stop offset="100%" stop-color="rgba(0,40,100,.6)"/>
-      </linearGradient>
-      <linearGradient id="jt-wG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="rgba(80,170,255,.95)"/><stop offset="100%" stop-color="rgba(30,100,220,.85)"/></linearGradient>
-    </defs>
-
-    <!-- Obloha -->
-    <rect x="0" y="0" width="620" height="180" fill="url(#jt-skyGrad)" style="animation:jt-skyGlow 4s ease-in-out infinite"/>
-
-    <!-- Slnko -->
-    <circle cx="68" cy="42" r="38" fill="url(#jt-sunGlow)" style="animation:jt-sunPulse 3s ease-in-out infinite"/>
-    <g style="transform-origin:68px 42px;animation:jt-rayRotate 18s linear infinite">
-      <line x1="68" y1="10" x2="68" y2="4"   stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
-      <line x1="68" y1="74" x2="68" y2="80"   stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
-      <line x1="36" y1="42" x2="30" y2="42"   stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
-      <line x1="100" y1="42" x2="106" y2="42" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
-      <line x1="45" y1="19" x2="41" y2="15"   stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
-      <line x1="91" y1="65" x2="95" y2="69"   stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
-      <line x1="91" y1="19" x2="95" y2="15"   stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
-      <line x1="45" y1="65" x2="41" y2="69"   stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
-    </g>
-    <circle cx="68" cy="42" r="20" fill="#FFE040" stroke="#FFD000" stroke-width="1.5" style="animation:jt-sunPulse 3s ease-in-out infinite"/>
-    <circle cx="62" cy="37" r="6"  fill="rgba(255,255,200,.4)"/>
-
-    <!-- Oblaky -->
-    <g style="animation:jt-cloudDrift 6s ease-in-out infinite">
-      <ellipse cx="460" cy="30" rx="52" ry="20" fill="white" opacity=".95"/>
-      <ellipse cx="432" cy="36" rx="32" ry="18" fill="white" opacity=".95"/>
-      <ellipse cx="490" cy="36" rx="36" ry="16" fill="white" opacity=".9"/>
-      <ellipse cx="460" cy="40" rx="55" ry="14" fill="white" opacity=".95"/>
-      <ellipse cx="460" cy="44" rx="52" ry="8"  fill="rgba(180,210,240,.35)"/>
-    </g>
-    <g style="animation:jt-cloudDrift 8s ease-in-out 2s infinite">
-      <ellipse cx="200" cy="55" rx="36" ry="13" fill="white" opacity=".88"/>
-      <ellipse cx="180" cy="60" rx="22" ry="12" fill="white" opacity=".88"/>
-      <ellipse cx="222" cy="60" rx="26" ry="11" fill="white" opacity=".85"/>
-      <ellipse cx="200" cy="63" rx="38" ry="10" fill="white" opacity=".88"/>
-      <ellipse cx="200" cy="67" rx="36" ry="6"  fill="rgba(180,210,240,.28)"/>
-    </g>
-    <g style="animation:jt-cloudDrift 7s ease-in-out 1s infinite">
-      <ellipse cx="330" cy="22" rx="28" ry="11" fill="white" opacity=".82"/>
-      <ellipse cx="315" cy="26" rx="18" ry="10" fill="white" opacity=".82"/>
-      <ellipse cx="346" cy="26" rx="20" ry="9"  fill="white" opacity=".8"/>
-      <ellipse cx="330" cy="29" rx="30" ry="8"  fill="white" opacity=".82"/>
-    </g>
-
-    <!-- Tráva -->
-    <rect x="0" y="172" width="620" height="12" rx="4" fill="#6aaa38"/>
-    <rect x="0" y="176" width="620" height="8"  rx="2" fill="#5a9828"/>
-    <ellipse cx="60"  cy="172" rx="18" ry="5" fill="#7abe42"/>
-    <ellipse cx="130" cy="172" rx="14" ry="4" fill="#6aaa38"/>
-    <ellipse cx="210" cy="172" rx="20" ry="5" fill="#7abe42"/>
-    <ellipse cx="290" cy="170" rx="16" ry="5" fill="#82c84a"/>
-    <ellipse cx="370" cy="172" rx="18" ry="4" fill="#6aaa38"/>
-    <g stroke="#5a9828" stroke-width="1.2" stroke-linecap="round">
-      <line x1="25" y1="172" x2="22" y2="164"/><line x1="30" y1="172" x2="33" y2="163"/><line x1="27" y1="172" x2="28" y2="161"/>
-      <line x1="90" y1="172" x2="87" y2="163"/><line x1="95" y1="172" x2="98" y2="162"/><line x1="92" y1="172" x2="93" y2="160"/>
-      <line x1="160" y1="172" x2="157" y2="163"/><line x1="165" y1="172" x2="168" y2="162"/>
-      <line x1="240" y1="172" x2="237" y2="163"/><line x1="245" y1="172" x2="248" y2="161"/>
-      <line x1="320" y1="172" x2="317" y2="162"/><line x1="325" y1="172" x2="328" y2="161"/>
-      <line x1="400" y1="172" x2="397" y2="164"/><line x1="405" y1="172" x2="408" y2="162"/>
-    </g>
-
-    <!-- ══ GEOLOGICKÉ VRSTVY – výrazné ══ -->
-    <!-- HUMUS 180–273 -->
-    <rect x="0" y="180" width="440" height="93" fill="#b8895a"/>
-    <rect x="0" y="180" width="440" height="93" fill="url(#jt-humusGrad)"/>
-    <!-- Textúry humusu -->
-    <g fill="#7a4820" opacity=".55">
-      <circle cx="30" cy="196" r="5"/><circle cx="72" cy="210" r="7"/><circle cx="130" cy="198" r="4"/>
-      <circle cx="185" cy="215" r="6"/><circle cx="240" cy="200" r="5"/><circle cx="295" cy="218" r="8"/>
-      <circle cx="350" cy="204" r="5"/><circle cx="410" cy="212" r="6"/><circle cx="55" cy="240" r="4"/>
-      <circle cx="110" cy="252" r="7"/><circle cx="170" cy="244" r="5"/><circle cx="230" cy="258" r="6"/>
-      <circle cx="320" cy="248" r="4"/><circle cx="390" cy="255" r="5"/>
-    </g>
-    <g stroke="#5a3010" stroke-width="1.2" fill="none" opacity=".45">
-      <path d="M60,180 Q56,196 48,212 Q38,228 50,248"/>
-      <path d="M160,180 Q155,200 148,220 Q140,238 152,255"/>
-      <path d="M280,180 Q276,198 270,214 Q262,230 272,248"/>
-      <path d="M380,180 Q376,194 382,210 Q388,226 378,244"/>
-    </g>
-    <rect x="0" y="265" width="440" height="8" fill="#7a4820" opacity=".5"/>
-    <!-- ÍLOVITÁ VRSTVA 273–388 -->
-    <rect x="0" y="273" width="440" height="115" fill="#c07840"/>
-    <rect x="0" y="273" width="440" height="115" fill="url(#jt-clayGrad)"/>
-    <g stroke="#8a5018" stroke-width="1.8" fill="none" opacity=".5">
-      <path d="M0,295 Q80,289 160,296 Q240,303 320,295 Q390,289 440,294"/>
-      <path d="M0,318 Q70,311 150,319 Q230,326 310,318 Q390,311 440,317"/>
-      <path d="M0,342 Q90,336 170,343 Q250,350 330,342 Q400,336 440,341"/>
-      <path d="M0,366 Q75,359 155,367 Q235,374 315,366 Q395,358 440,365"/>
-    </g>
-    <g fill="#8a4810" opacity=".45">
-      <ellipse cx="50" cy="305" rx="28" ry="8"/><ellipse cx="180" cy="330" rx="35" ry="9"/>
-      <ellipse cx="310" cy="310" rx="30" ry="8"/><ellipse cx="410" cy="350" rx="22" ry="7"/>
-      <ellipse cx="120" cy="370" rx="32" ry="8"/><ellipse cx="260" cy="378" rx="28" ry="7"/>
-    </g>
-    <rect x="0" y="380" width="440" height="8" fill="#7a3e10" opacity=".5"/>
-    <!-- SKALNÉ PODLOŽIE 388–498 -->
-    <rect x="0" y="388" width="440" height="110" fill="#5a7088"/>
-    <rect x="0" y="388" width="440" height="110" fill="url(#jt-rockGrad)"/>
-    <g stroke="#2a4050" stroke-width="1.8" fill="none" opacity=".65">
-      <path d="M40,395 Q52,412 44,430 Q36,448 50,470"/>
-      <path d="M130,390 Q118,408 125,428 Q132,448 120,465"/>
-      <path d="M220,392 Q234,410 226,432 Q218,452 230,468"/>
-      <path d="M340,395 Q328,414 336,436 Q344,456 334,472"/>
-      <path d="M420,390 Q432,408 424,430"/>
-    </g>
-    <g fill="#3a5868" opacity=".55">
-      <rect x="15" y="400" width="55" height="22" rx="3"/>
-      <rect x="90" y="415" width="65" height="20" rx="3"/>
-      <rect x="180" y="405" width="50" height="24" rx="3"/>
-      <rect x="255" y="420" width="60" height="18" rx="3"/>
-      <rect x="350" y="408" width="55" height="21" rx="3"/>
-      <rect x="30" y="448" width="70" height="22" rx="3"/>
-      <rect x="160" y="455" width="58" height="20" rx="3"/>
-      <rect x="290" y="448" width="65" height="22" rx="3"/>
-    </g>
-    <rect x="0" y="490" width="440" height="8" fill="#2a4050" opacity=".5"/>
-    <!-- ZVODNENÁ VRSTVA 498–700 -->
-    <rect x="0" y="498" width="440" height="202" fill="#1a68a8"/>
-    <rect x="0" y="498" width="440" height="202" fill="url(#jt-aquiferGrad)"/>
-    <rect x="0" y="498" width="440" height="202" fill="url(#jt-aqG)" id="jt-aq-g" opacity="0"/>
-    <g fill="#0d4880" opacity=".5">
-      <circle cx="25" cy="514" r="6"/><circle cx="65" cy="528" r="5"/><circle cx="105" cy="512" r="7"/>
-      <circle cx="148" cy="525" r="5"/><circle cx="190" cy="510" r="6"/><circle cx="235" cy="530" r="8"/>
-      <circle cx="278" cy="516" r="5"/><circle cx="320" cy="528" r="6"/><circle cx="365" cy="512" r="7"/>
-      <circle cx="410" cy="524" r="5"/><circle cx="42" cy="558" r="7"/><circle cx="88" cy="572" r="5"/>
-      <circle cx="135" cy="560" r="6"/><circle cx="178" cy="575" r="8"/><circle cx="222" cy="562" r="5"/>
-      <circle cx="268" cy="578" r="6"/><circle cx="314" cy="564" r="7"/><circle cx="358" cy="576" r="5"/>
-      <circle cx="400" cy="560" r="6"/>
-    </g>
-    <g fill="#4090d0" opacity=".14"><circle cx="35" cy="526" r="14"/><circle cx="115" cy="540" r="11"/><circle cx="200" cy="520" r="16"/><circle cx="290" cy="536" r="12"/><circle cx="75" cy="576" r="12"/><circle cx="165" cy="588" r="15"/><circle cx="255" cy="570" r="11"/><circle cx="340" cy="582" r="13"/></g>
-
-    <!-- Prúdenie vody v zvodenej vrstve -->
-    <g id="jt-aq-flows" opacity="0" style="transition:opacity 1.5s">
-      <path d="M0,518 Q80,508 160,522 Q240,536 320,518 Q400,502 440,516" fill="none" stroke="rgba(30,150,255,.75)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="40 20" id="jt-af1"/>
-      <path d="M0,545 Q90,533 175,549 Q260,563 345,545 Q410,530 440,543" fill="none" stroke="rgba(50,160,255,.68)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="35 22" id="jt-af2"/>
-      <path d="M0,572 Q100,558 190,575 Q280,590 365,572 Q418,558 440,570" fill="none" stroke="rgba(40,140,245,.6)" stroke-width="2" stroke-linecap="round" stroke-dasharray="38 18" id="jt-af3"/>
-      <path d="M0,600 Q85,587 175,604 Q265,619 355,600 Q415,587 440,598" fill="none" stroke="rgba(30,130,235,.52)" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="32 20" id="jt-af4"/>
-      <path d="M0,628 Q95,614 185,630 Q275,645 365,627 Q420,614 440,626" fill="none" stroke="rgba(20,120,225,.44)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="28 22" id="jt-af5"/>
-    </g>
-
-    <!-- Separátory a popisky -->
-    <line x1="0" y1="180" x2="440" y2="180" stroke="rgba(60,120,90,.35)" stroke-width="1" stroke-dasharray="6 4"/>
-    <line x1="0" y1="273" x2="440" y2="273" stroke="rgba(60,120,90,.18)" stroke-width=".7" stroke-dasharray="3 5"/>
-    <line x1="0" y1="388" x2="440" y2="388" stroke="rgba(60,120,90,.18)" stroke-width=".7" stroke-dasharray="3 5"/>
-    <line x1="0" y1="498" x2="440" y2="498" stroke="rgba(60,120,90,.18)" stroke-width=".7" stroke-dasharray="3 5"/>
-    <text x="10" y="176" font-family="monospace" font-size="8.5" fill="rgba(20,80,50,.7)" letter-spacing=".06em">POVRCH  0 m</text>
-    <text x="10" y="269" font-family="monospace" font-size="8" fill="rgba(20,80,50,.35)" letter-spacing=".05em">── 10 m</text>
-    <text x="10" y="384" font-family="monospace" font-size="8" fill="rgba(20,80,50,.35)" letter-spacing=".05em">── 22 m</text>
-    <text x="10" y="494" font-family="monospace" font-size="8" fill="rgba(20,80,50,.35)" letter-spacing=".05em">── 35 m</text>
-    <text x="10" y="694" font-family="monospace" font-size="8" fill="rgba(20,80,50,.28)" letter-spacing=".05em">── 50 m</text>
-
-    <line id="jt-c0" x1="440" y1="220" x2="456" y2="220" stroke="rgba(20,120,80,.25)" stroke-width=".7" stroke-dasharray="3 3" opacity="0"/>
-    <line id="jt-c1" x1="440" y1="335" x2="456" y2="335" stroke="rgba(20,120,80,.25)" stroke-width=".7" stroke-dasharray="3 3" opacity="0"/>
-    <line id="jt-c2" x1="440" y1="448" x2="456" y2="448" stroke="rgba(20,120,80,.25)" stroke-width=".7" stroke-dasharray="3 3" opacity="0"/>
-    <line id="jt-c3" x1="440" y1="562" x2="456" y2="562" stroke="rgba(40,100,200,.3)" stroke-width=".7" stroke-dasharray="3 3" opacity="0"/>
-
-    <g id="jt-vc" opacity="0" filter="url(#jt-gf)"><path d="M0,304 Q60,292 130,308 Q210,324 290,304 Q370,286 440,308" fill="none" stroke="rgba(60,140,220,.6)" stroke-width="2" stroke-dasharray="300" stroke-dashoffset="300" id="jt-vc1"/><path d="M0,340 Q85,246 175,332 Q265,312 355,340 Q405,354 440,336" fill="none" stroke="rgba(60,120,200,.45)" stroke-width="1.4" stroke-dasharray="300" stroke-dashoffset="300" id="jt-vc2"/></g>
-    <g id="jt-vr" opacity="0" filter="url(#jt-gf)"><path d="M0,416 Q80,402 165,418 Q248,434 330,412 Q398,394 440,416" fill="none" stroke="rgba(60,130,210,.42)" stroke-width="1.2" stroke-dasharray="300" stroke-dashoffset="300" id="jt-vr1"/><path d="M0,464 Q90,448 185,468 Q278,486 368,458 Q415,442 440,462" fill="none" stroke="rgba(50,110,195,.35)" stroke-width="1" stroke-dasharray="300" stroke-dashoffset="300" id="jt-vr2"/></g>
-    <g id="jt-va" opacity="0" filter="url(#jt-gf2)"><path d="M0,523 Q55,508 125,526 Q215,546 308,520 Q385,498 440,524" fill="none" stroke="rgba(30,120,230,.85)" stroke-width="4.5" stroke-dasharray="300" stroke-dashoffset="300" id="jt-va1"/><path d="M0,558 Q70,542 155,562 Q245,580 335,554 Q402,534 440,560" fill="none" stroke="rgba(40,130,220,.68)" stroke-width="3.5" stroke-dasharray="300" stroke-dashoffset="300" id="jt-va2"/><path d="M0,590 Q80,574 172,594 Q262,612 355,584 Q415,564 440,590" fill="none" stroke="rgba(50,140,210,.52)" stroke-width="2.5" stroke-dasharray="300" stroke-dashoffset="300" id="jt-va3"/><path d="M0,622 Q90,606 185,626 Q278,644 374,616 Q420,600 440,622" fill="none" stroke="rgba(60,150,200,.38)" stroke-width="2" stroke-dasharray="300" stroke-dashoffset="300" id="jt-va4"/><ellipse cx="200" cy="570" rx="190" ry="55" fill="rgba(80,160,255,.12)" id="jt-ae" opacity="0"/></g>
-
-    <rect id="jt-bh"  x="374" y="180" width="12" height="0" fill="rgba(255,255,255,.6)" stroke="rgba(100,140,160,.4)" stroke-width=".8"/>
-    <rect id="jt-bwc" x="375" y="180" width="10" height="0" fill="url(#jt-wG)" opacity="0"/>
-    <g id="jt-cas" opacity="0" stroke="rgba(120,160,190,.45)" stroke-width=".8" fill="none">
-      <line x1="372" y1="200" x2="388" y2="200"/><line x1="372" y1="222" x2="388" y2="222"/><line x1="372" y1="244" x2="388" y2="244"/><line x1="372" y1="266" x2="388" y2="266"/><line x1="372" y1="288" x2="388" y2="288"/><line x1="372" y1="310" x2="388" y2="310"/><line x1="372" y1="332" x2="388" y2="332"/><line x1="372" y1="354" x2="388" y2="354"/><line x1="372" y1="376" x2="388" y2="376"/>
-    </g>
-    <g id="jt-pings"></g>
-
-    <!-- VRTÁČKA -->
-    <g id="jt-rig" style="animation:jt-rigBob 3s ease-in-out infinite">
-      <rect x="368" y="4" width="3" height="164" rx="1" fill="#3a8840" opacity=".85"/>
-      <rect x="389" y="4" width="3" height="164" rx="1" fill="#3a8840" opacity=".85"/>
-      <rect x="371" y="4" width="18" height="164" rx="2" fill="#e8c820" stroke="#c8a810" stroke-width="1"/>
-      <rect x="371" y="20" width="18" height="2" rx=".5" fill="#1a1a1a" opacity=".3"/><rect x="371" y="40" width="18" height="2" rx=".5" fill="#1a1a1a" opacity=".3"/><rect x="371" y="60" width="18" height="2" rx=".5" fill="#1a1a1a" opacity=".3"/><rect x="371" y="80" width="18" height="2" rx=".5" fill="#1a1a1a" opacity=".3"/><rect x="371" y="100" width="18" height="2" rx=".5" fill="#1a1a1a" opacity=".3"/><rect x="371" y="120" width="18" height="2" rx=".5" fill="#1a1a1a" opacity=".3"/><rect x="371" y="140" width="18" height="2" rx=".5" fill="#1a1a1a" opacity=".3"/><rect x="371" y="160" width="18" height="2" rx=".5" fill="#1a1a1a" opacity=".3"/>
-      <rect x="366" y="2" width="28" height="11" rx="3" fill="#cc2010" stroke="#aa1808" stroke-width=".8"/>
-      <rect x="390" y="1" width="14" height="9" rx="2" fill="#2060b8" stroke="#1050a0" stroke-width=".7"/>
-      <ellipse cx="397" cy="5.5" rx="5" ry="4" fill="#2878d0" opacity=".85"/>
-      <circle cx="380" cy="5" r="4" fill="none" stroke="#c8a810" stroke-width="1.5"/><circle cx="380" cy="5" r="1.5" fill="#c8a810"/>
-      <g id="jt-rot-drive">
-        <rect x="367" y="10" width="22" height="16" rx="2" fill="#cc2010" stroke="#aa1808" stroke-width=".8"/>
-        <rect x="387" y="11" width="12" height="12" rx="2" fill="#1a60b8" stroke="#1050a0" stroke-width=".7"/>
-        <ellipse cx="393" cy="17" rx="5" ry="4.5" fill="#2070d0" opacity=".85"/>
-        <rect x="367" y="12" width="5" height="12" rx="1" fill="#e8c820" opacity=".8"/>
-      </g>
-      <rect x="362" y="160" width="36" height="14" rx="3" fill="#cc2010" stroke="#aa1808" stroke-width=".9"/>
-      <rect x="365" y="162" width="12" height="7" rx="1" fill="#e03020" opacity=".7"/><rect x="381" y="162" width="12" height="7" rx="1" fill="#e03020" opacity=".7"/>
-      <rect x="362" y="144" width="8" height="20" rx="2" fill="#3a8840" stroke="#2a6830" stroke-width=".8"/><rect x="390" y="144" width="8" height="20" rx="2" fill="#3a8840" stroke="#2a6830" stroke-width=".8"/>
-
-      <!-- Pásový podvozok – guličkové články -->
-      <rect x="138" y="155" width="248" height="20" rx="10" fill="#1a1a1a" stroke="#111" stroke-width="1.2"/>
-      <line x1="148" y1="160" x2="376" y2="160" stroke="#3a3a3a" stroke-width="7" stroke-linecap="round" stroke-dasharray="7 7"/>
-      <line x1="148" y1="170" x2="376" y2="170" stroke="#3a3a3a" stroke-width="7" stroke-linecap="round" stroke-dasharray="7 7"/>
-      <line x1="148" y1="158" x2="376" y2="158" stroke="rgba(80,80,80,.5)" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7"/>
-      <circle cx="376" cy="165" r="11" fill="#141414" stroke="#333" stroke-width="1.5"/><circle cx="376" cy="165" r="6" fill="#222" stroke="#3a3a3a" stroke-width="1"/><circle cx="376" cy="165" r="2.5" fill="#444"/>
-      <circle cx="147" cy="165" r="11" fill="#141414" stroke="#333" stroke-width="1.5"/><circle cx="147" cy="165" r="6" fill="#222" stroke="#3a3a3a" stroke-width="1"/><circle cx="147" cy="165" r="2.5" fill="#444"/>
-      <circle cx="185" cy="165" r="6" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="1"/><circle cx="185" cy="165" r="2.5" fill="#333"/>
-      <circle cx="218" cy="165" r="6" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="1"/><circle cx="218" cy="165" r="2.5" fill="#333"/>
-      <circle cx="251" cy="165" r="6" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="1"/><circle cx="251" cy="165" r="2.5" fill="#333"/>
-      <circle cx="284" cy="165" r="6" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="1"/><circle cx="284" cy="165" r="2.5" fill="#333"/>
-      <circle cx="317" cy="165" r="6" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="1"/><circle cx="317" cy="165" r="2.5" fill="#333"/>
-      <circle cx="350" cy="165" r="6" fill="#1a1a1a" stroke="#2e2e2e" stroke-width="1"/><circle cx="350" cy="165" r="2.5" fill="#333"/>
-
-      <rect x="142" y="143" width="244" height="14" rx="2" fill="#cc2010" stroke="#aa1808" stroke-width="1"/>
-      <rect x="144" y="145" width="240" height="10" rx="1" fill="#e8a820" stroke="#c88a10" stroke-width=".7" opacity=".5"/>
-      <rect x="142" y="114" width="100" height="32" rx="3" fill="#c8c0b0" stroke="#a0988a" stroke-width="1"/>
-      <g fill="#9a9080" opacity=".5">
-        <circle cx="153" cy="122" r="2.5"/><circle cx="162" cy="122" r="2.5"/><circle cx="171" cy="122" r="2.5"/><circle cx="180" cy="122" r="2.5"/><circle cx="189" cy="122" r="2.5"/><circle cx="198" cy="122" r="2.5"/><circle cx="207" cy="122" r="2.5"/><circle cx="216" cy="122" r="2.5"/><circle cx="225" cy="122" r="2.5"/>
-        <circle cx="153" cy="130" r="2.5"/><circle cx="162" cy="130" r="2.5"/><circle cx="171" cy="130" r="2.5"/><circle cx="180" cy="130" r="2.5"/><circle cx="189" cy="130" r="2.5"/><circle cx="198" cy="130" r="2.5"/><circle cx="207" cy="130" r="2.5"/><circle cx="216" cy="130" r="2.5"/><circle cx="225" cy="130" r="2.5"/>
-        <circle cx="153" cy="138" r="2.5"/><circle cx="162" cy="138" r="2.5"/><circle cx="171" cy="138" r="2.5"/><circle cx="180" cy="138" r="2.5"/><circle cx="189" cy="138" r="2.5"/><circle cx="198" cy="138" r="2.5"/><circle cx="207" cy="138" r="2.5"/><circle cx="216" cy="138" r="2.5"/><circle cx="225" cy="138" r="2.5"/>
-        <circle cx="234" cy="122" r="2.5"/><circle cx="234" cy="130" r="2.5"/><circle cx="234" cy="138" r="2.5"/>
-      </g>
-      <rect x="143" y="115" width="98" height="30" rx="2" fill="none" stroke="#888070" stroke-width=".8"/>
-      <rect x="234" y="110" width="5" height="12" rx="2" fill="#555"/>
-      <rect x="242" y="118" width="118" height="28" rx="3" fill="#e8a820" stroke="#c88a10" stroke-width=".8"/>
-      <line x1="285" y1="118" x2="285" y2="146" stroke="rgba(0,0,0,.12)" stroke-width=".7"/>
-      <line x1="325" y1="118" x2="325" y2="146" stroke="rgba(0,0,0,.12)" stroke-width=".7"/>
-      <line x1="330" y1="128" x2="364" y2="162" stroke="#e8a820" stroke-width="6" stroke-linecap="round" opacity=".9"/>
-      <line x1="330" y1="128" x2="364" y2="162" stroke="rgba(0,0,0,.18)" stroke-width="1.2" stroke-linecap="round"/>
-      <line x1="340" y1="122" x2="368" y2="152" stroke="#c8a010" stroke-width="4" stroke-linecap="round" opacity=".7"/>
-    </g>
-
-    <!-- Tieň stroja -->
-    <ellipse cx="262" cy="178" rx="110" ry="5" fill="rgba(0,0,0,.12)"/>
-  </svg>
-
-  <div id="jt-pts" style="position:absolute;inset:0;pointer-events:none;z-index:25;overflow:hidden"></div>
-  <div class="jt-stat" id="jt-st">Pripravený na vŕtanie</div>
-</div>
-
-<div class="jt-ctrl">
-  <button class="jt-btn" id="jt-bs" onclick="jtGo()">▶ Spustiť vŕtanie</button>
-  <button class="jt-btn2" onclick="jtRst()">↺ Reset</button>
-  <span class="jt-sl">Rýchlosť</span>
-  <input type="range" id="jt-spd" min="1" max="5" value="3" step="1" style="width:90px">
-</div>
-
-<script>
-(function(){
-  var on=false,depth=0,dI=null,eI=null,gI=null;
-  var TOT=50,ST=180,SB=700,SR=SB-ST;
-  var vC=false,vR=false,vA=false,lS=[false,false,false,false];
-  var waterFound=false,rotAngle=0,flowRaf=null,flowT=0;
-  var fSpd=[1.2,0.85,1.45,1.0,1.3],fOff=[0,0.22,0.44,0.65,0.85];
-  var fIds=['jt-af1','jt-af2','jt-af3','jt-af4','jt-af5'];
-
-  var canvas=document.getElementById('jt-canvas'),ctx;
-  function initCanvas(){var sc=document.getElementById('jt-sc');canvas.width=sc.clientWidth;canvas.height=sc.clientHeight;ctx=canvas.getContext('2d');}
-  function svgX(x){return x*(canvas.width/620);}
-  function svgY(y){return y*(canvas.height/700);}
-  function mGrad(c,x,w,d,l){var g=c.createLinearGradient(x,0,x+w,0);g.addColorStop(0,d);g.addColorStop(.45,l);g.addColorStop(1,d);return g;}
-
-  function animFlows(ts){flowT=(ts||0)*0.00028;fIds.forEach(function(id,i){var el=document.getElementById(id);if(!el)return;var ph=(flowT*fSpd[i]+fOff[i])%1;el.setAttribute('stroke-dashoffset',(-300*ph)+'');});if(waterFound)flowRaf=requestAnimationFrame(animFlows);}
-  function activateAquiferFlow(){if(waterFound)return;waterFound=true;var fg=document.getElementById('jt-aq-flows');fg.style.transition='opacity 1.5s';fg.setAttribute('opacity','1');animFlows(0);}
-
-  function drawDTHBit(c,cx,ty,angle,sc){
-    var bW=sc*14,bH=sc*22,fH=sc*7,fY=ty+bH;
-    c.save();
-    c.beginPath();c.rect(cx-bW,ty,bW*2,bH);c.fillStyle=mGrad(c,cx-bW,bW*2,'#555','#c8c8c8');c.fill();c.strokeStyle='#444';c.lineWidth=0.8;c.stroke();
-    c.beginPath();c.moveTo(cx-bW,fY);c.lineTo(cx+bW,fY);c.lineTo(cx+bW*1.08,fY+fH*.5);c.lineTo(cx+bW,fY+fH);c.lineTo(cx-bW,fY+fH);c.lineTo(cx-bW*1.08,fY+fH*.5);c.closePath();c.fillStyle=mGrad(c,cx-bW,bW*2,'#444','#bbb');c.fill();c.strokeStyle='#333';c.lineWidth=0.8;c.stroke();
-    c.beginPath();c.ellipse(cx,fY+fH,bW,sc*4,0,0,Math.PI*2);c.fillStyle='#2a2a2a';c.fill();c.strokeStyle='#111';c.lineWidth=0.8;c.stroke();
-    c.beginPath();c.ellipse(cx-bW,ty+bH*.45,sc*2.5,sc*4,0,0,Math.PI*2);c.fillStyle='#1a1a1a';c.fill();
-    c.beginPath();c.ellipse(cx+bW,ty+bH*.45,sc*2.5,sc*4,0,0,Math.PI*2);c.fillStyle='#1a1a1a';c.fill();
-    c.save();c.translate(cx,fY+fH);c.rotate(angle);
-    var bp=[{r:0,a:0},{r:sc*5,a:0},{r:sc*5,a:Math.PI*2/5},{r:sc*5,a:Math.PI*4/5},{r:sc*5,a:Math.PI*6/5},{r:sc*5,a:Math.PI*8/5},{r:sc*9,a:Math.PI/5},{r:sc*9,a:Math.PI*3/5},{r:sc*9,a:Math.PI},{r:sc*9,a:Math.PI*7/5},{r:sc*9,a:Math.PI*9/5}];
-    for(var i=0;i<bp.length;i++){var bx=Math.cos(bp[i].a)*bp[i].r,by=Math.sin(bp[i].a)*bp[i].r*.35,br=sc*(i===0?3.5:2.8),bg=c.createRadialGradient(bx-br*.3,by-br*.3,br*.1,bx,by,br);bg.addColorStop(0,'#fff');bg.addColorStop(.4,'#d8d8d8');bg.addColorStop(1,'#888');c.beginPath();c.ellipse(bx,by,br,br*.7,0,0,Math.PI*2);c.fillStyle=bg;c.fill();c.strokeStyle='#666';c.lineWidth=0.4;c.stroke();}
-    c.restore();c.restore();
-  }
-
-  function drawSnek(dm,angle){
-    if(!ctx)return;ctx.clearRect(0,0,canvas.width,canvas.height);
-    var gY=svgY(ST),bY=svgY(ST+(dm/TOT)*SR),cx=svgX(380),sc=canvas.width/620;
-
-    // Pohon (rot-drive) má v SVG základnú polohu y=10, výška=16 → spodok=26
-    // Pohybuje sa o rdY = (dm/TOT)*146 nadol
-    var rdY=Math.round((dm/TOT)*146);
-    var driveBottom=svgY(26+rdY); // presný spodok červeného pohonu v px
-
-    var bBH=svgY(22),bFH=svgY(7),bTH=bBH+bFH;
-
-    // Tyč od spodku pohonu po vrch DTH bitu – jedna súvislá tyč
-    var rodTop=driveBottom;
-    var rodBot=bY-bTH;
-    var rodLen=rodBot-rodTop;
-
-    if(rodLen>0){
-      var rodW=svgX(5);
-      var g=ctx.createLinearGradient(cx-rodW,0,cx+rodW,0);
-      g.addColorStop(0,'#4a4a4a');
-      g.addColorStop(0.25,'#c8c8c8');
-      g.addColorStop(0.55,'#a0a0a0');
-      g.addColorStop(1,'#4a4a4a');
-      ctx.beginPath();ctx.rect(cx-rodW,rodTop,rodW*2,rodLen);
-      ctx.fillStyle=g;ctx.fill();
-      ctx.strokeStyle='#333';ctx.lineWidth=0.6;ctx.stroke();
-      // Lesk
-      ctx.beginPath();ctx.rect(cx-rodW+svgX(1.5),rodTop,svgX(2.5),rodLen);
-      ctx.fillStyle='rgba(255,255,255,.28)';ctx.fill();
-      // Tieň
-      ctx.beginPath();ctx.rect(cx+rodW-svgX(2),rodTop,svgX(1.5),rodLen);
-      ctx.fillStyle='rgba(0,0,0,.18)';ctx.fill();
-    }
-
-    // DTH hrot – iba ak je v zemi
-    if(rodBot>=gY){
-      drawDTHBit(ctx,cx,rodBot,angle,sc);
-    }
-  }
-
-  function animSnek(){if(on)rotAngle+=0.12;drawSnek(depth,rotAngle);requestAnimationFrame(animSnek);}
-  function updateWaterColumn(v){
-    var wp=Math.min(1,(v-35)/15),bY=ST+(v/TOT)*SR,bYpx=bY*(canvas.height/700),gPx=ST*(canvas.height/700);
-    var cH=wp*(bYpx-gPx),cT=bYpx-cH,el=document.getElementById('jt-bwc');
-    var svgT=cT*(700/canvas.height),svgH=cH*(700/canvas.height);
-    if(wp>0.6){var gH=(wp-0.6)/0.4*90;el.setAttribute('y',(ST-gH)+'');el.setAttribute('height',(svgH+gH)+'');el.setAttribute('width','14');el.setAttribute('x','373');}
-    else{el.setAttribute('y',svgT+'');el.setAttribute('height',svgH+'');el.setAttribute('width','10');el.setAttribute('x','375');}
-    el.setAttribute('opacity','.9');
-  }
-
-  function spawnGeyser(){
-    var r=document.getElementById('jt-svg').getBoundingClientRect(),s=r.width/620;
-    var cx=380*s,gY=ST*(canvas.height/700),sc2=document.getElementById('jt-pts');
-    for(var k=0;k<3;k++){var g=document.createElement('div'),w=6+Math.random()*8,gy=-(60+Math.random()*80),dur=(0.4+Math.random()*.4)+'s';g.style.cssText='position:absolute;width:'+w+'px;border-radius:'+w+'px '+w+'px 3px 3px;background:linear-gradient(180deg,rgba(100,200,255,.9),rgba(30,130,255,.8));left:'+(cx-w/2+(Math.random()-.5)*6)+'px;top:'+(gY-4)+'px;--gy:'+gy+'px;animation:jt-geyserShot '+dur+' ease-out forwards;pointer-events:none;z-index:22;';sc2.appendChild(g);setTimeout(function(el){return function(){el.remove()};}(g),900);}
-    for(var i=0;i<12;i++){var d=document.createElement('div'),sz=3+Math.random()*6,ang=Math.random()*Math.PI,dist=40+Math.random()*70,dx=Math.cos(ang-Math.PI/2)*dist*1.6,dy=-Math.abs(Math.sin(ang))*dist-10-Math.random()*30,dy2=dy+40+Math.random()*20,dur2=(0.5+Math.random()*.5)+'s';d.style.cssText='position:absolute;width:'+sz+'px;height:'+sz+'px;border-radius:50%;background:rgba(40,150,255,'+(0.7+Math.random()*.3)+');left:'+(cx-sz/2)+'px;top:'+(gY-sz/2)+'px;--dx:'+dx+'px;--dy:'+dy+'px;--dy2:'+dy2+'px;animation:jt-dropArc '+dur2+' ease-out forwards;pointer-events:none;z-index:22;';sc2.appendChild(d);setTimeout(function(el){return function(){el.remove()};}(d),1100);}
-    for(var j=0;j<3;j++){var ring=document.createElement('div'),rs=10+j*12;ring.style.cssText='position:absolute;width:'+rs+'px;height:'+(rs/3)+'px;border-radius:50%;border:2px solid rgba(30,140,255,'+(0.7-j*.15)+');left:'+(cx-rs/2)+'px;top:'+(gY-rs/6)+'px;animation:jt-rippleOut '+(0.6+j*.2)+'s ease-out '+(j*.1)+'s forwards;pointer-events:none;z-index:21;';sc2.appendChild(ring);setTimeout(function(el){return function(){el.remove()};}(ring),1100);}
-  }
-
-  function sp2(){return parseInt(document.getElementById('jt-spd').value);}
-  function dY(v){return ST+(v/TOT)*SR;}
-  function ss(t,w){var e=document.getElementById('jt-st');e.textContent=t;e.classList.toggle('jt-water',!!w);}
-  function lp(i){if(lS[i])return;lS[i]=true;document.getElementById('jt-lp'+i).classList.add('jt-vis');var c=document.getElementById('jt-c'+i);if(c){c.style.transition='opacity .6s';c.setAttribute('opacity','1');}}
-  function hud(v){document.getElementById('jt-hd').textContent=v.toFixed(1)+' m';document.getElementById('jt-hl').textContent=v<10?'HUMUS':v<22?'ÍL':v<35?'SKALA':'ZVODNENÁ VR.';document.getElementById('jt-hr').textContent=on?(180+Math.round(v*3)):0;document.getElementById('jt-hw').textContent=v>=35?(Math.round((v-35)/15*100)+'%'):'—';document.getElementById('jt-hp').textContent=Math.round(v*.12+1)+' bar';document.getElementById('jt-df').style.height=(v/TOT*100)+'%';}
-  function av(id,dl,dr){var e=document.getElementById(id);if(!e)return;setTimeout(function(){e.style.transition='stroke-dashoffset '+dr+'s linear';e.setAttribute('stroke-dashoffset','0');},dl);}
-  function sg(id,dl){setTimeout(function(){var e=document.getElementById(id);if(e){e.style.transition='opacity .8s';e.setAttribute('opacity','1');}},dl);}
-  function ping(sx,sy,col){col=col||'rgba(20,140,80,.8)';var pg=document.getElementById('jt-pings');for(var i=0;i<3;i++){(function(ii){var c=document.createElementNS('http://www.w3.org/2000/svg','circle');c.setAttribute('cx',sx);c.setAttribute('cy',sy);c.setAttribute('r','4');c.setAttribute('fill','none');c.setAttribute('stroke',col);c.setAttribute('stroke-width','1.2');pg.appendChild(c);var st=null;function a(ts){if(!st)st=ts;var t=(ts-st)/(900+ii*260);if(t>1){c.remove();return;}c.setAttribute('r',(4+t*30)+'');c.setAttribute('opacity',''+(1-t));requestAnimationFrame(a);}setTimeout(function(){requestAnimationFrame(a);},ii*250);})(i);}}
-  function updateRig(v){
-    // Pohon klesá od vrchu stožiara (offset=0) po pätu (offset=146) úmerne hĺbke
-    var rdY=Math.round((v/TOT)*146);
-    document.getElementById('jt-rot-drive').setAttribute('transform','translate(0,'+rdY+')');
-  }
-
-  function scene(v){
-    updateRig(v);
-    document.getElementById('jt-bh').setAttribute('height',Math.max(0,dY(v)-ST)+'');
-    if(v>2)document.getElementById('jt-cas').setAttribute('opacity','1');
-    if(v>=1)lp(0);
-    if(v>=10){lp(1);if(!vC){vC=true;sg('jt-vc',0);av('jt-vc1',200,2.4);av('jt-vc2',700,2.6);ping(380,273);}}
-    if(v>=22){lp(2);if(!vR){vR=true;sg('jt-vr',0);av('jt-vr1',200,2.0);av('jt-vr2',800,2.3);ping(380,388);}}
-    if(v>=35){lp(3);if(!vA){vA=true;sg('jt-va',0);av('jt-va1',0,3);av('jt-va2',400,3.2);av('jt-va3',800,3.4);av('jt-va4',1200,3.6);setTimeout(function(){document.getElementById('jt-ae').style.transition='opacity 2s';document.getElementById('jt-ae').setAttribute('opacity','1');document.getElementById('jt-aq-g').style.transition='opacity 2s';document.getElementById('jt-aq-g').setAttribute('opacity','1');},600);ping(380,498,'rgba(30,100,220,.8)');setTimeout(function(){ping(380,498,'rgba(30,100,220,.8)');},600);setTimeout(function(){activateAquiferFlow();},1500);}updateWaterColumn(v);}
-    if(v>=50&&!gI){gI=setInterval(spawnGeyser,140);}
-  }
-
-  function dust(y){var cx=svgX(380),cy=y*(canvas.height/700);var col=depth<10?'rgba(130,90,40,.75)':depth<22?'rgba(175,105,40,.7)':depth<35?'rgba(105,125,145,.65)':'rgba(60,140,220,.65)';var sc2=document.getElementById('jt-pts');for(var i=0;i<5;i++){var el=document.createElement('div'),dx=(Math.random()-.5)*50+'px',dy=(-10-Math.random()*20)+'px';el.style.cssText='position:absolute;width:5px;height:5px;border-radius:50%;background:'+col+';left:'+(cx-2.5)+'px;top:'+cy+'px;--dx:'+dx+';--dy:'+dy+';animation:jt-dustPuff .55s ease-out forwards;pointer-events:none;';sc2.appendChild(el);setTimeout(function(e){return function(){e.remove()};}(el),600);}}
-
-  window.jtGo=function(){
-    if(on||depth>=TOT)return;on=true;document.getElementById('jt-bs').disabled=true;
-    dI=setInterval(function(){if(on)dust(dY(depth));},140);
-    eI=setInterval(function(){if(!on)return;var sc2=document.getElementById('jt-pts'),p=document.createElement('div');p.style.cssText='position:absolute;width:9px;height:9px;border-radius:50%;background:rgba(110,110,90,.28);left:'+(svgX(236)-4)+'px;top:'+svgY(110)+'px;animation:jt-exhPuff .8s ease-out forwards;pointer-events:none;';sc2.appendChild(p);setTimeout(function(){p.remove();},900);},480);
-    tick();
-  };
-  function tick(){
-    if(!on)return;depth+=sp2()*0.04;if(depth>TOT)depth=TOT;
-    scene(depth);hud(depth);
-    if(depth<10)ss('Vŕtame humusovú vrstvu...');
-    else if(depth<22)ss('Prechádzame cez íl...');
-    else if(depth<35)ss('Razíme skalné podložie ⚡');
-    else if(depth<50)ss('💧 Voda stúpa na povrch!',true);
-    else{ss('✅ Voda vytryskla! Prúdenie aktívne 💧',true);stopDrilling();setTimeout(function(){jtRst();setTimeout(function(){window.jtGo();},400);},7000);return;}
-    requestAnimationFrame(tick);
-  }
-  function stopDrilling(){on=false;document.getElementById('jt-bs').disabled=false;clearInterval(dI);dI=null;clearInterval(eI);eI=null;}
-  window.jtRst=function(){
-    stopDrilling();clearInterval(gI);gI=null;waterFound=false;
-    if(flowRaf){cancelAnimationFrame(flowRaf);flowRaf=null;}
-    depth=0;rotAngle=0;vC=false;vR=false;vA=false;lS=[false,false,false,false];flowT=0;
-    document.getElementById('jt-rot-drive').setAttribute('transform','translate(0,0)');
-    document.getElementById('jt-bh').setAttribute('height','0');
-    var bw=document.getElementById('jt-bwc');bw.setAttribute('height','0');bw.setAttribute('opacity','0');bw.setAttribute('width','10');bw.setAttribute('x','375');bw.setAttribute('y','180');
-    document.getElementById('jt-cas').setAttribute('opacity','0');
-    document.getElementById('jt-aq-flows').setAttribute('opacity','0');
-    fIds.forEach(function(id){var e=document.getElementById(id);if(e)e.setAttribute('stroke-dashoffset','300');});
-    [0,1,2,3].forEach(function(i){document.getElementById('jt-lp'+i).classList.remove('jt-vis');document.getElementById('jt-c'+i).setAttribute('opacity','0');});
-    ['jt-vc','jt-vr','jt-va'].forEach(function(id){var e=document.getElementById(id);if(e){e.style.transition='';e.setAttribute('opacity','0');}});
-    ['jt-vc1','jt-vc2','jt-vr1','jt-vr2','jt-va1','jt-va2','jt-va3','jt-va4'].forEach(function(id){var e=document.getElementById(id);if(e){e.style.transition='';e.setAttribute('stroke-dashoffset','300');}});
-    document.getElementById('jt-ae').style.transition='';document.getElementById('jt-ae').setAttribute('opacity','0');
-    document.getElementById('jt-aq-g').style.transition='';document.getElementById('jt-aq-g').setAttribute('opacity','0');
-    document.getElementById('jt-pings').innerHTML='';document.getElementById('jt-pts').innerHTML='';
-    hud(0);ss('Pripravený na vŕtanie');document.getElementById('jt-bs').disabled=false;
-  };
-  initCanvas();animSnek();window.addEventListener('resize',function(){initCanvas();});
-
-  // Automatické spustenie keď návštevník doscrolluje k animácii
-  var autoStarted=false;
-  var jtObserver=new IntersectionObserver(function(entries){
-    entries.forEach(function(entry){
-      if(entry.isIntersecting && !autoStarted && depth===0){
-        autoStarted=true;
-        setTimeout(function(){window.jtGo();},600);
-      }
-    });
-  },{threshold:0.35});
-  jtObserver.observe(document.getElementById('jt-sc'));
-})();
-</script>
-
-  </div>
-</section>
-<section id="postup">
-  <div class="section-inner">
-    <div class="section-tag">Ako postupujeme</div>
-    <h2 class="section-title">Od konzultácie<br>po čistú vodu</h2>
-    <p class="section-desc">Celý proces riešime za vás — od hydrogeologického posudku, cez vŕtanie, až po koláudáciu a inštaláciu čerpadla.</p>
-    <div class="steps">
-      <div class="step"><div class="step-num">01</div><h4>Hydrogeologický prieskum</h4><p>Posúdime lokalitu, geologické pomery a odhadneme hĺbku a vydatnosť zvodnicu.</p></div>
-      <div class="step"><div class="step-num">02</div><h4>Vybavenie povolení</h4><p>Zabezpečíme všetky potrebné povolenia na Okresnom úrade – odbor životného prostredia. Vy nemusíte riešiť administratívu.</p></div>
-      <div class="step"><div class="step-num">03</div><h4>Vŕtanie</h4><p>Rotačné alebo príklepové vŕtanie priemerom 120 mm. Jeden pracovný deň pre bežné hĺbky 20–60 m.</p></div>
-      <div class="step"><div class="step-num">04</div><h4>Vystrojenie vrtu</h4><p>Inštalácia PVC pažnice, perforovaného filtra, štrkového obsypu a povrchového bentonitového tesnenia.</p></div>
-      <div class="step"><div class="step-num">05</div><h4>Čerpadlo a rozvod</h4><p>Inštalácia ponorného čerpadla, tlakovej nádoby a prívodného potrubia k domu.</p></div>
-      <div class="step"><div class="step-num">06</div><h4>Koláudácia a odovzdanie</h4><p>Zabezpečíme koláudáciu, zápis vrtu do registra a rozbor vody. Odovzdáme vám funkčnú studňu s dokumentáciou.</p></div>
-
-    </div>
-  </div>
-</section>
-<section id="rez">
-  <div class="section-inner">
-    <div class="section-tag">Technický prehľad</div>
-    <h2 class="section-title">Prúdenie vody od čerpadla do domu</h2>
-    <p class="section-desc">Schéma znázorňuje ako voda prúdi od ponorného čerpadla cez šachtu a podzemné potrubie až do vášho domova.</p>
-    <div class="diagram-wrap" style="background:#e8f4f0;border-radius:12px;overflow:hidden;padding:0;">
-
-<style>
-@keyframes ins-flowUp    { 0%{stroke-dashoffset:200} 100%{stroke-dashoffset:0} }
-@keyframes ins-flowRight { 0%{stroke-dashoffset:600} 100%{stroke-dashoffset:0} }
-@keyframes ins-flowIn    { 0%{stroke-dashoffset:180} 100%{stroke-dashoffset:0} }
-@keyframes ins-pumpPulse { 0%,100%{opacity:.85} 50%{opacity:1} }
-@keyframes ins-bubUp     { 0%{opacity:.75;transform:translateY(0)} 100%{opacity:0;transform:translateY(-20px)} }
-@keyframes ins-tapDrip   { 0%,55%{opacity:0;transform:translateY(0) scaleY(.1)} 70%{opacity:.9;transform:translateY(2px) scaleY(1)} 100%{opacity:0;transform:translateY(16px) scaleY(.4)} }
-@keyframes ins-tapDrip2  { 0%,55%{opacity:0;transform:translateY(0) scaleY(.1)} 70%{opacity:.9;transform:translateY(2px) scaleY(1)} 100%{opacity:0;transform:translateY(16px) scaleY(.4)} }
-.ins-flow-up    { stroke-dasharray:9 11; animation:ins-flowUp    2.6s linear infinite; }
-.ins-flow-right { stroke-dasharray:11 13; animation:ins-flowRight 4.0s linear infinite; }
-.ins-flow-in    { stroke-dasharray:8 10;  animation:ins-flowIn    3.2s linear infinite; }
-.ins-pump       { animation:ins-pumpPulse 1.1s ease-in-out infinite; }
-.ins-bub1       { animation:ins-bubUp 1.5s ease-out 0.0s infinite; }
-.ins-bub2       { animation:ins-bubUp 1.5s ease-out 0.5s infinite; }
-.ins-bub3       { animation:ins-bubUp 1.5s ease-out 1.0s infinite; }
-.ins-tap1       { animation:ins-tapDrip  1.9s ease-in-out 0.0s infinite; }
-.ins-tap2       { animation:ins-tapDrip2 1.9s ease-in-out 0.7s infinite; }
-</style>
-
-<svg width="100%" viewBox="0 0 780 620" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="i-sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#4ab8f5"/>
-      <stop offset="60%"  stop-color="#87d4f8"/>
-      <stop offset="100%" stop-color="#c8eefa"/>
-    </linearGradient>
-    <linearGradient id="i-grass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#7abe42"/>
-      <stop offset="100%" stop-color="#5a9820"/>
-    </linearGradient>
-    <linearGradient id="i-soil" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#c8a870"/>
-      <stop offset="100%" stop-color="#a07840"/>
-    </linearGradient>
-    <linearGradient id="i-rock" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#8a9aaa"/>
-      <stop offset="100%" stop-color="#5a6a7a"/>
-    </linearGradient>
-    <linearGradient id="i-aq" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#3080c0" stop-opacity=".6"/>
-      <stop offset="100%" stop-color="#0e50a0" stop-opacity=".88"/>
-    </linearGradient>
-    <linearGradient id="i-wall" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#d4c4a8"/>
-      <stop offset="100%" stop-color="#c4b498"/>
-    </linearGradient>
-    <filter id="i-sh">
-      <feDropShadow dx="1" dy="2" stdDeviation="2.5" flood-opacity="0.18"/>
-    </filter>
-    <filter id="i-glow">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="i-ug"><rect x="0" y="200" width="780" height="420"/></clipPath>
-  </defs>
-
-  <!-- POZADIE -->
-  <rect x="0" y="0"   width="780" height="200" fill="url(#i-sky)"/>
-  <rect x="0" y="200" width="780" height="78"  fill="url(#i-soil)" opacity=".87"/>
-  <rect x="0" y="278" width="780" height="122" fill="url(#i-rock)" opacity=".82"/>
-  <rect x="0" y="400" width="780" height="220" fill="url(#i-aq)"   opacity=".75"/>
-  <rect x="0" y="190" width="780" height="18" rx="5" fill="url(#i-grass)"/>
-  <ellipse cx="80"  cy="190" rx="28" ry="6" fill="#7abe42" opacity=".65"/>
-  <ellipse cx="220" cy="190" rx="22" ry="5" fill="#6aaa38" opacity=".6"/>
-  <ellipse cx="460" cy="190" rx="32" ry="6" fill="#7abe42" opacity=".55"/>
-
-  <!-- Vlnky v zvodenej vrstve -->
-  <g stroke="rgba(80,160,255,.38)" stroke-width="1.5" fill="none">
-    <path d="M30,438 Q75,428 120,438 Q165,448 210,438 Q255,428 300,438"/>
-    <path d="M50,478 Q105,466 160,478 Q215,490 270,478"/>
-    <path d="M360,448 Q415,436 470,448 Q525,460 580,448 Q635,436 690,448"/>
-    <path d="M40,528 Q115,514 190,528 Q265,542 340,528"/>
-    <path d="M420,538 Q500,524 580,538 Q660,552 740,538"/>
-  </g>
-
-  <!-- Popisky vrstiev -->
-  <text x="14" y="246" font-family="Arial,sans-serif" font-size="10.5" fill="#7a5020" font-weight="600" opacity=".75">Ornica</text>
-  <text x="14" y="332" font-family="Arial,sans-serif" font-size="10.5" fill="#4a5a6a" font-weight="600" opacity=".75">Skalné podložie</text>
-  <text x="14" y="455" font-family="Arial,sans-serif" font-size="10.5" fill="#1050a0" font-weight="700">Zvodnená vrstva</text>
-
-  <!-- VRT + PAŽNICA -->
-  <rect x="240" y="190" width="44" height="420" rx="2" fill="none" stroke="#999" stroke-width="2.8"/>
-  <rect x="242" y="190" width="40" height="420" rx="1" fill="rgba(200,200,200,.1)"/>
-  <!-- Filter -->
-  <rect x="240" y="402" width="44" height="112" rx="2" fill="none" stroke="#4090c8" stroke-width="2" stroke-dasharray="6 4"/>
-  <text x="292" y="460" font-family="Arial,sans-serif" font-size="10" fill="#2070a8" font-weight="600">Filter</text>
-
-  <!-- ANIMOVANÁ VODA – stúpa od čerpadla v zemi (y=476) nahor po povrch -->
-  <!-- Tieňový podklad pre výraznosť -->
-  <line x1="260" y1="476" x2="260" y2="200"
-    stroke="rgba(0,80,180,.35)" stroke-width="16" stroke-linecap="round"/>
-  <!-- Hlavná animovaná voda -->
-  <line x1="260" y1="476" x2="260" y2="200"
-    stroke="#40d0ff" stroke-width="12" stroke-linecap="round"
-    class="ins-flow-up" filter="url(#i-glow)" opacity=".95"/>
-  <!-- Svetlé jadro -->
-  <line x1="260" y1="476" x2="260" y2="200"
-    stroke="rgba(200,240,255,.7)" stroke-width="5" stroke-linecap="round"
-    class="ins-flow-up" opacity=".8"/>
-
-  <!-- ANIMOVANÁ VODA – 2. vodorovne pod zemou ku domu (od šachty y=231) -->
-  <path d="M204,231 L90,231 Q76,231 76,245 L76,258 Q76,272 90,272 L720,272 Q734,272 734,258 L734,208"
-    fill="none" stroke="rgba(0,80,180,.35)" stroke-width="16" stroke-linecap="round"/>
-  <path d="M204,231 L90,231 Q76,231 76,245 L76,258 Q76,272 90,272 L720,272 Q734,272 734,258 L734,208"
-    fill="none" stroke="#40d0ff" stroke-width="12" stroke-linecap="round"
-    class="ins-flow-right" filter="url(#i-glow)" opacity=".92"/>
-  <path d="M204,231 L90,231 Q76,231 76,245 L76,258 Q76,272 90,272 L720,272 Q734,272 734,258 L734,208"
-    fill="none" stroke="rgba(200,240,255,.65)" stroke-width="5" stroke-linecap="round"
-    class="ins-flow-right" opacity=".78"/>
-
-  <!-- Potrubie pod zemou – obrys -->
-  <path d="M204,231 L90,231 Q76,231 76,245 L76,258 Q76,272 90,272 L720,272 Q734,272 734,258 L734,208"
-    fill="none" stroke="#1a60a0" stroke-width="14" stroke-linecap="round" opacity=".2"/>
-
-  <!-- Popisok potrubia -->
-  <rect x="332" y="282" width="128" height="22" rx="4" fill="rgba(255,255,255,.93)" stroke="#ddd" stroke-width=".8"/>
-  <text x="396" y="297" font-family="Arial,sans-serif" font-size="12" fill="#1a5090" font-weight="700" text-anchor="middle">Výtlačné potrubie</text>
-  <line x1="396" y1="282" x2="396" y2="274" stroke="#bbb" stroke-width="1"/>
-
-  <!-- ŠACHTA – telo pod zemou, veko na povrchu -->
-  <!-- Telo šachty v zemi (y=200 = povrch) -->
-  <rect x="196" y="200" width="128" height="84" rx="8" fill="#b0a090" stroke="#8a7860" stroke-width="2" filter="url(#i-sh)"/>
-  <rect x="204" y="208" width="112" height="72" rx="5" fill="#ede5d5"/>
-  <!-- Veko šachty – vyčnieva tesne nad povrch -->
-  <rect x="210" y="184" width="100" height="18" rx="4" fill="#6a6a6a" stroke="#4a4a4a" stroke-width="1.5"/>
-  <rect x="248" y="178" width="24" height="10" rx="3" fill="#5a5a5a" stroke="#3a3a3a" stroke-width="1"/>
-  <line x1="260" y1="178" x2="260" y2="172" stroke="#4a4a4a" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="260" cy="170" r="4" fill="#4a4a4a"/>
-  <!-- T-kus v šachte -->
-  <rect x="247" y="224" width="26" height="12" rx="3" fill="#1a60a0" stroke="#0a4880" stroke-width="1.2"/>
-  <!-- Vodorovné potrubie von zo šachty (pod zemou) -->
-  <rect x="204" y="226" width="43" height="10" rx="2" fill="#1a60a0" opacity=".9"/>
-  <!-- Uzatvárací ventil -->
-  <rect x="216" y="220" width="16" height="20" rx="3" fill="#d04010" stroke="#a02808" stroke-width="1.2"/>
-  <rect x="221" y="217" width="6" height="6" rx="1" fill="#b03010"/>
-
-  <!-- Popisok šachty – smeruje k veку nad zemou -->
-  <rect x="54" y="156" width="104" height="22" rx="4" fill="rgba(255,255,255,.93)" stroke="#ddd" stroke-width=".8"/>
-  <text x="106" y="171" font-family="Arial,sans-serif" font-size="12" fill="#333" font-weight="700" text-anchor="middle">Šachta</text>
-  <line x1="158" y1="167" x2="210" y2="186" stroke="#bbb" stroke-width="1" stroke-dasharray="3 2"/>
-
-  <!-- Popisok ventilu -->
-  <rect x="54" y="245" width="120" height="22" rx="4" fill="rgba(255,255,255,.93)" stroke="#ddd" stroke-width=".8"/>
-  <text x="114" y="260" font-family="Arial,sans-serif" font-size="12" fill="#c03010" font-weight="700" text-anchor="middle">Uzatvárací ventil</text>
-  <line x1="174" y1="256" x2="216" y2="232" stroke="#bbb" stroke-width="1" stroke-dasharray="3 2"/>
-  <!-- PONORNÉ ČERPADLO -->
-  <g class="ins-pump">
-    <rect x="246" y="476" width="28" height="54" rx="4" fill="#2a5a8a" stroke="#1a4070" stroke-width="1.5" filter="url(#i-sh)"/>
-    <rect x="249" y="479" width="22" height="20" rx="2" fill="#1a4a7a"/>
-    <rect x="252" y="482" width="16" height="4"  rx="1" fill="#4a8aba" opacity=".6"/>
-    <rect x="252" y="488" width="16" height="4"  rx="1" fill="#4a8aba" opacity=".6"/>
-    <g stroke="#0a3060" stroke-width="1" fill="none">
-      <line x1="248" y1="508" x2="274" y2="508"/>
-      <line x1="248" y1="515" x2="274" y2="515"/>
-      <line x1="248" y1="522" x2="274" y2="522"/>
-    </g>
-    <!-- Kábel -->
-    <path d="M260,476 Q256,436 259,376 Q261,316 260,248" fill="none" stroke="#f0a020" stroke-width="2" stroke-dasharray="5 3" opacity=".85"/>
-  </g>
-  <!-- Bubliny sania -->
-  <g clip-path="url(#i-ug)" filter="url(#i-glow)">
-    <circle cx="248" cy="532" r="3"   fill="rgba(80,180,255,.72)" class="ins-bub1"/>
-    <circle cx="272" cy="542" r="2.2" fill="rgba(80,180,255,.62)" class="ins-bub2"/>
-    <circle cx="258" cy="548" r="2.8" fill="rgba(80,180,255,.68)" class="ins-bub3"/>
-  </g>
-  <!-- Popisok čerpadla -->
-  <rect x="296" y="486" width="132" height="22" rx="4" fill="rgba(255,255,255,.93)" stroke="#ddd" stroke-width=".8"/>
-  <text x="362" y="501" font-family="Arial,sans-serif" font-size="12" fill="#1a4a7a" font-weight="700" text-anchor="middle">Ponorné čerpadlo</text>
-  <line x1="296" y1="497" x2="274" y2="508" stroke="#bbb" stroke-width="1" stroke-dasharray="3 2"/>
-
-  <!-- Výtlačné potrubie v pažnici – obrys -->
-  <rect x="253" y="200" width="14" height="290" rx="1" fill="none" stroke="#1a60a0" stroke-width="1.5" opacity=".55"/>
-
-  <!-- DOM / CHALUPA -->
-  <rect x="610" y="186" width="162" height="16" rx="2" fill="#9a8870"/>
-  <rect x="615" y="76" width="152" height="116" rx="3" fill="url(#i-wall)" stroke="#b0a080" stroke-width="1.5" filter="url(#i-sh)"/>
-  <polygon points="604,80 696,22 788,80" fill="#a05030" stroke="#804020" stroke-width="1.5"/>
-  <!-- Okno -->
-  <rect x="635" y="96" width="36" height="30" rx="2" fill="#b8d8f0" stroke="#8aacca" stroke-width="1.2"/>
-  <line x1="653" y1="96" x2="653" y2="126" stroke="#8aacca" stroke-width="1"/>
-  <line x1="635" y1="111" x2="671" y2="111" stroke="#8aacca" stroke-width="1"/>
-  <!-- Dvere -->
-  <rect x="700" y="136" width="40" height="52" rx="2" fill="#8a6840" stroke="#6a4820" stroke-width="1.2"/>
-  <circle cx="733" cy="163" r="3" fill="#c8a860"/>
-  <text x="696" y="16" font-family="Arial,sans-serif" font-size="13" fill="#804020" font-weight="700" text-anchor="middle">Rodinný dom</text>
-
-  <!-- Vstup potrubia do domu -->
-  <rect x="615" y="198" width="22" height="10" rx="2" fill="#1a60a0" opacity=".9"/>
-  <!-- Vnútorný rozvod (statický obrys) -->
-  <path d="M637,203 L652,203 L652,153 L678,153" fill="none" stroke="#1a60a0" stroke-width="8" opacity=".2"/>
-  <!-- Vnútorný rozvod (animovaný) -->
-  <path d="M637,203 L652,203 L652,153 L678,153" fill="none" stroke="#40b8ff" stroke-width="5" stroke-linecap="round"
-    class="ins-flow-in" filter="url(#i-glow)" opacity=".78"/>
-  <path d="M637,203 L652,203 L652,153 L678,153" fill="none" stroke="#1a60a0" stroke-width="1.2" opacity=".5"/>
-
-  <!-- ANIMOVANÁ VODA – 3. vstup do domu (z hlbšieho potrubia y=258 nahor do domu) -->
-  <path d="M734,258 Q734,225 722,215 L636,215 L636,203"
-    fill="none" stroke="rgba(0,80,180,.3)" stroke-width="16" stroke-linecap="round"/>
-  <path d="M734,258 Q734,225 722,215 L636,215 L636,203"
-    fill="none" stroke="#40d0ff" stroke-width="12" stroke-linecap="round"
-    class="ins-flow-right" filter="url(#i-glow)" opacity=".88"/>
-  <path d="M734,258 Q734,225 722,215 L636,215 L636,203"
-    fill="none" stroke="rgba(200,240,255,.65)" stroke-width="5" stroke-linecap="round"
-    class="ins-flow-right" opacity=".7"/>
-
-  <!-- Vodomer -->
-  <rect x="674" y="146" width="24" height="16" rx="3" fill="#2a8a2a" stroke="#1a6a1a" stroke-width="1.2"/>
-  <circle cx="686" cy="154" r="5" fill="rgba(255,255,255,.22)"/>
-  <text x="686" y="158" font-family="Arial,sans-serif" font-size="6" fill="white" text-anchor="middle" font-weight="bold">m³</text>
-  <!-- Popisok -->
-  <rect x="578" y="120" width="56" height="20" rx="4" fill="rgba(255,255,255,.9)" stroke="#ddd" stroke-width=".8"/>
-  <text x="606" y="134" font-family="Arial,sans-serif" font-size="11" fill="#1a6a1a" font-weight="700" text-anchor="middle">Vodomer</text>
-  <line x1="634" y1="130" x2="674" y2="148" stroke="#bbb" stroke-width="1" stroke-dasharray="3 2"/>
-
-  <!-- Tlakový uzol -->
-  <rect x="706" y="126" width="20" height="36" rx="6" fill="#5a7a9a" stroke="#3a5a7a" stroke-width="1.2"/>
-  <rect x="708" y="128" width="16" height="14" rx="3" fill="#7a9aba" opacity=".45"/>
-  <rect x="702" y="98"  width="76" height="22" rx="4" fill="rgba(255,255,255,.9)" stroke="#ddd" stroke-width=".8"/>
-  <text x="740" y="113" font-family="Arial,sans-serif" font-size="11" fill="#3a5a7a" font-weight="700" text-anchor="middle">Tlakový uzol</text>
-  <line x1="716" y1="120" x2="716" y2="126" stroke="#bbb" stroke-width="1" stroke-dasharray="3 2"/>
-
-  <!-- KOHÚTIK s kvapkami -->
-  <g transform="translate(716,106)">
-    <rect x="-6" y="0" width="14" height="6"  rx="2" fill="#888" stroke="#666" stroke-width=".8"/>
-    <rect x="4"  y="2" width="6"  height="10" rx="1" fill="#888" stroke="#666" stroke-width=".8"/>
-    <ellipse cx="7" cy="16" rx="2.5" ry="3.5" fill="#40b8ff" class="ins-tap1" opacity=".88"/>
-    <ellipse cx="7" cy="23" rx="2"   ry="3"   fill="#40b8ff" class="ins-tap2" opacity=".72"/>
-  </g>
-
-  <!-- Kábel el. -->
-  <path d="M260,190 Q258,165 254,155 L150,128 Q140,126 136,118 L698,118 Q710,118 714,126 L716,128"
-    fill="none" stroke="#f0a020" stroke-width="2" stroke-dasharray="6 4" opacity=".72"/>
-  <rect x="312" y="102" width="76" height="20" rx="4" fill="rgba(255,255,255,.9)" stroke="#ddd" stroke-width=".8"/>
-  <text x="350" y="116" font-family="Arial,sans-serif" font-size="11" fill="#b07810" font-weight="700" text-anchor="middle">El. kábel</text>
-
-  <!-- HĹBKOVÉ KÓTY -->
-  <line x1="170" y1="190" x2="170" y2="612" stroke="rgba(0,0,0,.16)" stroke-width="1" stroke-dasharray="4 3"/>
-  <line x1="165" y1="190" x2="175" y2="190" stroke="rgba(0,0,0,.28)" stroke-width="1.2"/>
-  <line x1="165" y1="278" x2="175" y2="278" stroke="rgba(0,0,0,.28)" stroke-width="1.2"/>
-  <line x1="165" y1="400" x2="175" y2="400" stroke="rgba(0,0,0,.28)" stroke-width="1.2"/>
-  <line x1="165" y1="528" x2="175" y2="528" stroke="rgba(0,0,0,.28)" stroke-width="1.2"/>
-  <text x="162" y="236" font-family="Arial,sans-serif" font-size="10" fill="#7a5020" text-anchor="end">~5 m</text>
-  <text x="162" y="342" font-family="Arial,sans-serif" font-size="10" fill="#4a5a6a" text-anchor="end">~20 m</text>
-  <text x="162" y="452" font-family="Arial,sans-serif" font-size="10" fill="#1050a0" text-anchor="end">~35 m</text>
-  <text x="162" y="572" font-family="Arial,sans-serif" font-size="10" fill="#1050a0" text-anchor="end">~50 m</text>
-
-  <!-- LEGENDA -->
-  <rect x="10" y="412" width="162" height="110" rx="6" fill="rgba(255,255,255,.93)" stroke="#ddd" stroke-width="1"/>
-  <text x="91" y="430" font-family="Arial,sans-serif" font-size="11.5" fill="#333" font-weight="700" text-anchor="middle">Legenda</text>
-  <line x1="22" y1="447" x2="50" y2="447" stroke="#40b8ff" stroke-width="6" stroke-dasharray="9 11"/>
-  <text x="57" y="451" font-family="Arial,sans-serif" font-size="10.5" fill="#333">Prúdiaca voda</text>
-  <line x1="22" y1="466" x2="50" y2="466" stroke="#1a60a0" stroke-width="6" opacity=".22"/>
-  <text x="57" y="470" font-family="Arial,sans-serif" font-size="10.5" fill="#333">Potrubie</text>
-  <line x1="22" y1="484" x2="50" y2="484" stroke="#f0a020" stroke-width="2" stroke-dasharray="5 3"/>
-  <text x="57" y="488" font-family="Arial,sans-serif" font-size="10.5" fill="#333">El. kábel</text>
-  <rect x="22" y="496" width="28" height="11" rx="2" fill="#2a5a8a"/>
-  <text x="57" y="505" font-family="Arial,sans-serif" font-size="10.5" fill="#333">Čerpadlo</text>
-
-  <!-- Podpis -->
-  <text x="390" y="610" font-family="Arial,sans-serif" font-size="11" fill="#aaa" text-anchor="middle">Schéma — prúdenie vody od ponorného čerpadla do rodinného domu</text>
-</svg>
-
-    </div>
-  </div>
-</section>
-<section id="ceny">
-  <div class="section-inner">
-    <div class="section-tag">Cenová orientácia</div>
-    <h2 class="section-title">Transparentné ceny</h2>
-    <p class="section-desc">Konečná cena závisí od hĺbky, geológie a príslušenstva. Presný rozpočet poskytneme po obhliadke.</p>
-    <div class="pricing-grid">
-      <div class="price-card">
-        <div class="price-label">Vŕtanie</div>
-        <div class="price-val">70 €</div>
-        <div class="price-unit">za meter hĺbky</div>
-        <div class="price-desc">Závisí od priemeru, geológie a prístupu na pozemok.</div>
-        <ul class="price-list"><li>Priemer 120 mm</li><li>Rotačné aj príklepové</li><li>Priebežný odber vzoriek</li></ul>
-      </div>
-      <div class="price-card featured">
-        <div class="price-badge">Najobľúbenejšie</div>
-        <div class="price-label">Komplexný vrt do 50 m</div>
-        <div class="price-val">3 500–5 500 €</div>
-        <div class="price-unit">celková cena vrátane DPH</div>
-        <div class="price-desc">Vŕtanie + pažnica + filter + obsyp + tesnenie + čerpadlo.</div>
-        <ul class="price-list"><li>Vŕtanie do 50 m hĺbky</li><li>PVC pažnica a filter</li><li>Ponorné čerpadlo</li><li>Tlaková nádoba</li><li>Rozbor vody</li></ul>
-      </div>
-
-    </div>
-  </div>
-</section>
-<section id="legislativa">
-  <div class="section-inner">
-    <div class="section-tag">Povolenia a predpisy</div>
-    <h2 class="section-title">Legislatíva na Slovensku</h2>
-    <p class="section-desc">Vŕtaná studňa je vodná stavba podliehajúca vodnému konaniu. My sa postaráme o celú administratívu.</p>
-    <div class="leg-grid">
-      <div class="leg-list">
-        <div class="leg-item"><h4>Povolenie na vŕtanie</h4><p>Vydáva Okresný úrad – odbor starostlivosti o životné prostredie. Potrebné pred začatím vŕtania.</p></div>
-        <div class="leg-item"><h4>Vodný zákon č. 364/2004 Z.z.</h4><p>Upravuje nakladanie s podzem. vodami, povolenia na odber a požiadavky na technické parametre vrtov.</p></div>
-        <div class="leg-item"><h4>Koláudácia vodnej stavby</h4><p>Po dokončení je potrebná koláudácia a zaevidovanie vrtu v Štátnom geologickom ústave Dionýza Štúra.</p></div>
-        <div class="leg-item"><h4>Povolenie na odber vody</h4><p>Pre osobné potreby (do 15 m³/deň) sa vydáva zjednodušeným konaním.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="referencie" style="background:#f0f8ff;">
-  <div class="section-inner">
-    <div class="section-tag">Čo hovoria zákazníci</div>
-    <h2 class="section-title">Referencie</h2>
-    <p class="section-desc">Prečítajte si, čo o nás hovoria zákazníci zo Žilinského kraja.</p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;">
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Vŕtanie aj inštalácia čerpadla — všetko zariadili sami. Nemuseli sme nič riešiť. Výborná práca."</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Jana a Ľubomír H. — Žilina</div>
-      </div>
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Objednali sme vrt pre novú výstavbu radových domov — 4 vrty. Logistika bezchybná, každý vrt funkčný. Určite budeme spolupracovať ďalej."</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Ondrej S. — Čadca</div>
-      </div>
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Profesionálny prístup od prvého kontaktu. Vrt hĺbky 32 m zvládli za jeden deň, voda čistá a vydatná. Odporúčam každému."</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Martin K. — Kysucké Nové Mesto</div>
-      </div>
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Rýchla odozva, presný termín, čistá práca. Vrt 28 m, čerpadlo aj rozvod do domu — hotové za 4 dni. Veľká spokojnosť."</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Miroslav B. — Martin</div>
-      </div>
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Skvelá komunikácia počas celého projektu. Vysvetlili nám každý krok, poradili s umiestnením vrtu."</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Eva a Tomáš N. — Turčianske Teplice</div>
-      </div>
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Cena zodpovedala ponuke, žiadne skryté poplatky. Vrt funguje spoľahlivo už druhý rok, máme dostatok vody."</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Peter S. — Varín</div>
-      </div>
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Využívame vodu na zavlažovanie záhrady aj v domácnosti. Spokojní sme na 100 %. Tím pracoval rýchlo a bez zbytočných komplikácií."</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Katarína M. — Bytča</div>
-      </div>
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Mal som obavy z geologických podmienok, no chlapci prišli pripravení. Vrt 35 m, výdatnosť vynikajúca. Ďakujem za profesionálny prístup!"</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Jozef V. — Predmier</div>
-      </div>
-      <div style="background:#fff;border-radius:6px;padding:1.75rem;box-shadow:0 4px 20px rgba(26,90,138,0.1);border-top:3px solid var(--gold);">
-        <div style="margin-bottom:0.75rem;"><span style="color:var(--gold);font-size:1.1rem;">★★★★★</span></div>
-        <p style="font-size:0.92rem;line-height:1.75;color:var(--muted);margin-bottom:1rem;">"Zásobovanie vodou pre chov hospodárskych zvierat. Vydatný vrt 38 m, spoľahlivé čerpadlo. Investícia, ktorá sa okamžite vyplatila."</p>
-        <div style="font-weight:500;color:var(--blue-deep);font-size:0.88rem;">Matúš T. — Žilina</div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="kontakt">
-  <div class="section-inner">
-    <div class="section-tag" style="color:var(--gold)">Napíšte nám</div>
-    <h2 class="section-title">Nezäväzná konzultácia</h2>
-    <p class="section-desc">Opíšte vašu situáciu a my vám do 24 hodín navrhneme riešenie a orientačnú cenu.</p>
-    <div class="contact-grid">
-      <!-- <form class="contact-form" id="contact-form">
-        <div class="form-row">
-          <div class="form-field"><label>Meno a priezvisko</label><input type="text" id="f-meno" placeholder="Ján Novák" required></div>
-          <div class="form-field"><label>Telefón</label><input type="tel" id="f-telefon" placeholder="+421 900 000 000"></div>
-        </div>
-        <div class="form-field"><label>E-mail</label><input type="email" id="f-email" placeholder="jan.novak@email.sk" required></div>
-        <div class="form-field"><label>Kraj / obec</label><input type="text" id="f-obec" placeholder="napr. Žilina"></div>
-        <div class="form-field"><label>Účel vrtu</label><select id="f-ucel"><option>Rodinný dom – záhrada</option><option>Rodinný dom – pitná voda</option><option>Farma / poľohospodárstvo</option><option>Priemysel / komercia</option><option>Geotermalne čerpadlo</option></select></div>
-        <div class="form-field"><label>Správa (nepovinná)</label><textarea id="f-sprava" placeholder="Popíšte situáciu..."></textarea></div>
-        <button type="button" class="btn-submit" id="submit-btn" onclick="odoslatFormular()">Odoslať dopyt</button>
-        <div id="fm-success" style="font-size:0.88rem;margin-top:0.75rem;color:var(--gold);display:none;">✓ Ďakujeme! Ozveme sa do 24 hodín.</div>
-        <div id="fm-error" style="font-size:0.88rem;margin-top:0.75rem;color:#ff6b6b;display:none;">✗ Niečo sa pokazilo. Zavolajte nám na +421 905 485 627.</div>
-      </form> -->
-      
-			<!-- <script>
-        function odoslatFormular() {
-          var meno = document.getElementById('f-meno').value;
-          var email = document.getElementById('f-email').value;
-          if (!meno || !email) {
-            alert('Vyplňte prosím meno a e-mail.');
-            return;
-          }
-          var btn = document.getElementById('submit-btn');
-          btn.disabled = true;
-          btn.textContent = 'Odosiela sa...';
-          document.getElementById('fm-success').style.display = 'none';
-          document.getElementById('fm-error').style.display = 'none';
-          var params = {
-            meno:    meno,
-            telefon: document.getElementById('f-telefon').value,
-            email:   email,
-            obec:    document.getElementById('f-obec').value,
-            ucel:    document.getElementById('f-ucel').value,
-            sprava:  document.getElementById('f-sprava').value
-          };
-          emailjs.send('service_ih3s1bu', 'template_sj97sob', params)
-            .then(function() {
-              document.getElementById('fm-success').style.display = 'block';
-              document.getElementById('contact-form').reset();
-              btn.textContent = 'Odoslať dopyt';
-              btn.disabled = false;
-            }, function(err) {
-              document.getElementById('fm-error').style.display = 'block';
-              btn.textContent = 'Odoslať dopyt';
-              btn.disabled = false;
-            });
-        }
-      </script> -->
-
-      <div class="contact-info">
-        <div class="contact-item"><h4>Telefón</h4><p>+421 905 485 627<br> +421 910 191 409<br>Po–Pia 7:00–17:00</p></div>
-        <div class="contact-item"><h4>E-mail</h4><p><a href="mailto:info@jt-vrtanie.sk" style="color:rgba(255,255,255,0.65);text-decoration:none;">info@jt-vrtanie.sk</a></p></div>
-        <div class="contact-item"><h4>Pracovná oblasť</h4><p>Žilinský kraj<br><small style="color:rgba(255,255,255,0.45);">Žilina, Martin, Kysucké Nové Mesto, Rajec</small><br>Trenčiansky kraj<br><small style="color:rgba(255,255,255,0.45);">Považská Bystrica, Púchov, Prievidza</small><br>Výjazd do 50 km bez príplatku</p></div>
-
-      </div>
-    </div>
-  </div>
-</section>
-</body>
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [
+				{
+					"@type": "Question",
+					"name": "Koľko stojí vŕtanie studne?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Orientačná cena je od 70€ za meter. Cena závisí od hĺbky vrtu, typu podložia a prístupnosti pozemku. Presnú cenu stanovíme po obhliadke."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Aká hĺbka vrtu je potrebná pre studňu?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Hĺbka vrtu závisí od geologických podmienok, bežne je to 8 až 45 metrov. Voda sa nachádza v hĺbkach cca 10–40 metrov, podľa oblasti aj hlbšie."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Aké technológie používate na vŕtanie?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Používame rotačné vŕtanie, výplachové vŕtanie ponorným kladivom aj hydraulickou vrtnou súpravou na gumených pásoch. Priemery vrtov sú 120–200 mm."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Kde všade pôsobíte?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Pôsobíme v Žiline, Považskej Bystrici, Prievidzi, Martine a okolí v okruhu cca 80 km."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Ako dlho trvá vŕtanie studne?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Vŕtanie studne trvá zvyčajne 1 až 3 dni podľa hĺbky vrtu a geologických podmienok. Samotné vŕtanie môže trvať len niekoľko hodín."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Potrebujem povolenie na vŕtanie studne?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Na vŕtanie studne do hĺbky 50 m sa povolenie zvyčajne nevyžaduje, ale odporúčame sa informovať na príslušnom stavebnom úrade. Pri hlbších vrtoch môže byť potrebné súhlasné stanovisko."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Aká je životnosť vŕtanej studne?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Pri správnom vystrojení a údržbe môže vŕtaná studňa slúžiť desaťročia. Kvalitná PVC pažnica a filtračná časť zabezpečujú dlhú životnosť."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Čo je súčasťou ceny vŕtania?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "V cene je vystrojenie vrtu modrou atestovanou PVC studničnou rúrou, obsyp dunajským štrkom 4/8, utesnenie vrtu bentonitom a zátka na ukončenie rúry vrtu."
+					}
+				}
+			]
+		}
+		</script>
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<div class="logo"><a href="#banner">JT Vŕtanie studní</a></div>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle" aria-label="Otvoriť menu"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="#services">Služby</a></li>
+											<li><a href="#process">Postup</a></li>
+											<li><a href="#gallery">Galéria</a></li>
+											<li><a href="#pricing">Cenník</a></li>
+											<li><a href="#legislation">Legislatíva</a></li>
+											<li><a href="#contact">Kontakt</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<main id="main-content">
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h1>Vŕtanie studní Žilina, Považská Bystrica, Prievidza, Martin</h1>
+							<p>Žilina, Považská Bystrica, Prievidza, Martin a okolie.<br />
+							Robíme vŕtané studne pre rodinné domy, chaty aj pozemky.</p>
+							<ul class="actions special">
+								<li><a href="#contact" class="button primary">Kontaktujte nás</a></li>
+							</ul>
+						</div>
+						<a href="#how-it-works" class="more scrolly">Viac</a>
+					</section>
+
+				<!-- How it works -->
+					<section id="how-it-works" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Ako funguje vŕtaná studňa</h2>
+								<p>Vŕtaná studňa sa realizuje pomocou vrtného zariadenia, ktoré preniká do podzemných vrstiev až k vodonosným horizontom. Geologické podmienky sa líšia od lokality — či už v Žiline, Považskej Bystrici, Prievidzi alebo Martine, vždy posudzujeme podmienky individuálne. Určuje sa hĺbka vrtu (bežne cca 8 – 50 m), identifikuje vodonosná vrstva a volí vhodný priemer a vystrojenie vrtu.</p>
+							</header>
+							<!-- <ul class="icons major">
+								<li><span class="icon solid fa-water major style1"><span class="label">Voda</span></span></li>
+								<li><span class="icon solid fa-mountain major style2"><span class="label">Geológia</span></span></li>
+								<li><span class="icon solid fa-tint major style3"><span class="label">Prítok</span></span></li>
+							</ul> -->
+						</div>
+					</section>
+
+				<!-- Services / Spotlights -->
+					<section id="services" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="assets/galery/vrtacia-hlavica-1.jpg" alt="Vŕtacia hlavica - rotačné a výplachové vŕtanie studní Žilina" /></div><div class="content">
+								<h2>Používané technológie</h2>
+								<p>Podľa podmienok používame rotačné vŕtanie, výplachové vŕtanie a rôzne priemery vrtov (cca 120 – 200 mm). Všetky materiály sú určené pre kontakt s pitnou vodou. Vŕtame ponorným kladivom aj hydraolickou vrtnou súpravou na gumených pásoch.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="assets/galery/rura.jpg" alt="PVC studničná rúra - konštrukcia vŕtanej studne" loading="lazy" /></div><div class="content">
+								<h2>Konštrukcia studne</h2>
+								<p>Vŕtaná studňa sa skladá z pažnice (ochranné potrubie), filtračnej časti, štrkového obsypu a spodného zakončenia vrtu. Cieľom je zabezpečiť stabilný prítok vody a zabrániť prenikaniu nečistôt.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="assets/galery/vrtacia-hlavica-2.jpg" alt="Detail vŕtacej hlavice - výhody vŕtanej studne oproti kopanej" loading="lazy" /></div><div class="content">
+								<h2>Výhody vŕtanej studne</h2>
+								<p>Stabilnejší zdroj vody ako kopaná studňa, prístup k hlbším vodonosným vrstvám, menšie riziko vysychania. Vhodné pre rodinné domy, chaty aj záhrady.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Process -->
+					<section id="process" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Postup realizácie</h2>
+								<p>Každý projekt riešime individuálne.</p>
+							</header>
+							<ul class="features">
+								<li class="icon solid fa-search">
+									<h3>Obhliadka pozemku</h3>
+									<p>Zhodnotíme miesto a podmienky pre vrt.</p>
+								</li>
+								<li class="icon solid fa-drafting-compass">
+									<h3>Návrh riešenia</h3>
+									<p>Určíme vhodnú hĺbku, technológiu a umiestnenie vrtu.</p>
+								</li>
+								<li class="icon solid fa-cog">
+									<h3>Vŕtanie</h3>
+									<p>Realizujeme vrt podľa geologických podmienok (rotačne alebo výplachovo).</p>
+								</li>
+								<li class="icon solid fa-tools">
+									<h3>Osadenie studne</h3>
+									<p>Do vrtu sa osadí pažnica a filtračná časť určená pre kontakt s vodou.</p>
+								</li>
+								<li class="icon solid fa-check-circle">
+									<h3>Dokončenie</h3>
+									<p>Studňa sa prečerpá, vyčistí a pripraví na používanie.</p>
+								</li>
+								<li class="icon solid fa-water">
+									<h3>Množstvo vody</h3>
+									<p>Výdatnosť závisí od geologického podložia, hĺbky vrtu a vodonosných vrstiev.</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Gallery -->
+					<section id="gallery" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Galéria</h2>
+							</header>
+							<div class="gallery-grid">
+								<div class="gallery-item">
+									<img src="assets/galery/stroj.jpg" alt="Vŕtacie zariadenie na vŕtanie studní Žilina" loading="lazy" />
+									<span>Vŕtacie zariadenie</span>
+								</div>
+								<div class="gallery-item">
+									<img src="assets/galery/vrtacia-hlavica-1.jpg" alt="Vŕtacia hlavica pre vŕtanie studní" loading="lazy" />
+									<span>Vŕtacia hlavica</span>
+								</div>
+								<div class="gallery-item">
+									<img src="assets/galery/vrtacia-hlavica-2.jpg" alt="Detail vŕtacej hlavice pri vŕtaní studne" loading="lazy" />
+									<span>Vŕtacia hlavica detail</span>
+								</div>
+								<div class="gallery-item">
+									<img src="assets/galery/rura.jpg" alt="Modrá PVC studničná rúra na vystrojenie vrtu" loading="lazy" />
+									<span>Studničné rúry</span>
+								</div>
+								<div class="gallery-item">
+									<img src="assets/galery/well.jpg" alt="Hotová vŕtaná studňa po dokončení" loading="lazy" />
+									<span>Hotová studňa</span>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Pricing / CTA -->
+					<section id="pricing" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Cenník</h2>
+								<p>Cena závisí od hĺbky vrtu, typu podložia a prístupnosti pozemku.</p>
+								<p class="price-highlight">Orientačne: 70 € / meter</p>
+								<p class="price-details">V cene vŕtania je: vystrojenie vrtu modrou atestovanou PVC studničnou rúrou, obsyp dunajským štrkom 4/8, utesnenie vrtu bentonitom, zátka na ukončenie rúry vrtu.</p>
+							</header>
+							<ul class="actions stacked">
+								<li><a href="#contact" class="button fit primary">Kontaktujte nás</a></li>
+								<li><a href="#process" class="button fit">Viac o postupe</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- FAQ -->
+					<section id="faq" class="wrapper alt style2">
+						<div class="inner">
+							<header class="major">
+								<h2>Časté otázky</h2>
+							</header>
+							<div class="faq-list">
+								<div class="faq-item">
+									<h3>Koľko stojí vŕtanie studne?</h3>
+									<p>Orientačná cena je od 70€ za meter. Cena závisí od hĺbky vrtu, typu podložia a prístupnosti pozemku. Presnú cenu stanovíme po obhliadke.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Aká hĺbka vrtu je potrebná pre studňu?</h3>
+									<p>Hĺbka vrtu závisí od geologických podmienok, bežne je to 8 až 45 metrov. Voda sa nachádza v hĺbkach cca 10 – 40 metrov, podľa oblasti aj hlbšie.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Aké technológie používate na vŕtanie?</h3>
+									<p>Používame rotačné vŕtanie, výplachové vŕtanie ponorným kladivom aj hydraulickou vrtnou súpravou na gumených pásoch. Priemery vrtov sú 120 – 200 mm.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Kde všade pôsobíte?</h3>
+									<p>Pôsobíme v Žiline, Považskej Bystrici, Prievidzi, Martine a okolí v okruhu cca 80 km.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Ako dlho trvá vŕtanie studne?</h3>
+									<p>Vŕtanie studne trvá zvyčajne 1 – 3 dni podľa hĺbky vrtu a geologických podmienok. Samotné vŕtanie môže trvať len niekoľko hodín.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Potrebujem povolenie na vŕtanie studne?</h3>
+									<p>Na vŕtanie studne do hĺbky 50 m sa povolenie zvyčajne nevyžaduje, ale odporúčame sa informovať na príslušnom stavebnom úrade. Pri hlbších vrtoch môže byť potrebné súhlasné stanovisko.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Aká je životnosť vŕtanej studne?</h3>
+									<p>Pri správnom vystrojení a údržbe môže vŕtaná studňa slúžiť desaťročia. Kvalitná PVC pažnica a filtračná časť zabezpečujú dlhú životnosť bez problémov.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Čo je súčasťou ceny vŕtania?</h3>
+									<p>V cene je vystrojenie vrtu modrou atestovanou PVC studničnou rúrou, obsyp dunajským štrkom 4/8, utesnenie vrtu bentonitom a zátka na ukončenie rúry vrtu.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Legislatíva -->
+					<section id="legislation" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Legislatíva na Slovensku</h2>
+								<p>Vŕtaná studňa je vodná stavba podliehajúca vodnému konaniu. My sa postaráme o celú administratívu.</p>
+							</header>
+							<div class="faq-list">
+								<div class="faq-item">
+									<h3>Povolenie na vŕtanie</h3>
+									<p>Vydáva Okresný úrad – odbor starostlivosti o životné prostredie. Potrebné pred začatím vŕtania.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Vodný zákon č. 364/2004 Z.z.</h3>
+									<p>Upravuje nakladanie s podzemnými vodami, povolenia na odber a požiadavky na technické parametre vrtov.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Kolaudácia vodnej stavby</h3>
+									<p>Po dokončení je potrebná kolaudácia a zaevidovanie vrtu v Štátnom geologickom ústave Dionýza Štúra.</p>
+								</div>
+								<div class="faq-item">
+									<h3>Povolenie na odber vody</h3>
+									<p>Pre osobné potreby (do 15 m³/deň) sa vydáva zjednodušeným konaním.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Kontakt</h2>
+								<p>Slúžime v Žiline, Považskej Bystrici, Prievidzi, Martine a okolí. Prídeme sa pozrieť na pozemok a povieme vám, čo je reálne možné.</p>
+							</header>
+							<ul class="contact-info">
+								<li><a href="tel:+421905485627"><i class="icon solid fa-phone"></i> +421 905 485 627</a></li>
+								<li><a href="tel:+421910191409"><i class="icon solid fa-phone"></i> +421 910 191 409</a></li>
+							</ul>
+						</div>
+					</section>
+
+				</main>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="tel:+421905485627" class="icon solid fa-phone"><span class="label">Telefón</span></a></li>
+							<!-- Mail is not ready -->
+							<!-- <li><a href="mailto:info@jt-vrtanestudne.sk" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+						</ul>
+						<p class="footer-nap">JT Vŕtanie studní | Žilina, Žilinský kraj | <a href="tel:+421905485627">+421 905 485 627</a></p>
+						<ul class="copyright">
+							<li>&copy; JT Vŕtanie studní</li><li>Design: <a href="http://html5up.net" rel="noopener noreferrer">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js" defer></script>
+			<script src="assets/js/jquery.scrollex.min.js" defer></script>
+			<script src="assets/js/jquery.scrolly.min.js" defer></script>
+			<script src="assets/js/browser.min.js" defer></script>
+			<script src="assets/js/breakpoints.min.js" defer></script>
+			<script src="assets/js/util.js" defer></script>
+			<script src="assets/js/main.js" defer></script>
+
+	</body>
 </html>
