@@ -3,9 +3,26 @@
 	Overrides Spectral template defaults with water/blue theme
 */
 
+/* ===== Header Logo ===== */
+#header .logo {
+	position: absolute;
+	left: 1.25em;
+	top: 0;
+	height: inherit;
+	line-height: inherit;
+}
+
+#header .logo a {
+	display: block;
+	height: inherit;
+	line-height: inherit;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+}
+
 /* ===== Banner Background ===== */
 #banner {
-	background: url("../../assets/galery/stroj.jpg") center center / cover no-repeat;
+	background: url("../../assets/galery/realizations/rajecka-lesna-1/stroj-3.jpeg") center center / cover no-repeat;
 	background-attachment: fixed;
 }
 
@@ -100,6 +117,10 @@
 }
 
 /* ===== FAQ Section ===== */
+#faq header.major {
+	text-align: center;
+}
+
 .faq-list {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -194,13 +215,102 @@
 	letter-spacing: 0.05em;
 }
 
-/* Gallery: last two items centered in a 3-col grid */
-.gallery-grid .gallery-item:nth-child(4) {
+/* Gallery: last two items centered in a 3-col grid (main gallery only) */
+#gallery .gallery-grid .gallery-item:nth-child(4) {
 	grid-column: 1 / 2;
 }
 
-.gallery-grid .gallery-item:nth-child(5) {
+#gallery .gallery-grid .gallery-item:nth-child(5) {
 	grid-column: 2 / 3;
+}
+
+/* ===== Realizations Section ===== */
+.realization header.major {
+	margin-bottom: 2em;
+}
+
+.realization h3 {
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.gallery-grid .gallery-item video {
+	width: 100%;
+	height: 14em;
+	object-fit: cover;
+	display: block;
+	background: #000;
+}
+
+/* ===== Lightbox / Carousel ===== */
+.gallery-grid .gallery-item {
+	cursor: pointer;
+}
+
+#lightbox {
+	display: none;
+	position: fixed;
+	inset: 0;
+	z-index: 10000;
+	background: rgba(0, 0, 0, 0.92);
+	align-items: center;
+	justify-content: center;
+	padding: 3em;
+}
+
+#lightbox.visible {
+	display: flex;
+}
+
+#lightbox figure {
+	margin: 0;
+	max-width: min(90vw, 1000px);
+	text-align: center;
+}
+
+#lightbox img,
+#lightbox video {
+	max-width: 100%;
+	max-height: 80vh;
+	border-radius: 4px;
+}
+
+#lightbox figcaption {
+	margin-top: 0.8em;
+	color: rgba(255, 255, 255, 0.85);
+	font-size: 0.9em;
+	letter-spacing: 0.05em;
+}
+
+.lightbox-btn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(255, 255, 255, 0.1);
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 3em;
+	height: 3em;
+	font-size: 1.4em;
+	cursor: pointer;
+	transition: background 0.2s;
+	z-index: 1;
+}
+
+.lightbox-btn:hover {
+	background: rgba(255, 255, 255, 0.25);
+}
+
+.lightbox-prev { left: 1.5em; }
+.lightbox-next { right: 1.5em; }
+
+.lightbox-close {
+	top: 1.2em;
+	right: 1.5em;
+	left: auto;
+	transform: none;
 }
 
 /* ===== Contact Section ===== */
@@ -234,13 +344,37 @@
 
 /* ===== Pricing Section ===== */
 #pricing {
-	background-color: rgba(20, 60, 90, 0.85);
+	background-color: #1976d2;
+}
+
+#pricing .inner,
+#pricing header {
+	text-align: center;
+}
+
+#pricing .price-details {
+	max-width: 40em;
+	margin: 0.5em auto 0 auto;
+}
+
+#pricing .button.primary {
+	border: 2px solid #ffffff;
+}
+
+#pricing .actions.stacked {
+	margin-top: 2.5em;
+}
+
+/* ===== Footer ===== */
+#footer {
+	padding: 2em 0 1.5em 0;
 }
 
 .price-highlight {
 	font-size: 1.5em;
 	font-weight: 800;
-	color: #4fc3f7 !important;
+	color: #ffffff !important;
+	text-align: center;
 	margin: 0.5em 0;
 }
 
@@ -261,6 +395,10 @@
 	.gallery-grid .gallery-item:nth-child(4),
 	.gallery-grid .gallery-item:nth-child(5) {
 		grid-column: auto;
+	}
+
+	.gallery-grid .gallery-item video {
+		height: 12em;
 	}
 
 	.gallery-grid .gallery-item img {
@@ -286,6 +424,10 @@
 
 	.gallery-grid .gallery-item span {
 		font-size: 0.75em;
+	}
+
+	.gallery-grid .gallery-item video {
+		height: 8em;
 	}
 
 	.price-highlight {
