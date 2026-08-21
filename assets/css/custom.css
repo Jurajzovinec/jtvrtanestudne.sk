@@ -179,15 +179,100 @@
 	background-color: #0d47a1 !important;
 }
 
-/* ===== Gallery Grid ===== */
-.gallery-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+/* ===== Gallery Carousel (CSS-only, Chromium 135+) ===== */
+.carousel.gallery-grid {
+	display: flex;
 	gap: 1em;
 	max-width: 60em;
 	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-marker-group: after;
+	scrollbar-width: none;
+	position: relative;
 }
 
+.carousel.gallery-grid::-webkit-scrollbar {
+	display: none;
+}
+
+.carousel.gallery-grid > .gallery-item {
+	flex: 0 0 auto;
+	width: calc((100% - 2em) / 3);
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
+}
+
+/* Circular prev/next buttons, floating over the carousel edges */
+.carousel.gallery-grid::scroll-button(left),
+.carousel.gallery-grid::scroll-button(right) {
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	background: rgba(13, 71, 161, 0.75);
+	color: #ffffff;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2em;
+	cursor: pointer;
+	transition: background 0.2s;
+	position: absolute;
+	top: 40%;
+	z-index: 2;
+}
+
+.carousel.gallery-grid::scroll-button(right) {
+	right: 0.5em;
+}
+
+.carousel.gallery-grid::scroll-button(left) {
+	left: 0.5em;
+}
+
+.carousel.gallery-grid::scroll-button(left):hover,
+.carousel.gallery-grid::scroll-button(right):hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.carousel.gallery-grid::scroll-button(left):disabled,
+.carousel.gallery-grid::scroll-button(right):disabled {
+	opacity: 0.35;
+}
+
+.carousel.gallery-grid::scroll-button(left) {
+	content: "‹" / "Predchádzajúca fotografia";
+}
+
+.carousel.gallery-grid::scroll-button(right) {
+	content: "›" / "Ďalšia fotografia";
+}
+
+.carousel.gallery-grid::scroll-button(*):focus-visible {
+	outline: 2px solid #ffffff;
+	outline-offset: 3px;
+}
+
+/* Dot markers */
+.carousel.gallery-grid > .gallery-item::scroll-marker {
+	content: ' ';
+	display: inline-block;
+	width: 0.6em;
+	height: 0.6em;
+	margin: 0 0.35em;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.4);
+	transition: background 0.2s;
+}
+
+.carousel.gallery-grid > .gallery-item::scroll-marker:target-current {
+	background: #ffffff;
+}
+
+/* ===== Gallery Grid fallback / item styles ===== */
 .gallery-grid .gallery-item {
 	position: relative;
 	overflow: hidden;
@@ -213,15 +298,6 @@
 	font-size: 0.85em;
 	color: rgba(255, 255, 255, 0.85);
 	letter-spacing: 0.05em;
-}
-
-/* Gallery: last two items centered in a 3-col grid (main gallery only) */
-#gallery .gallery-grid .gallery-item:nth-child(4) {
-	grid-column: 1 / 2;
-}
-
-#gallery .gallery-grid .gallery-item:nth-child(5) {
-	grid-column: 2 / 3;
 }
 
 /* ===== Realizations Section ===== */
@@ -313,6 +389,56 @@
 	transform: none;
 }
 
+@media (max-width: 640px) {
+	#lightbox {
+		padding: 4em 1em 1em 1em;
+		flex-direction: column;
+	}
+
+	#lightbox figure {
+		max-width: 100%;
+	}
+
+	#lightbox img,
+	#lightbox video {
+		max-height: 62vh;
+	}
+
+	#lightbox figcaption {
+		font-size: 0.8em;
+		margin-top: 0.6em;
+	}
+
+	/* Move prev/next below the image as a control bar instead of
+	   floating over the photo */
+	.lightbox-btn {
+		position: static;
+		transform: none;
+		width: 3.4em;
+		height: 3.4em;
+	}
+
+	#lightbox-prev,
+	#lightbox-next {
+		position: absolute;
+		top: auto;
+		bottom: 2.5em;
+	}
+
+	#lightbox-prev { left: calc(50% - 5.5em); }
+	#lightbox-next { right: calc(50% - 5.5em); }
+
+	.lightbox-close {
+		position: absolute;
+		top: 0.8em;
+		right: 0.8em;
+		left: auto;
+		transform: none;
+		width: 3em;
+		height: 3em;
+	}
+}
+
 /* ===== Contact Section ===== */
 .contact-info {
 	list-style: none;
@@ -388,13 +514,8 @@
 
 /* Tablet */
 @media screen and (max-width: 980px) {
-	.gallery-grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.gallery-grid .gallery-item:nth-child(4),
-	.gallery-grid .gallery-item:nth-child(5) {
-		grid-column: auto;
+	.carousel.gallery-grid > .gallery-item {
+		width: calc((100% - 1em) / 2);
 	}
 
 	.gallery-grid .gallery-item video {
@@ -413,9 +534,12 @@
 		padding: 5em 1.5em 3em 1.5em;
 	}
 
-	.gallery-grid {
-		grid-template-columns: repeat(2, 1fr);
+	.carousel.gallery-grid {
 		gap: 0.6em;
+	}
+
+	.carousel.gallery-grid > .gallery-item {
+		width: calc((100% - 0.6em) / 2);
 	}
 
 	.gallery-grid .gallery-item img {

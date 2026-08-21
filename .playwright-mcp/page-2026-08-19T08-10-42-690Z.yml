@@ -1,0 +1,190 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - link "JT Vŕtanie studní" [ref=f1e5] [cursor=pointer]:
+        - /url: "#banner"
+      - navigation [ref=f1e6]:
+        - list [ref=f1e7]:
+          - listitem [ref=f1e8]:
+            - link "Otvoriť menu" [ref=f1e9] [cursor=pointer]:
+              - /url: "#menu"
+    - main [ref=f1e10]:
+      - generic [ref=f1e12]:
+        - heading "Vŕtanie studní Žilina, Považská Bystrica, Prievidza, Martin" [level=1] [ref=f1e13]
+        - paragraph [ref=f1e14]: Žilina, Považská Bystrica, Prievidza, Martin a okolie. Robíme vŕtané studne pre rodinné domy, chaty aj pozemky za férovú cenu.
+        - list [ref=f1e15]:
+          - listitem [ref=f1e16]:
+            - link "Kontaktujte nás" [ref=f1e17] [cursor=pointer]:
+              - /url: "#contact"
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - heading "Postup realizácie" [level=2] [ref=f1e21]
+          - paragraph [ref=f1e22]: Každý projekt riešime individuálne.
+        - list [ref=f1e23]:
+          - listitem [ref=f1e24]:
+            - text: 
+            - heading "Obhliadka pozemku" [level=3] [ref=f1e25]
+            - paragraph [ref=f1e26]: Zhodnotíme miesto a podmienky pre vrt. Obhliadka je bezplatná.
+          - listitem [ref=f1e27]:
+            - text: 
+            - heading "Návrh riešenia" [level=3] [ref=f1e28]
+            - paragraph [ref=f1e29]: Určíme vhodnú hĺbku, technológiu a umiestnenie vrtu.
+          - listitem [ref=f1e30]:
+            - text: 
+            - heading "Vŕtanie" [level=3] [ref=f1e31]
+            - paragraph [ref=f1e32]: Realizujeme vrt podľa geologických podmienok (rotačne alebo výplachovo).
+          - listitem [ref=f1e33]:
+            - text: 
+            - heading "Osadenie studne" [level=3] [ref=f1e34]
+            - paragraph [ref=f1e35]: Do vrtu sa osadí pažnica a filtračná časť určená pre kontakt s vodou.
+          - listitem [ref=f1e36]:
+            - text: 
+            - heading "Dokončenie" [level=3] [ref=f1e37]
+            - paragraph [ref=f1e38]: Studňa sa prečerpá, vyčistí a pripraví na používanie.
+      - generic [ref=f1e40]:
+        - generic [ref=f1e41]:
+          - heading "Realizácie" [level=2] [ref=f1e42]
+          - paragraph [ref=f1e43]: Prehľad našich dokončených prác.
+        - article [ref=f1e44]:
+          - generic [ref=f1e45]:
+            - heading "Fara, Rajecká Lesná" [level=3] [ref=f1e46]
+            - paragraph [ref=f1e47]: Realizácia spočívala v viacnásobnom hĺbkovom vŕtaní na pozemku fary v Rajeckej Lesnej. Vyvrtaný materiál bol počas celej práce ukladaný priamo do kontajnera, preto okolie vrtu zostalo po dokončení čisté – bez zásahu do trávnika a bez nutnej následnej úpravy terénu.
+          - generic [ref=f1e48]:
+            - generic [ref=f1e49] [cursor=pointer]:
+              - img "Vŕtacia súprava pri hĺbkovom vŕtaní v Rajeckej Lesnej" [ref=f1e50]
+              - generic [ref=f1e51]: Vŕtacia súprava
+            - generic [ref=f1e52] [cursor=pointer]:
+              - img "Detail vŕtacieho zariadenia na fare v Rajeckej Lesnej" [ref=f1e53]
+              - generic [ref=f1e54]: Vŕtacie zariadenie
+            - generic [ref=f1e55] [cursor=pointer]:
+              - img "Hĺbkové vŕtanie na pozemku fary" [ref=f1e56]
+              - generic [ref=f1e57]: Hĺbkové vŕtanie
+            - generic [ref=f1e58] [cursor=pointer]:
+              - img "Vyvrtaný materiál je ukladaný priamo do kontajnera" [ref=f1e59]
+              - generic [ref=f1e60]: Vyvrtaný materiál ide do kontajnera
+            - generic [ref=f1e61] [cursor=pointer]:
+              - img "Čisté okolie vrtu vďaka kontajneru na vyvrtaný materiál" [ref=f1e62]
+              - generic [ref=f1e63]: Okolie vrtu ostáva čisté
+            - generic [ref=f1e64] [cursor=pointer]: Vykladanie stroja
+            - generic [ref=f1e67] [cursor=pointer]: Vŕtanie v priebehu
+      - generic [ref=f1e71]:
+        - heading "Galéria" [level=2] [ref=f1e73]
+        - generic [ref=f1e74]:
+          - generic [ref=f1e75] [cursor=pointer]:
+            - img "Vŕtacie zariadenie na vŕtanie studní Žilina" [ref=f1e76]
+            - generic [ref=f1e77]: Vŕtacie zariadenie
+          - generic [ref=f1e78] [cursor=pointer]:
+            - img "Vŕtacia hlavica pre vŕtanie studní" [ref=f1e79]
+            - generic [ref=f1e80]: Vŕtacia hlavica
+          - generic [ref=f1e81] [cursor=pointer]:
+            - img "Detail vŕtacej hlavice pri vŕtaní studne" [ref=f1e82]
+            - generic [ref=f1e83]: Vŕtacia hlavica detail
+          - generic [ref=f1e84] [cursor=pointer]:
+            - img "Modrá PVC studničná rúra na vystrojenie vrtu" [ref=f1e85]
+            - generic [ref=f1e86]: Studničné rúry
+          - generic [ref=f1e87] [cursor=pointer]:
+            - img "Hotová vŕtaná studňa po dokončení" [ref=f1e88]
+            - generic [ref=f1e89]: Hotová studňa
+      - generic [ref=f1e91]:
+        - generic [ref=f1e92]:
+          - heading "Cenník" [level=2] [ref=f1e93]
+          - paragraph [ref=f1e94]: Cena závisí od hĺbky vrtu, typu podložia a prístupnosti pozemku.
+          - paragraph [ref=f1e95]: "Orientačne: 70 € / meter"
+          - paragraph [ref=f1e96]: "V cene vŕtania je: vystrojenie vrtu modrou atestovanou PVC studničnou rúrou, obsyp dunajským štrkom 4/8, utesnenie vrtu bentonitom, zátka na ukončenie rúry vrtu."
+        - list [ref=f1e97]:
+          - listitem [ref=f1e98]:
+            - link "Kontaktujte nás" [ref=f1e99] [cursor=pointer]:
+              - /url: "#contact"
+      - generic [ref=f1e101]:
+        - heading "Časté otázky" [level=2] [ref=f1e103]
+        - generic [ref=f1e104]:
+          - generic [ref=f1e105]:
+            - heading "Koľko stojí vŕtanie studne?" [level=3] [ref=f1e106]
+            - paragraph [ref=f1e107]: Orientačná cena je od 70€ za meter. Cena závisí od hĺbky vrtu, typu podložia a prístupnosti pozemku. Presnú cenu stanovíme po bezplatnej obhliadke.
+          - generic [ref=f1e108]:
+            - heading "Aká hĺbka vrtu je potrebná pre studňu?" [level=3] [ref=f1e109]
+            - paragraph [ref=f1e110]: Hĺbka vrtu závisí od geologických podmienok, bežne je to 8 až 45 metrov. Voda sa nachádza v hĺbkach cca 10 – 40 metrov, podľa oblasti aj hlbšie.
+          - generic [ref=f1e111]:
+            - heading "Aké technológie používate na vŕtanie?" [level=3] [ref=f1e112]
+            - paragraph [ref=f1e113]: Používame rotačné vŕtanie, výplachové vŕtanie ponorným kladivom aj hydraulickou vrtnou súpravou na gumených pásoch. Priemery vrtov sú 120 – 200 mm.
+          - generic [ref=f1e114]:
+            - heading "Kde všade pôsobíte?" [level=3] [ref=f1e115]
+            - paragraph [ref=f1e116]: Pôsobíme v Žiline, Považskej Bystrici, Prievidzi, Martine a okolí v okruhu cca 80 km.
+          - generic [ref=f1e117]:
+            - heading "Ako dlho trvá vŕtanie studne?" [level=3] [ref=f1e118]
+            - paragraph [ref=f1e119]: Vŕtanie studne trvá zvyčajne 1 – 3 dni podľa hĺbky vrtu a geologických podmienok. Samotné vŕtanie môže trvať len niekoľko hodín.
+          - generic [ref=f1e120]:
+            - heading "Potrebujem povolenie na vŕtanie studne?" [level=3] [ref=f1e121]
+            - paragraph [ref=f1e122]: Na vŕtanie studne do hĺbky 50 m sa povolenie zvyčajne nevyžaduje, ale odporúčame sa informovať na príslušnom stavebnom úrade. Pri hlbších vrtoch môže byť potrebné súhlasné stanovisko.
+          - generic [ref=f1e123]:
+            - heading "Aká je životnosť vŕtanej studne?" [level=3] [ref=f1e124]
+            - paragraph [ref=f1e125]: Pri správnom vystrojení a údržbe môže vŕtaná studňa slúžiť desaťročia. Kvalitná PVC pažnica a filtračná časť zabezpečujú dlhú životnosť bez problémov.
+          - generic [ref=f1e126]:
+            - heading "Čo je súčasťou ceny vŕtania?" [level=3] [ref=f1e127]
+            - paragraph [ref=f1e128]: V cene je vystrojenie vrtu modrou atestovanou PVC studničnou rúrou, obsyp dunajským štrkom 4/8, utesnenie vrtu bentonitom a zátka na ukončenie rúry vrtu.
+      - generic [ref=f1e130]:
+        - generic [ref=f1e131]:
+          - heading "Legislatíva na Slovensku" [level=2] [ref=f1e132]
+          - paragraph [ref=f1e133]: Vŕtaná studňa je vodná stavba podliehajúca vodnému konaniu. My sa postaráme o celú administratívu.
+        - generic [ref=f1e134]:
+          - generic [ref=f1e135]:
+            - heading "Povolenie na vŕtanie" [level=3] [ref=f1e136]
+            - paragraph [ref=f1e137]: Vydáva Okresný úrad – odbor starostlivosti o životné prostredie. Potrebné pred začatím vŕtania.
+          - generic [ref=f1e138]:
+            - heading "Vodný zákon č. 364/2004 Z.z." [level=3] [ref=f1e139]
+            - paragraph [ref=f1e140]: Upravuje nakladanie s podzemnými vodami, povolenia na odber a požiadavky na technické parametre vrtov.
+          - generic [ref=f1e141]:
+            - heading "Kolaudácia vodnej stavby" [level=3] [ref=f1e142]
+            - paragraph [ref=f1e143]: Po dokončení je potrebná kolaudácia a zaevidovanie vrtu v Štátnom geologickom ústave Dionýza Štúra.
+          - generic [ref=f1e144]:
+            - heading "Povolenie na odber vody" [level=3] [ref=f1e145]
+            - paragraph [ref=f1e146]: Pre osobné potreby (do 15 m³/deň) sa vydáva zjednodušeným konaním.
+      - generic [ref=f1e148]:
+        - generic [ref=f1e149]:
+          - heading "Kontakt" [level=2] [ref=f1e150]
+          - paragraph [ref=f1e151]: Slúžime v Žiline, Považskej Bystrici, Prievidzi, Martine a okolí. Prídeme sa pozrieť na pozemok a povieme vám, čo je reálne možné.
+        - list [ref=f1e152]:
+          - listitem [ref=f1e153]:
+            - link " +421 905 485 627" [ref=f1e154] [cursor=pointer]:
+              - /url: tel:+421905485627
+              - generic [ref=f1e155]: 
+              - text: +421 905 485 627
+          - listitem [ref=f1e156]:
+            - link " +421 910 191 409" [ref=f1e157] [cursor=pointer]:
+              - /url: tel:+421910191409
+              - generic [ref=f1e158]: 
+              - text: +421 910 191 409
+    - contentinfo [ref=f1e159]:
+      - paragraph [ref=f1e160]: JT Vŕtanie studní | Žilina, Žilinský kraj
+      - list [ref=f1e161]:
+        - listitem [ref=f1e162]: © JT Vŕtanie studní
+        - listitem [ref=f1e163]:
+          - text: "Design:"
+          - link "HTML5 UP" [ref=f1e164] [cursor=pointer]:
+            - /url: http://html5up.net
+        - listitem [ref=f1e165]:
+          - text: Web by
+          - link "stegosaurus.sk" [ref=f1e166] [cursor=pointer]:
+            - /url: https://stegosaurus.sk
+  - generic [ref=f1e167]:
+    - list [ref=f1e168]:
+      - listitem [ref=f1e169]:
+        - link "Postup" [ref=f1e170] [cursor=pointer]:
+          - /url: "#process"
+      - listitem [ref=f1e171]:
+        - link "Realizácie" [ref=f1e172] [cursor=pointer]:
+          - /url: "#realizations"
+      - listitem [ref=f1e173]:
+        - link "Galéria" [ref=f1e174] [cursor=pointer]:
+          - /url: "#gallery"
+      - listitem [ref=f1e175]:
+        - link "Cenník" [ref=f1e176] [cursor=pointer]:
+          - /url: "#pricing"
+      - listitem [ref=f1e177]:
+        - link "Legislatíva" [ref=f1e178] [cursor=pointer]:
+          - /url: "#legislation"
+      - listitem [ref=f1e179]:
+        - link "Kontakt" [ref=f1e180] [cursor=pointer]:
+          - /url: "#contact"
+    - link [ref=f1e181] [cursor=pointer]:
+      - /url: "#menu"

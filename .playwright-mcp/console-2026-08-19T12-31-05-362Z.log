@@ -1,0 +1,73 @@
+[    1857ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[    1857ms] [WARNING] Manifest: property 'scope' ignored. Start url should be within scope of scope URL. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[    2120ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://app-general.dev.snapaddy.com/login?redirect_url=%2Fbusiness-cards%2Fall-cards:0
+[   10185ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app-general.dev.snapaddy.com/login/saml/settings:0
+[   21739ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[   21739ms] [WARNING] Manifest: property 'scope' ignored. Start url should be within scope of scope URL. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[   21925ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://app-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com/login?redirect_url=%2Fbusiness-cards%3FassetEnvironment%3DbusinessCardsConfigurator%3Alocal:0
+[   25636ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com/login/saml/settings:0
+[   76818ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[   76818ms] [WARNING] Manifest: property 'scope' ignored. Start url should be within scope of scope URL. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[   91425ms] [INFO] %cEnvironment (dev): 
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: underline;
+      margin-top: 10px;
+     @ http://localhost:4205/chunk-GGC5B3Y4.js:30
+[   91425ms] [INFO]   Asset:         http://localhost:4205/ @ http://localhost:4205/chunk-GGC5B3Y4.js:31
+[   91425ms] [INFO]   Dashboard:     https://app-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com @ http://localhost:4205/chunk-GGC5B3Y4.js:32
+[   91426ms] [INFO]   Backend:       https://backend-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com @ http://localhost:4205/chunk-GGC5B3Y4.js:33
+[   91426ms] [INFO]   Watchdog:      https://app-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com/watchdog/v1 @ http://localhost:4205/chunk-GGC5B3Y4.js:34
+[   91426ms] [INFO] %cVersions: 
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: underline;
+      margin-top: 10px;
+     @ http://localhost:4205/chunk-GGC5B3Y4.js:35
+[   91426ms] [INFO]   Application:   7.25.0 @ http://localhost:4205/chunk-GGC5B3Y4.js:36
+[   91426ms] [INFO]   Angular:       22.1.0 @ http://localhost:4205/chunk-GGC5B3Y4.js:37
+[   91434ms] [LOG] Angular is running in development mode. @ http://localhost:4205/@fs/Users/juraj/Documents/SNAPADDY/business-cards-configurator/.angular/cache/22.1.2/business-cards-configurator/vite/deps/core-CuvABcLO.js?v=e2251be6:9110
+[   91961ms] [WARNING] Could not load filters and sorting from local storage for key SncBetterListShowUsers @ http://localhost:4205/@fs/Users/juraj/Documents/SNAPADDY/business-cards-configurator/.angular/cache/22.1.2/business-cards-configurator/vite/deps/@snapaddy_snapaddy-components_better-list-v2.js?v=e2251be6:3133
+[  873064ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[  873064ms] [WARNING] Manifest: property 'scope' ignored. Start url should be within scope of scope URL. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[  874201ms] [INFO] %cEnvironment (dev): 
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: underline;
+      margin-top: 10px;
+     @ http://localhost:4205/chunk-GGC5B3Y4.js:30
+[  874201ms] [INFO]   Asset:         http://localhost:4205/ @ http://localhost:4205/chunk-GGC5B3Y4.js:31
+[  874202ms] [INFO]   Dashboard:     https://app-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com @ http://localhost:4205/chunk-GGC5B3Y4.js:32
+[  874202ms] [INFO]   Backend:       https://backend-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com @ http://localhost:4205/chunk-GGC5B3Y4.js:33
+[  874202ms] [INFO]   Watchdog:      https://app-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com/watchdog/v1 @ http://localhost:4205/chunk-GGC5B3Y4.js:34
+[  874202ms] [INFO] %cVersions: 
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: underline;
+      margin-top: 10px;
+     @ http://localhost:4205/chunk-GGC5B3Y4.js:35
+[  874203ms] [INFO]   Application:   7.25.0 @ http://localhost:4205/chunk-GGC5B3Y4.js:36
+[  874203ms] [INFO]   Angular:       22.1.0 @ http://localhost:4205/chunk-GGC5B3Y4.js:37
+[  874218ms] [LOG] Angular is running in development mode. @ http://localhost:4205/@fs/Users/juraj/Documents/SNAPADDY/business-cards-configurator/.angular/cache/22.1.2/business-cards-configurator/vite/deps/core-CuvABcLO.js?v=e2251be6:9110
+[  921553ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[  921553ms] [WARNING] Manifest: property 'scope' ignored. Start url should be within scope of scope URL. @ https://dashboard-assets.snapaddy.com/shared/favicon/site.webmanifest:0
+[  921900ms] [INFO] %cEnvironment (dev): 
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: underline;
+      margin-top: 10px;
+     @ http://localhost:4205/chunk-GGC5B3Y4.js:30
+[  921900ms] [INFO]   Asset:         http://localhost:4205/ @ http://localhost:4205/chunk-GGC5B3Y4.js:31
+[  921900ms] [INFO]   Dashboard:     https://app-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com @ http://localhost:4205/chunk-GGC5B3Y4.js:32
+[  921901ms] [INFO]   Backend:       https://backend-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com @ http://localhost:4205/chunk-GGC5B3Y4.js:33
+[  921902ms] [INFO]   Watchdog:      https://app-digital-cards-align-excel-import-and-export-columns.dev.snapaddy.com/watchdog/v1 @ http://localhost:4205/chunk-GGC5B3Y4.js:34
+[  921902ms] [INFO] %cVersions: 
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: underline;
+      margin-top: 10px;
+     @ http://localhost:4205/chunk-GGC5B3Y4.js:35
+[  921903ms] [INFO]   Application:   7.25.0 @ http://localhost:4205/chunk-GGC5B3Y4.js:36
+[  921903ms] [INFO]   Angular:       22.1.0 @ http://localhost:4205/chunk-GGC5B3Y4.js:37
+[  921909ms] [LOG] Angular is running in development mode. @ http://localhost:4205/@fs/Users/juraj/Documents/SNAPADDY/business-cards-configurator/.angular/cache/22.1.2/business-cards-configurator/vite/deps/core-CuvABcLO.js?v=e2251be6:9110
+[ 2369180ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4205/@vite/client:992

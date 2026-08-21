@@ -295,36 +295,36 @@
 									<h3>Fara, Rajecká Lesná</h3>
 									<p>Realizácia spočívala v viacnásobnom hĺbkovom vŕtaní na pozemku fary v Rajeckej Lesnej. Vyvrtaný materiál bol počas celej práce ukladaný priamo do kontajnera, preto okolie vrtu zostalo po dokončení čisté – bez zásahu do trávnika a bez nutnej následnej úpravy terénu.</p>
 								</header>
-								<div class="gallery-grid">
-									<div class="gallery-item">
+								<ul class="gallery-grid carousel">
+									<li class="gallery-item">
 										<img src="assets/galery/realizations/rajecka-lesna-1/stroj-1.jpeg" alt="Vŕtacia súprava pri hĺbkovom vŕtaní v Rajeckej Lesnej" loading="lazy" />
 										<span>Vŕtacia súprava</span>
-									</div>
-									<div class="gallery-item">
+									</li>
+									<li class="gallery-item">
 										<img src="assets/galery/realizations/rajecka-lesna-1/stroj-3.jpeg" alt="Detail vŕtacieho zariadenia na fare v Rajeckej Lesnej" loading="lazy" />
 										<span>Vŕtacie zariadenie</span>
-									</div>
-									<div class="gallery-item">
+									</li>
+									<li class="gallery-item">
 										<img src="assets/galery/realizations/rajecka-lesna-1/stroj-4.jpeg" alt="Hĺbkové vŕtanie na pozemku fary" loading="lazy" />
 										<span>Hĺbkové vŕtanie</span>
-									</div>
-									<div class="gallery-item">
+									</li>
+									<li class="gallery-item">
 										<img src="assets/galery/realizations/rajecka-lesna-1/vyvrtany-material-ide-do-kontajnera-1.jpeg" alt="Vyvrtaný materiál je ukladaný priamo do kontajnera" loading="lazy" />
 										<span>Vyvrtaný materiál ide do kontajnera</span>
-									</div>
-									<div class="gallery-item">
+									</li>
+									<li class="gallery-item">
 										<img src="assets/galery/realizations/rajecka-lesna-1/vyvrtany-material-ide-do-kontajnera-2.jpeg" alt="Čisté okolie vrtu vďaka kontajneru na vyvrtaný materiál" loading="lazy" />
 										<span>Okolie vrtu ostáva čisté</span>
-									</div>
-									<div class="gallery-item">
+									</li>
+									<li class="gallery-item">
 										<video src="assets/galery/realizations/rajecka-lesna-1/vykladanie-stroja.mp4" controls preload="metadata" muted playsinline></video>
 										<span>Vykladanie stroja</span>
-									</div>
-									<div class="gallery-item">
+									</li>
+									<li class="gallery-item">
 										<video src="assets/galery/realizations/rajecka-lesna-1/vrtanie.mp4" controls preload="metadata" muted playsinline></video>
 										<span>Vŕtanie v priebehu</span>
-									</div>
-								</div>
+									</li>
+								</ul>
 							</article>
 						</div>
 					</section>
@@ -335,28 +335,28 @@
 							<header class="major">
 								<h2>Galéria</h2>
 							</header>
-							<div class="gallery-grid">
-								<div class="gallery-item">
+							<ul class="gallery-grid carousel">
+								<li class="gallery-item">
 									<img src="assets/galery/stroj.jpg" alt="Vŕtacie zariadenie na vŕtanie studní Žilina" loading="lazy" />
 									<span>Vŕtacie zariadenie</span>
-								</div>
-								<div class="gallery-item">
+								</li>
+								<li class="gallery-item">
 									<img src="assets/galery/vrtacia-hlavica-1.jpg" alt="Vŕtacia hlavica pre vŕtanie studní" loading="lazy" />
 									<span>Vŕtacia hlavica</span>
-								</div>
-								<div class="gallery-item">
+								</li>
+								<li class="gallery-item">
 									<img src="assets/galery/vrtacia-hlavica-2.jpg" alt="Detail vŕtacej hlavice pri vŕtaní studne" loading="lazy" />
 									<span>Vŕtacia hlavica detail</span>
-								</div>
-								<div class="gallery-item">
+								</li>
+								<li class="gallery-item">
 									<img src="assets/galery/rura.jpg" alt="Modrá PVC studničná rúra na vystrojenie vrtu" loading="lazy" />
 									<span>Studničné rúry</span>
-								</div>
-								<div class="gallery-item">
+								</li>
+								<li class="gallery-item">
 									<img src="assets/galery/well.jpg" alt="Hotová vŕtaná studňa po dokončení" loading="lazy" />
 									<span>Hotová studňa</span>
-								</div>
-							</div>
+								</li>
+							</ul>
 						</div>
 					</section>
 
@@ -563,6 +563,18 @@
 						if (e.key === 'ArrowLeft') step(-1);
 						if (e.key === 'ArrowRight') step(1);
 					});
+
+					// Swipe navigation on touch devices
+					var touchX = null;
+					lightbox.addEventListener('touchstart', function (e) {
+						if (e.touches.length === 1) touchX = e.touches[0].clientX;
+					}, { passive: true });
+					lightbox.addEventListener('touchend', function (e) {
+						if (touchX === null) return;
+						var dx = e.changedTouches[0].clientX - touchX;
+						touchX = null;
+						if (Math.abs(dx) > 50) step(dx > 0 ? -1 : 1);
+					}, { passive: true });
 				})();
 			</script>
 
