@@ -1,0 +1,5 @@
+[      97ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8931/images/banner.jpg:0
+[   69172ms] [LOG] .lightbox-btn | .lightbox-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255, 255, 255, 0.1); color:  @ :5
+[   69172ms] [LOG] .lightbox-btn:hover | .lightbox-btn:hover { background: rgba(255, 255, 255, 0.25); } @ :5
+[   91683ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8931/images/banner.jpg:0
+[   96701ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8931/images/banner.jpg:0

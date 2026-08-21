@@ -205,55 +205,10 @@
 	scroll-snap-stop: always;
 }
 
-/* Circular prev/next buttons, floating over the carousel edges */
-.carousel.gallery-grid::scroll-button(left),
-.carousel.gallery-grid::scroll-button(right) {
-	width: 3em;
-	height: 3em;
-	border-radius: 50%;
-	background: rgba(13, 71, 161, 0.75);
-	color: #ffffff;
-	border: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 1.2em;
-	cursor: pointer;
-	transition: background 0.2s;
-	position: absolute;
-	top: 40%;
-	z-index: 2;
-}
-
-.carousel.gallery-grid::scroll-button(right) {
-	right: 0.5em;
-}
-
-.carousel.gallery-grid::scroll-button(left) {
-	left: 0.5em;
-}
-
-.carousel.gallery-grid::scroll-button(left):hover,
-.carousel.gallery-grid::scroll-button(right):hover {
-	background: rgba(255, 255, 255, 0.3);
-}
-
-.carousel.gallery-grid::scroll-button(left):disabled,
-.carousel.gallery-grid::scroll-button(right):disabled {
-	opacity: 0.35;
-}
-
-.carousel.gallery-grid::scroll-button(left) {
-	content: "‹" / "Predchádzajúca fotografia";
-}
-
-.carousel.gallery-grid::scroll-button(right) {
-	content: "›" / "Ďalšia fotografia";
-}
-
-.carousel.gallery-grid::scroll-button(*):focus-visible {
-	outline: 2px solid #ffffff;
-	outline-offset: 3px;
+/* Hide native scroll buttons — the carousel is swiped/scrolled directly */
+.carousel.gallery-grid::scroll-button(*),
+.carousel.gallery-grid::scroll-button(*)::selection {
+	display: none;
 }
 
 /* Dot markers */
@@ -369,6 +324,13 @@
 	border-radius: 50%;
 	width: 3em;
 	height: 3em;
+	aspect-ratio: 1 / 1;
+	padding: 0;
+	line-height: 1;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-size: 1.4em;
 	cursor: pointer;
 	transition: background 0.2s;
